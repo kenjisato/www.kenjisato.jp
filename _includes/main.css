@@ -826,3 +826,8 @@ footer a svg:hover {
   background-image: -webkit-linear-gradient(top, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
   background-image: linear-gradient(to bottom, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
 }
+
+/* added by kenji */
+h1.post__title {
+  margin-top: 1.8em;
+}
