@@ -1,9 +1,14 @@
 ---
-title: Lectures
+title:
 layout: page
-permalink: /lectures/index.html
+permalink: /teaching/index.html
 ---
-#Lectures
+# Teaching
+
+オフィスアワー: 火曜 2限 (10:40-12:10) <br>
+研究室: 六甲台第1キャンパス・第2研究室 208号室
+
+その他の時間に面会を希望する方は、メールで連絡してください。
 
 ## 2015年度
 

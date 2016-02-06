@@ -1,7 +1,7 @@
 ---
 title: About
 layout: page
-permalink: /about/index.html
+permalink: /research/index.html
 ---
 
 # 佐藤 健治
