@@ -1,5 +1,5 @@
 ---
-title:
+title: Teaching
 layout: page
 permalink: /teaching/index.html
 ---
