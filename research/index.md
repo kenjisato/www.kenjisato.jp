@@ -35,13 +35,16 @@ img { width: 50%; margin: 0 auto; display: block; }
 <h4>
 書籍所収論文</h4>
 <ul>
+<li>佐藤健治, 矢野誠 (2016) 「市場の質の経済動学」.  矢野誠, 古川雄一編著『市場の質と現代経済』&lang; 中京大学経済学部附属経済研究所研究叢書
+ &rang;, 勁草書房</li>
 <li>M. Yano, K. Sato, Y. Furukawa (2011) "<strong>Observability of Chaotic Economic Dynamics in the Matsuyama Model</strong>," <em>Dimensions of Economic Theory and Policy Essays for Anjan Mukherji</em> eds. by K. G. Dastidar, H. Mukhopadhyay, and U. B. Sinha, Chapter 6. New Delhi: Oxford University Press</li>
 </ul>
 <h4>
 ディスカッションペーパー</h4>
 <ul>
-<li>M. Yano, K. Sato, Y. Furukawa (2010) "<strong>Observability of Chaotic Economic Dynamics in the Matsuyama Model</strong>," <em>Kyoto Institute of Economic Research Discussion Paper Series</em>, No. 699.</li>
+<li></li>
 </ul>
+
 <h4>
 査読付き国際学会論文</h4>
 <ul>
