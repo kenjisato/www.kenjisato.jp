@@ -5,40 +5,35 @@ permalink: /teaching/index.html
 ---
 # Teaching
 
-オフィスアワー: 火曜 2限 (10:40-12:10) <br>
-研究室: 六甲台第1キャンパス・第2研究室 208号室
+**研究室**: 六甲台第1キャンパス・第2研究室 208<br>
+**オフィスアワー**: 
 
-その他の時間に面会を希望する方は、メールで連絡してください。
+水曜 2限 (10:40-12:10)<br>
+火曜 3限 (13:20-14:50)<br>
 
-## 2015年度
-
-### 経済動学 (神戸大学大学院)
-
-#### 講義ノート
-
-1. [問題設定](https://dl.dropboxusercontent.com/u/1028642/economicdynamics/1.pdf)
-1. [解析学の復習](https://dl.dropboxusercontent.com/u/1028642/economicdynamics/2.pdf)
-1. [ラムゼーモデルの局所動学](https://dl.dropboxusercontent.com/u/1028642/economicdynamics/3.pdf)
-1. [横断性条件](https://dl.dropboxusercontent.com/u/1028642/economicdynamics/4.pdf)
-1. ターンパイク定理
-1. 動的計画法
-1. [最適カオス](https://dl.dropboxusercontent.com/u/1028642/economicdynamics/7s.pdf)
-
-#### 補助資料
-
-- [Python速習 (その1)](http://nbviewer.ipython.org/gist/kenjisato/222469dcf992c92d1e84/2015-04-06.ipynb)
-- [Python速習 (その2)](http://nbviewer.ipython.org/gist/kenjisato/b564da2b4165c3721d6b)
-- [2015-05-18 資料](http://nbviewer.ipython.org/gist/kenjisato/07a51e08fbd790c020f8/2015-05-18.ipynb)
-- [2015-05-25 資料](http://nbviewer.ipython.org/format/slides/gist/kenjisato/08439241d90756a5248c/2015-05-25.ipynb#/)
-- [2015-06-15 資料](http://nbviewer.ipython.org/gist/kenjisato/9c067269e508e04c60f2)
-- [2015-06-29 資料](http://nbviewer.ipython.org/format/slides/gist/kenjisato/ad74ea69d7ffe18356ad#/)
-- [2015-07-06 資料](http://nbviewer.ipython.org/format/slides/gist/kenjisato/76e325f91a025a02284c#/)
+その他の時間に面会を希望する方は、mail@kenjisato.jp 宛にメールしてください。
 
 
-### 公共選択的経済政策 (大阪府立大学)
+## Macroeconomics (神戸大学大学院, GMAPコース)
+
+- 2016年度 (Q2 & Q4)
 
 
-## 2014年度
+## 経済動学 (神戸大学大学院)
 
-- 大阪府立大学 公共選択的経済政策
-- 大阪府立大学 外書ゼミナール
+- [2016年度 (Q1)](ed/2016)
+- [2015年度 (前期)](ed/2015)
+
+
+## 公共選択的経済政策 (大阪府立大学)
+
+- 2016年度 (後期)
+- 2015年度 (前期)
+- 2014年度 (後期)
+
+## その他
+
+- 2016年度 中級マクロ経済学I演習 (神戸大学)
+- 2016年度 中級マクロ経済学II演習 (神戸大学)
+- 2014年度 外書ゼミナール（大阪府立大学)<br>
+  [Heller (2008) _The gridlock economy_](http://www.amazon.co.jp/Gridlock-Economy-Ownership-Markets-Innovation/dp/0465029167/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=) を輪読しました
