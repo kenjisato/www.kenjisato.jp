@@ -6,7 +6,7 @@ permalink: /teaching/index.html
 # Teaching
 
 **研究室**: 六甲台第1キャンパス・第2研究室 208<br>
-**オフィスアワー**: 
+**オフィスアワー**:
 
 火曜 3限 (13:20-14:50)<br>
 水曜 2限 (10:40-12:10)<br>
@@ -16,8 +16,8 @@ permalink: /teaching/index.html
 
 ## Macroeconomics (神戸大学大学院, GMAPコース)
 
-- 2016年度 (Q2 & Q4)
-
+- [2016年度 (Q2)](http://en.kenjisato.jp/teaching/ma/2016Q2/)
+- [2016年度 (Q4)]
 
 ## 経済動学 (神戸大学大学院)
 
