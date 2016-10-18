@@ -57,6 +57,8 @@ img { width: 50%; margin: 0 auto; display: block; }
 学会発表</h4>
 著者名が日本語表記のものは日本語による発表，英語表記のものは英語による発表です。<br />
 <ul>
+<li>V.F. Martins-da-Rocha, K. Sato, and Y. Vailakis (2016) "<strong>Differentiability of the policy function in models with equilibrium growth</strong>," 16th SAET Conference on Current Trends in Economics. IMPA, Rio de Janeiro. 2016-07-06.</li>
+<li>T. Kamihigashi and K. Sato (2016) "<strong>Differentiable Monotone Comparative Statics</strong>," Time, Uncertainties and Strategies II, MSE, Paris. 2015-12-14.
 <li>K. Sato, D. Kanehara, and Makoto Yano (2013) "<strong>Complex dynamics in a two-sector optimal growth model with three production factors</strong>", 13th SAET 2013 Conference, Paris. 2013-07-26.</li>
 <li>K. Sato and M. Yano (2012) "<strong>An iteratively expansive unimodal map is strong ergodic chaos</strong>", AEI-Four Joint Workshop on Current Issues in Economic Theory, National University of Singapore.</li>
 <li>佐藤健治 (2011) "<strong>On the Chaotic Behavior of a Two-Sector Optimal Growth Model with Durable Capital</strong>," 日本経済学会2011年春季大会, 熊本学園大学.</li>
