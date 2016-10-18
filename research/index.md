@@ -12,6 +12,10 @@ img { width: 50%; margin: 0 auto; display: block; }
 
 ![Profile Image]({{ site.baseurl }}{{ site.picture }})
 
+<h4>研究テーマ</h4>
+
+経済動学, 比較動学, 知的財産制度, 経済政策 
+
 <h4>経歴</h4>
 <dl>
 <dt style="margin: 4px auto;">2015/2/1 &mdash; 現在</dt>
@@ -58,7 +62,7 @@ img { width: 50%; margin: 0 auto; display: block; }
 著者名が日本語表記のものは日本語による発表，英語表記のものは英語による発表です。<br />
 <ul>
 <li>V.F. Martins-da-Rocha, K. Sato, and Y. Vailakis (2016) "<strong>Differentiability of the policy function in models with equilibrium growth</strong>," 16th SAET Conference on Current Trends in Economics. IMPA, Rio de Janeiro. 2016-07-06.</li>
-<li>T. Kamihigashi and K. Sato (2016) "<strong>Differentiable Monotone Comparative Statics</strong>," Time, Uncertainties and Strategies II, MSE, Paris. 2015-12-14.
+<li>T. Kamihigashi and K. Sato (2016) "<strong>Differentiable Monotone Comparative Statics</strong>," Time, Uncertainties and Strategies II, MSE, Paris. 2015-12-14.</li>
 <li>K. Sato, D. Kanehara, and Makoto Yano (2013) "<strong>Complex dynamics in a two-sector optimal growth model with three production factors</strong>", 13th SAET 2013 Conference, Paris. 2013-07-26.</li>
 <li>K. Sato and M. Yano (2012) "<strong>An iteratively expansive unimodal map is strong ergodic chaos</strong>", AEI-Four Joint Workshop on Current Issues in Economic Theory, National University of Singapore.</li>
 <li>佐藤健治 (2011) "<strong>On the Chaotic Behavior of a Two-Sector Optimal Growth Model with Durable Capital</strong>," 日本経済学会2011年春季大会, 熊本学園大学.</li>
@@ -68,6 +72,7 @@ img { width: 50%; margin: 0 auto; display: block; }
 <li>永原正章, 佐藤健治, 山本裕 (2009) "<strong>サンプル値制御理論による確率密度関数の推定</strong>," 第9回 計測自動制御学会制御部門大会. </li>
 <li>佐藤健治，山田雄二，藤岡久也 (2007) "<strong>NMSOH 問題：不等間隔なリバランスによる二乗平均最適ヘッジ</strong>," 2007年度JAFEE冬季大会.</li>
 </ul>
+
 <h4>
 学位論文</h4>
 <ul>
@@ -77,7 +82,10 @@ img { width: 50%; margin: 0 auto; display: block; }
 
 <h4>外部資金</h4>
 <dl>
-<dt style="margin: 4px auto;">2014/4/1 &mdash; 2017/3/31 (予定)</dt>
+<dt style="margin: 4px auto;">2016/4/1 &mdash; 2019/3/31 (予定)</dt>
+<dd>基盤研究 (C) 研究代表者</dd>
+<dd>研究課題名 「産業の多様性を考慮した知的財産制度に関する研究」</dd>
+<dt style="margin: 4px auto;">2014/4/1 &mdash; 2016/1/31</dt>
 <dd>日本学術振興会 特別研究員PD 特別研究員奨励費</dd>
 <dd>研究課題名 「現代マクロ経済モデルに対する比較動学分析」</dd>
 <dt style="margin-bottom: 4px auto;">2012/8/1 &mdash; 2014/3/31</dt>
