@@ -16,8 +16,8 @@ permalink: /teaching/index.html
 
 ## Macroeconomics (神戸大学大学院, GMAPコース)
 
+- [2016年度 (Q4)](http://en.kenjisato.jp/teaching/ma/2016Q4/)
 - [2016年度 (Q2)](http://en.kenjisato.jp/teaching/ma/2016Q2/)
-- [2016年度 (Q4)]
 
 ## 経済動学 (神戸大学大学院)
 
@@ -27,7 +27,7 @@ permalink: /teaching/index.html
 
 ## 公共選択的経済政策 (大阪府立大学)
 
-- 2016年度 (後期)
+- [2016年度 (後期)](pc/2016)
 - 2015年度 (前期)
 - 2014年度 (後期)
 
