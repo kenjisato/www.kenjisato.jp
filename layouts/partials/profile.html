@@ -1,0 +1,14 @@
+<div class="profile">
+    <section id="wrapper">
+        <header id="header">
+            {{ if or (eq .RelPermalink "/research/") (eq .RelPermalink "/en/research/") }}
+              {{ partial "avatar.html" . }}
+            {{ end }}
+            <h1>{{ .Site.Params.name }}</h1>
+            <h2>{{ .Site.Params.bio | markdownify }}</h2>
+            {{ if .Site.Social }}
+              {{ partial "social.html" . }}
+            {{ end }}
+        </header>
+    </section>
+</div>

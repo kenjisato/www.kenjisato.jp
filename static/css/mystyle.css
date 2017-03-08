@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+ol > li {
+  list-style-type: decimal;
+}
+
+#wrapper {
+  max-width: 1000px;
+}
+
+.symbol {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-right: 0.1rem;
+}
+
+span.code { 
+  font-family: "Source Code Pro", "Courier", sans-serif; 
+  background-color:#EEE; 
+  font-size:14px; 
+}
+
+pre, pre.r	{
+	white-space:pre-wrap;
+	border: 1px solid #ddd;
+	padding:10px;
+	background-color:#fff;
+	/*font-size:14px;*/
+	overflow:auto;
+	border-radius: 3px;
+	background: #fff;
+	font-size: 13px;
+	line-height: 1.5em;
+	font-weight: 100;
+	color: #000;
+}
+
+code.hljs { 
+	font-family: "Source Code Pro", "Courier", sans-serif; 
+	background-color:#fff; font-size:14px; 
+	padding: 4px; 
+	font-weight: 100;
+}
+
+#home-nav {
+  text-align: center;
+  list-style: none;
+  margin: 40px auto 10px auto;
+}
+#home-nav li {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0px 10px;
+}
+#home-nav li a:hover {
+  color: #666;
+}
+
+.profile #header {
+  border-bottom: none;
+}
+
+#footer {
+  padding-top: 0.5rem;
+}
+#footer .symbol {
+  padding-left: 0.2rem;
+  font-size: 1.5rem;
+}
+
+/* Post List */
+
+#post-list {
+  margin-top: 20px;
+}
+
+/* Post Single Page */
+
+article.post {
+  margin-top: 0;
+}
+
+#post-body h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Teaching */
+
+.post.teaching h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.post.teaching ul, .post.teaching ol {
+  line-height: 160%;
+  margin-bottom: 1rem;
+}
+.post.teaching ul > li > ul {
+  margin-bottom: 0;
+}
+.post.teaching li {
+  list-style-position: outside;
+  margin-left: 2rem;
+}
+
+/* research page */
+#wrapper.post.research {
+  padding-top: 0;
+}
+.post.research h3 {
+  margin-top: 4rem;
+}
+.post.research ul {
+  line-height: 180%;
+}
+.post.research li {
+  list-style-position: outside;
+  margin-left: 2rem;
+}
+.post.research dt {
+  font-weight: 800;
+}
+.post.research dd {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.post.research dd + dt {
+  margin-top: 1rem;
+}
+
+

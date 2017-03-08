@@ -1,0 +1,12 @@
+    {{ partial "head.html" . }}
+	<body>
+    {{ partial "nav.html" . }}
+
+    <section id="wrapper" class="post teaching">
+        {{ .Content }}
+        {{ partial "footer.html" . }}
+    </section>
+
+    {{ partial "js.html" . }}
+    </body>
+</html>
