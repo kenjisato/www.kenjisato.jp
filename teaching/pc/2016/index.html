@@ -1,0 +1,158 @@
+    <!DOCTYPE html>
+<html lang="ja-jp">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Kenji Sato">
+		<meta name="description" content="a little page">
+		<meta name="generator" content="Hugo 0.19" />
+		<title>公共選択的経済政策 (2016) &middot; kenjisato.jp</title>
+		<link rel="shortcut icon" href="http://www.kenjisato.jpimages/favicon/favicon.ico">
+		<link rel="stylesheet" href="http://www.kenjisato.jpcss/style.css">
+		<link rel="stylesheet" href="http://www.kenjisato.jpcss/highlight.css">
+		
+		<link rel="stylesheet" href="http://www.kenjisato.jpcss/highlight.css">
+		
+		<link rel="stylesheet" href="http://www.kenjisato.jpcss/mystyle.css">
+		
+
+		
+		<link rel="stylesheet" href="http://www.kenjisato.jpcss/monosocialiconsfont.css">
+		
+
+		
+		<link href="http://www.kenjisato.jp/index.xml" rel="alternate" type="application/rss+xml" title="kenjisato.jp" />
+		
+
+		<meta property="og:title" content="公共選択的経済政策 (2016)" />
+<meta property="og:description" content=" 2016年度 公共選択的経済政策 (大阪府大) 講義資料 講義スライドや講義時に配布した資料の一部は授業支援システムにて履修者にのみ公開しています.
+補足資料 作図に使ったソースコード等を配布します.
+ 第10回講義 (2016/12/8) の補足資料 (ドント方式)  R Notebook ファイル  第12回講義 (2016/12/22) の補足資料 (政治的波乗りの確認)  スライドで使った図の作成方法を解説しています データおよびコードをダウンロード して, 自分で手を動かして確認することができます. 実行には R と RStudio をインストール してください.   Word テンプレート Word でレポートを作成する方は以下のテンプレートの使用を検討してください. 書式を微調整する苦労を 最小限に抑えることができると思います.
+ レポートのテンプレート  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.kenjisato.jp/teaching/pc/2016/" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	    
+	    
+<meta itemprop="name" content="公共選択的経済政策 (2016)">
+<meta itemprop="description" content=" 2016年度 公共選択的経済政策 (大阪府大) 講義資料 講義スライドや講義時に配布した資料の一部は授業支援システムにて履修者にのみ公開しています.
+補足資料 作図に使ったソースコード等を配布します.
+ 第10回講義 (2016/12/8) の補足資料 (ドント方式)  R Notebook ファイル  第12回講義 (2016/12/22) の補足資料 (政治的波乗りの確認)  スライドで使った図の作成方法を解説しています データおよびコードをダウンロード して, 自分で手を動かして確認することができます. 実行には R と RStudio をインストール してください.   Word テンプレート Word でレポートを作成する方は以下のテンプレートの使用を検討してください. 書式を微調整する苦労を 最小限に抑えることができると思います.
+ レポートのテンプレート  ">
+
+
+
+<meta itemprop="wordCount" content="35">
+
+
+
+<meta itemprop="keywords" content="r,plot,r-markdown,regression,teaching," />
+
+	    
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="公共選択的経済政策 (2016)"/>
+<meta name="twitter:title" content="公共選択的経済政策 (2016)"/>
+<meta name="twitter:description" content=" 2016年度 公共選択的経済政策 (大阪府大) 講義資料 講義スライドや講義時に配布した資料の一部は授業支援システムにて履修者にのみ公開しています.
+補足資料 作図に使ったソースコード等を配布します.
+ 第10回講義 (2016/12/8) の補足資料 (ドント方式)  R Notebook ファイル  第12回講義 (2016/12/22) の補足資料 (政治的波乗りの確認)  スライドで使った図の作成方法を解説しています データおよびコードをダウンロード して, 自分で手を動かして確認することができます. 実行には R と RStudio をインストール してください.   Word テンプレート Word でレポートを作成する方は以下のテンプレートの使用を検討してください. 書式を微調整する苦労を 最小限に抑えることができると思います.
+ レポートのテンプレート  "/>
+<meta name="twitter:site" content="@https://www.twitter.com/kenjisatojp"/>
+
+	</head>
+
+	<body>
+    <nav class="main-nav">
+	
+	
+		<a href='http://www.kenjisato.jp'> <span class="arrow">←</span>Home</a>
+	
+	
+	
+	
+
+</nav>
+
+    <section id="wrapper" class="post teaching">
+        
+
+<h1 id="2016年度-公共選択的経済政策-大阪府大">2016年度 公共選択的経済政策 (大阪府大)</h1>
+
+<h2 id="講義資料">講義資料</h2>
+
+<p>講義スライドや講義時に配布した資料の一部は授業支援システムにて履修者にのみ公開しています.</p>
+
+<h2 id="補足資料">補足資料</h2>
+
+<p>作図に使ったソースコード等を配布します.</p>
+
+<ul>
+<li><a href="/files/pc/2016/pc16_dhondt.html">第10回講義 (2016/12/8) の補足資料 (ドント方式)</a>
+
+<ul>
+<li><a href="/files/pc/2016/pc16_dhondt.Rmd">R Notebook ファイル</a></li>
+</ul></li>
+<li><a href="/files/pc/2016/pc16_political_surfing.html">第12回講義 (2016/12/22) の補足資料 (政治的波乗りの確認)</a>
+
+<ul>
+<li>スライドで使った図の作成方法を解説しています</li>
+<li><a href="/files/pc/2016/pc16_political_surfing.zip">データおよびコードをダウンロード</a>
+して, 自分で手を動かして確認することができます. 実行には <a href="https://cran.rstudio.com">R</a> と <a href="https://www.rstudio.com/products/rstudio/download3/">RStudio</a> をインストール
+してください.</li>
+</ul></li>
+</ul>
+
+<h2 id="word-テンプレート">Word テンプレート</h2>
+
+<p>Word でレポートを作成する方は以下のテンプレートの使用を検討してください. 書式を微調整する苦労を
+最小限に抑えることができると思います.</p>
+
+<ul>
+<li><a href="/files/pc/2016/template_v1.dotx">レポートのテンプレート</a></li>
+</ul>
+
+        <footer id="footer">
+    <p class="small">
+    
+        © Copyright 2017 Kenji Sato
+    
+    
+	    <a class="symbol" href="http://www.kenjisato.jp/index.xml">rss</a>
+	    
+    </p>
+</footer>
+
+    </section>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://www.kenjisato.jpjs/main.js"></script>
+<script src="http://www.kenjisato.jpjs/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script src="http://www.kenjisato.jpjs/highlight.js"></script>
+
+
+
+
+    </body>
+</html>

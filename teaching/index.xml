@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on kenjisato.jp</title>
+    <link>http://www.kenjisato.jp/teaching/index.xml</link>
+    <description>Recent content in Teaching on kenjisato.jp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <atom:link href="http://www.kenjisato.jp/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>公共選択的経済政策 (2016)</title>
+      <link>http://www.kenjisato.jp/teaching/pc/2016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.kenjisato.jp/teaching/pc/2016/</guid>
+      <description>
+
+&lt;h1 id=&#34;2016年度-公共選択的経済政策-大阪府大&#34;&gt;2016年度 公共選択的経済政策 (大阪府大)&lt;/h1&gt;
+
+&lt;h2 id=&#34;講義資料&#34;&gt;講義資料&lt;/h2&gt;
+
+&lt;p&gt;講義スライドや講義時に配布した資料の一部は授業支援システムにて履修者にのみ公開しています.&lt;/p&gt;
+
+&lt;h2 id=&#34;補足資料&#34;&gt;補足資料&lt;/h2&gt;
+
+&lt;p&gt;作図に使ったソースコード等を配布します.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/pc/2016/pc16_dhondt.html&#34;&gt;第10回講義 (2016/12/8) の補足資料 (ドント方式)&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/pc/2016/pc16_dhondt.Rmd&#34;&gt;R Notebook ファイル&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/pc/2016/pc16_political_surfing.html&#34;&gt;第12回講義 (2016/12/22) の補足資料 (政治的波乗りの確認)&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;スライドで使った図の作成方法を解説しています&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/pc/2016/pc16_political_surfing.zip&#34;&gt;データおよびコードをダウンロード&lt;/a&gt;
+して, 自分で手を動かして確認することができます. 実行には &lt;a href=&#34;https://cran.rstudio.com&#34;&gt;R&lt;/a&gt; と &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download3/&#34;&gt;RStudio&lt;/a&gt; をインストール
+してください.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;word-テンプレート&#34;&gt;Word テンプレート&lt;/h2&gt;
+
+&lt;p&gt;Word でレポートを作成する方は以下のテンプレートの使用を検討してください. 書式を微調整する苦労を
+最小限に抑えることができると思います.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/pc/2016/template_v1.dotx&#34;&gt;レポートのテンプレート&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>経済動学 (2015)</title>
+      <link>http://www.kenjisato.jp/teaching/ed/2015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.kenjisato.jp/teaching/ed/2015/</guid>
+      <description>
+
+&lt;h1 id=&#34;2015年度-経済動学-神戸大学大学院&#34;&gt;2015年度 経済動学 (神戸大学大学院)&lt;/h1&gt;
+
+&lt;h2 id=&#34;講義ノート&#34;&gt;講義ノート&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2015/1.pdf&#34;&gt;問題設定&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2015/2.pdf&#34;&gt;解析学の復習&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2015/3.pdf&#34;&gt;ラムゼーモデルの局所動学&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2015/4.pdf&#34;&gt;横断性条件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ターンパイク定理&lt;/li&gt;
+&lt;li&gt;動的計画法&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2015/7s.pdf&#34;&gt;最適カオス&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;補助資料&#34;&gt;補助資料&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://nbviewer.ipython.org/gist/kenjisato/222469dcf992c92d1e84/2015-04-06.ipynb&#34;&gt;Python速習 (その1)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nbviewer.ipython.org/gist/kenjisato/b564da2b4165c3721d6b&#34;&gt;Python速習 (その2)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nbviewer.ipython.org/gist/kenjisato/07a51e08fbd790c020f8/2015-05-18.ipynb&#34;&gt;2015-05-18 資料&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nbviewer.ipython.org/format/slides/gist/kenjisato/08439241d90756a5248c/2015-05-25.ipynb#/&#34;&gt;2015-05-25 資料&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nbviewer.ipython.org/gist/kenjisato/9c067269e508e04c60f2&#34;&gt;2015-06-15 資料&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nbviewer.ipython.org/format/slides/gist/kenjisato/ad74ea69d7ffe18356ad#/&#34;&gt;2015-06-29 資料&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nbviewer.ipython.org/format/slides/gist/kenjisato/76e325f91a025a02284c#/&#34;&gt;2015-07-06 資料&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>経済動学 (2016)</title>
+      <link>http://www.kenjisato.jp/teaching/ed/2016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.kenjisato.jp/teaching/ed/2016/</guid>
+      <description>
+
+&lt;h1 id=&#34;2016年度-経済動学-神戸大学大学院&#34;&gt;2016年度 経済動学 (神戸大学大学院)&lt;/h1&gt;
+
+&lt;h2 id=&#34;講義ノート&#34;&gt;講義ノート&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2016/16ED00.pdf&#34;&gt;16ED00: 講義概要&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2016/16ED01.pdf&#34;&gt;16ED01: 基本事項のまとめ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2016/16ED02.pdf&#34;&gt;16ED02: 行列論の復習&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2016/16ED03.pdf&#34;&gt;16ED03: 線形空間&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2016/16ED04.pdf&#34;&gt;16ED04: 行列の標準形&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2016/16ED05.pdf&#34;&gt;16ED05: 線形システムの分析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2016/16ED06.pdf&#34;&gt;16ED06: Schur分解・QZ分解&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://nbviewer.jupyter.org/github/kenjisato/www.kenjisato.jp/blob/gh-pages/teaching/QZMethod.ipynb&#34;&gt;QZ法の実装&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2016/16ED07.pdf&#34;&gt;16ED07: 線形確率システム&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://nbviewer.jupyter.org/github/kenjisato/www.kenjisato.jp/blob/gh-pages/teaching/StochasticProcess.ipynb&#34;&gt;確率過程のシミュレーション&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;補助資料&#34;&gt;補助資料&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://kenjisato.github.io/pynote/&#34;&gt;経済動学のためのPython入門 (順次更新)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2016/16EDH2S.pdf&#34;&gt;16EDH2S: 逆行列の計算&lt;/a&gt; 宿題2 添付資料&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kenjisato.jp/files/ed/2016/16EDP2S.pdf&#34;&gt;16EDP2S: 問題2の解答&lt;/a&gt; 問題2 解答&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

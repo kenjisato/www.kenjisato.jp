@@ -1,0 +1,260 @@
+    <!DOCTYPE html>
+<html lang="ja-jp">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Kenji Sato">
+		<meta name="description" content="a little page">
+		<meta name="generator" content="Hugo 0.19" />
+		<title>Hello R Markdown &middot; kenjisato.jp</title>
+		<link rel="shortcut icon" href="http://www.kenjisato.jpimages/favicon/favicon.ico">
+		<link rel="stylesheet" href="http://www.kenjisato.jpcss/style.css">
+		<link rel="stylesheet" href="http://www.kenjisato.jpcss/highlight.css">
+		
+		<link rel="stylesheet" href="http://www.kenjisato.jpcss/highlight.css">
+		
+		<link rel="stylesheet" href="http://www.kenjisato.jpcss/mystyle.css">
+		
+
+		
+		<link rel="stylesheet" href="http://www.kenjisato.jpcss/monosocialiconsfont.css">
+		
+
+		
+		<link href="http://www.kenjisato.jp/index.xml" rel="alternate" type="application/rss+xml" title="kenjisato.jp" />
+		
+
+		<meta property="og:title" content="Hello R Markdown" />
+<meta property="og:description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.kenjisato.jp/post/2015/07/hello-r-markdown/" />
+
+
+
+<meta property="article:published_time" content="2015-07-23T21:13:14-05:00"/>
+<meta property="article:modified_time" content="2015-07-23T21:13:14-05:00"/>
+
+
+
+
+
+
+
+
+
+
+
+	    
+	    
+<meta itemprop="name" content="Hello R Markdown">
+<meta itemprop="description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.">
+
+
+<meta itemprop="dateModified" content="2015-07-23T21:13:14-05:00" />
+<meta itemprop="wordCount" content="159">
+
+
+
+<meta itemprop="keywords" content="r,plot,r-markdown,regression,teaching," />
+
+	    
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Hello R Markdown"/>
+<meta name="twitter:title" content="Hello R Markdown"/>
+<meta name="twitter:description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu."/>
+<meta name="twitter:site" content="@https://www.twitter.com/kenjisatojp"/>
+
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://www.kenjisato.jp'> <span class="arrow">←</span>Home</a>
+	
+	
+	
+	
+
+</nav>
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Hello R Markdown</h1>
+                    <h2 class="headline">
+                    July 23, 2015
+                    <br>
+                    
+                    
+                        
+                            <a href="http://www.kenjisato.jptags/r-markdown">R Markdown</a>
+                        
+                            <a href="http://www.kenjisato.jptags/plot">plot</a>
+                        
+                            <a href="http://www.kenjisato.jptags/regression">regression</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
+</div>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie"></span>
+<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
+</div>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/kenjisatojp">
+                        <img class="avatar" src="http://www.kenjisato.jpimages/me.jpg">
+                        <div>
+                            <span class="dark">Kenji Sato</span>
+                            <span>Loves Economics, Programming and Beer</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fwww.kenjisato.jp%2fpost%2f2015%2f07%2fhello-r-markdown%2f - Hello%20R%20Markdown by @kenjisatojp"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        
+        <li>
+            <a href="http://www.kenjisato.jp/post/2017/03/hugo-blogdown/">Hugo &#43; blogdown<aside class="dates">Mar 8</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://www.kenjisato.jp/post/2016/08/officehours-summer/">夏季休暇中のオフィスアワー中止について<aside class="dates">Aug 9</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://www.kenjisato.jp/post/2016/04/2016%E5%B9%B44%E6%9C%887%E6%97%A5%E3%81%AE%E7%B5%8C%E6%B8%88%E5%8B%95%E5%AD%A6/">2016年4月7日の経済動学<aside class="dates">Apr 8</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://www.kenjisato.jp/post/2015/11/sfr---orange-%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A4%E3%83%89sim%E3%81%AEmnp/">SFR -&gt; Orange, プリペイドSIMのMNP<aside class="dates">Nov 2</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://www.kenjisato.jp/post/2015/07/hello-r-markdown/">Hello R Markdown<aside class="dates">Jul 23</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://www.kenjisato.jp/post/2014/10/pythontex-%E3%82%92-lyx-%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AE%E3%83%A1%E3%83%A2/">pythontex を lyx で使うときのメモ<aside class="dates">Oct 1</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://www.kenjisato.jp/teaching/pc/2016/">公共選択的経済政策 (2016)<aside class="dates">Jan 1</aside></a>
+        </li>
+        
+   
+</ul>
+
+            <footer id="footer">
+    <p class="small">
+    
+        © Copyright 2017 Kenji Sato
+    
+    
+	    <a class="symbol" href="http://www.kenjisato.jp/index.xml">rss</a>
+	    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://www.kenjisato.jpjs/main.js"></script>
+<script src="http://www.kenjisato.jpjs/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script src="http://www.kenjisato.jpjs/highlight.js"></script>
+
+
+
+
+    </body>
+</html>
