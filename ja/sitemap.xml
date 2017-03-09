@@ -12,22 +12,17 @@
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/post/2016/04/2016%E5%B9%B44%E6%9C%887%E6%97%A5%E3%81%AE%E7%B5%8C%E6%B8%88%E5%8B%95%E5%AD%A6/</loc>
+    <loc>http://www.kenjisato.jp/post/2016/04/edclass-of-4-7/</loc>
     <lastmod>2016-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/post/2015/11/sfr---orange-%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A4%E3%83%89sim%E3%81%AEmnp/</loc>
+    <loc>http://www.kenjisato.jp/post/2015/11/prepaid-sim-in-france/</loc>
     <lastmod>2015-11-02T15:24:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/post/2015/07/hello-r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.kenjisato.jp/post/2014/10/pythontex-%E3%82%92-lyx-%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AE%E3%83%A1%E3%83%A2/</loc>
+    <loc>http://www.kenjisato.jp/post/2014/10/pythontex-on-lyx/</loc>
     <lastmod>2014-10-01T13:13:00+09:00</lastmod>
   </url>
   
@@ -42,31 +37,24 @@
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/categories/</loc>
+    <loc>http://www.kenjisato.jp/teaching/ed17/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.kenjisato.jp/tags/computer/</loc>
+    <lastmod>2014-10-01T13:13:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>http://www.kenjisato.jp/tags/lyx/</loc>
+    <lastmod>2014-10-01T13:13:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.kenjisato.jp/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.kenjisato.jp/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>http://www.kenjisato.jp/tags/python/</loc>
+    <lastmod>2014-10-01T13:13:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   

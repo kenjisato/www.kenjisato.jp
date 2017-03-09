@@ -54,10 +54,10 @@ print(sys.version_info)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>2016年4月7日の経済動学</title>
-      <link>http://www.kenjisato.jp/post/2016/04/2016%E5%B9%B44%E6%9C%887%E6%97%A5%E3%81%AE%E7%B5%8C%E6%B8%88%E5%8B%95%E5%AD%A6/</link>
+      <link>http://www.kenjisato.jp/post/2016/04/edclass-of-4-7/</link>
       <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.kenjisato.jp/post/2016/04/2016%E5%B9%B44%E6%9C%887%E6%97%A5%E3%81%AE%E7%B5%8C%E6%B8%88%E5%8B%95%E5%AD%A6/</guid>
+      <guid>http://www.kenjisato.jp/post/2016/04/edclass-of-4-7/</guid>
       <description>&lt;p&gt;4月7日の講義を予定通り実施しました. 2016年4月7日10時頃に神戸市に対して暴風警報が発令されたため規則上は休講となるところですが,すでに登校されていた学生と相談した結果, 開講の判断をしました.(演習等の少人数クラスの場合は開講してよいという規則になっているようです)&lt;/p&gt;
 
 &lt;p&gt;経済学研究科教務のウェブ掲示板には休講情報が掲載されていなかったので (経済学部教務のウェブ掲示板には休講の旨が掲載されていました)警報に関する情報が行き届いていなかった可能性もあったのかと思います.&lt;/p&gt;
@@ -70,68 +70,22 @@ print(sys.version_info)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>SFR -&gt; Orange, プリペイドSIMのMNP</title>
-      <link>http://www.kenjisato.jp/post/2015/11/sfr---orange-%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A4%E3%83%89sim%E3%81%AEmnp/</link>
+      <link>http://www.kenjisato.jp/post/2015/11/prepaid-sim-in-france/</link>
       <pubDate>Mon, 02 Nov 2015 15:24:00 +0900</pubDate>
       
-      <guid>http://www.kenjisato.jp/post/2015/11/sfr---orange-%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A4%E3%83%89sim%E3%81%AEmnp/</guid>
-      <description>&lt;p&gt;2015年10月、フランスのプリペイド SIM からプリペイドSIM に MNP（番号そのまま通信会社を変更）を試みた。ほぼ無料でできた（SIM代金 3.90€ は必要）&lt;/p&gt; &lt;p&gt;ただし、いくつか注意点。&lt;/p&gt; &lt;ul&gt;&lt;li&gt;試みたのが SFR から Orange だけなのでどこまで一般性があるか分からない&lt;/li&gt;&lt;li&gt;僕が訪れたOrange の店舗のおじさんは、プリペイドSIMのMNP (La portabilité du numéro) ができることを把握してなかったようなので、店頭では手続きしてもらえないかもしれない &lt;/li&gt;&lt;li&gt;Orange のインターネットショップ経由で申し込むことになるが、それにはフランス (or EU圏?) 発行のクレジットカードが必要&lt;/li&gt;&lt;li&gt;開通まで10日くらいかかる&lt;/li&gt;&lt;/ul&gt; &lt;p&gt;短中期滞在者で「電話番号変えたよと伝えるのは面倒だけどこういう手続は面倒じゃないと思う人」はごく少数に違いないので詳しいことは書かないでおきますが、無事できました。なお、長期間滞在でMNPしたい人は  &lt;a href=&#34;http://ugokumono.blogspot.fr/2013/10/mnp-orange-b.html&#34;&gt;http://ugokumono.blogspot.fr/2013/10/mnp-orange-b.html&lt;/a&gt; などいくつか日本語の情報も見つかりますので、探してみてください。  &lt;p&gt;クレジットカードは Travelex のキャッシュパスポートでも通ると思います。僕の場合、3度目の買い物で弾かれたので、本来使ってほしくないかチャージ額の下限があるのかもしれない。分かりません。キャッシュパスポートは手数料がものすごく高いので、これ自体をオススメするものではありません。たまたま持ってたので使ってみたということです。   &lt;p&gt;日本で短期滞在用の音声SIM でMNP転入出が可能かどうかは分かりませんが、通常の契約でも&lt;/p&gt; &lt;ul&gt;&lt;li&gt;転出元に対する、契約期間に応じた違約金&lt;/li&gt;&lt;li&gt;転出元に対する、MNP転出手数料2,000-3,000円、&lt;/li&gt;&lt;li&gt;転出先に対する、契約手数料2,000-3,000円程度（SIM代金?)&lt;/li&gt;&lt;/ul&gt; &lt;p&gt;を払わないといけないケースが典型的なので、オペレータ間の移動はかなり制限されてます。フランスだと500円。  &lt;p&gt;転入出手数料と契約期間の制限をなくしたら、出入りは増えて利用者は増える（減る）みたいな実証研究はあるのかしら</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>http://www.kenjisato.jp/post/2015/07/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>http://www.kenjisato.jp/post/2015/07/hello-r-markdown/</guid>
-      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://www.kenjisato.jp/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+      <guid>http://www.kenjisato.jp/post/2015/11/prepaid-sim-in-france/</guid>
+      <description>&lt;p&gt;&lt;p&gt;2015年10月、フランスのプリペイド SIM からプリペイドSIM に MNP（番号そのまま通信会社を変更）を試みた。ほぼ無料でできた（SIM代金 3.90€ は必要）&lt;/p&gt; &lt;p&gt;ただし、いくつか注意点。&lt;/p&gt; &lt;ul&gt;&lt;li&gt;試みたのが SFR から Orange だけなのでどこまで一般性があるか分からない&lt;/li&gt;&lt;li&gt;僕が訪れたOrange の店舗のおじさんは、プリペイドSIMのMNP (La portabilité du numéro) ができることを把握してなかったようなので、店頭では手続きしてもらえないかもしれない &lt;/li&gt;&lt;li&gt;Orange のインターネットショップ経由で申し込むことになるが、それにはフランス (or EU圏?) 発行のクレジットカードが必要&lt;/li&gt;&lt;li&gt;開通まで10日くらいかかる&lt;/li&gt;&lt;/ul&gt; &lt;p&gt;短中期滞在者で「電話番号変えたよと伝えるのは面倒だけどこういう手続は面倒じゃないと思う人」はごく少数に違いないので詳しいことは書かないでおきますが、無事できました。なお、長期間滞在でMNPしたい人は  &lt;a href=&#34;http://ugokumono.blogspot.fr/2013/10/mnp-orange-b.html&#34;&gt;http://ugokumono.blogspot.fr/2013/10/mnp-orange-b.html&lt;/a&gt; などいくつか日本語の情報も見つかりますので、探してみてください。  &lt;p&gt;クレジットカードは Travelex のキャッシュパスポートでも通ると思います。僕の場合、3度目の買い物で弾かれたので、本来使ってほしくないかチャージ額の下限があるのかもしれない。分かりません。キャッシュパスポートは手数料がものすごく高いので、これ自体をオススメするものではありません。たまたま持ってたので使ってみたということです。   &lt;p&gt;日本で短期滞在用の音声SIM でMNP転入出が可能かどうかは分かりませんが、通常の契約でも&lt;/p&gt; &lt;ul&gt;&lt;li&gt;転出元に対する、契約期間に応じた違約金&lt;/li&gt;&lt;li&gt;転出元に対する、MNP転出手数料2,000-3,000円、&lt;/li&gt;&lt;li&gt;転出先に対する、契約手数料2,000-3,000円程度（SIM代金?)&lt;/li&gt;&lt;/ul&gt; &lt;p&gt;を払わないといけないケースが典型的なので、オペレータ間の移動はかなり制限されてます。フランスだと500円。  &lt;p&gt;転入出手数料と契約期間の制限をなくしたら、出入りは増えて利用者は増える（減る）みたいな実証研究はあるのかしら&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>pythontex を lyx で使うときのメモ</title>
-      <link>http://www.kenjisato.jp/post/2014/10/pythontex-%E3%82%92-lyx-%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AE%E3%83%A1%E3%83%A2/</link>
+      <link>http://www.kenjisato.jp/post/2014/10/pythontex-on-lyx/</link>
       <pubDate>Wed, 01 Oct 2014 13:13:00 +0900</pubDate>
       
-      <guid>http://www.kenjisato.jp/post/2014/10/pythontex-%E3%82%92-lyx-%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AE%E3%83%A1%E3%83%A2/</guid>
-      <description>&lt;p&gt;PDFを作る話なのでPDFに書いた.  &lt;a href=&#34;https://dl.dropboxusercontent.com/u/1028642/files/pythontex.pdf&#34;&gt;pythontex.pdf&lt;/a&gt;&lt;/p&gt; &lt;p&gt;要点としては, &lt;/p&gt;&lt;ul&gt;&lt;li&gt;コンパイルに関して &lt;ul&gt;  &lt;li&gt;コンパイルはGUIに頼らず, lyx -&gt; xelatex -&gt; pythontex -&gt; xelatex のコマンドを順に実行する&lt;/li&gt;  &lt;li&gt;1回目のxelatex コンパイルはエラーを無視する&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;画像挿入に関して &lt;ul&gt;  &lt;li&gt;フロート, キャプション, ラベルはGUIを使う&lt;/li&gt;  &lt;li&gt; 画像本体の挿入はTeXコマンド( \includegraphics{hoge.pdf} )を書く&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Instant Preview は「No math」にしておくとよい&lt;/li&gt;&lt;/ul&gt; </description>
+      <guid>http://www.kenjisato.jp/post/2014/10/pythontex-on-lyx/</guid>
+      <description>&lt;p&gt;&lt;p&gt;PDFを作る話なのでPDFに書いた.  &lt;a href=&#34;https://dl.dropboxusercontent.com/u/1028642/files/pythontex.pdf&#34;&gt;pythontex.pdf&lt;/a&gt;&lt;/p&gt; &lt;p&gt;要点としては, &lt;/p&gt;&lt;ul&gt;&lt;li&gt;コンパイルに関して &lt;ul&gt;  &lt;li&gt;コンパイルはGUIに頼らず, lyx -&amp;gt; xelatex -&amp;gt; pythontex -&amp;gt; xelatex のコマンドを順に実行する&lt;/li&gt;  &lt;li&gt;1回目のxelatex コンパイルはエラーを無視する&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;画像挿入に関して &lt;ul&gt;  &lt;li&gt;フロート, キャプション, ラベルはGUIを使う&lt;/li&gt;  &lt;li&gt; 画像本体の挿入はTeXコマンド( \includegraphics{hoge.pdf} )を書く&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Instant Preview は「No math」にしておくとよい&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
