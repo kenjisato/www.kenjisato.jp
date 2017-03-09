@@ -21,7 +21,7 @@ hidden= true
 
 ## 経済動学 (神戸大学大学院)
 
-- [2017年度（Q1）]({{< relref ""ed17.ja.md >}})
+- [2017年度（Q1）]({{< relref "ed17.ja.md" >}})
 - [2016年度 (Q1)]({{< relref "ed16.ja.md" >}})
 - [2015年度 (前期)]({{< relref "ed15.ja.md" >}})
 

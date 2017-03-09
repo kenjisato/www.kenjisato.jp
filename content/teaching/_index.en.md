@@ -26,7 +26,7 @@ Intermediate to advanced macroeconomics course, designed for GMAP students. Prov
 
 Graduate level economic dynamics. Provided in Japanese. Some course materials are written in English.
 
-- [2017 (Q1)]({{< relref ""ed17.ja.md >}}) [in Japanese]
+- [2017 (Q1)]({{< relref "ed17.ja.md" >}}) [in Japanese]
 - [2016 (Q1)]({{< relref "ed16.ja.md" >}}) [in Japanese]
 - [2015 (Spring)]({{< relref "ed15.ja.md" >}}) [in Japanese]
 
