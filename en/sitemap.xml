@@ -12,11 +12,6 @@
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/post/</loc>
-    <lastmod>2017-02-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.kenjisato.jp/en/tags/computer/</loc>
     <lastmod>2017-02-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -28,6 +23,11 @@
   
   <url>
     <loc>http://www.kenjisato.jp/en/teaching/ma/2016Q4/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.kenjisato.jp/en/post/</loc>
+    <lastmod>2017-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
