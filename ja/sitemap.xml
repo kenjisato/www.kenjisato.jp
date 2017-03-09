@@ -37,10 +37,6 @@
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/teaching/ed17/</loc>
-  </url>
-  
-  <url>
     <loc>http://www.kenjisato.jp/tags/computer/</loc>
     <lastmod>2014-10-01T13:13:00+09:00</lastmod>
     <priority>0</priority>
@@ -87,6 +83,10 @@
   
   <url>
     <loc>http://www.kenjisato.jp/teaching/ed/2016/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.kenjisato.jp/teaching/ed/2017/</loc>
   </url>
   
 </urlset>
