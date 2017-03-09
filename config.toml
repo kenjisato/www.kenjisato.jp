@@ -9,7 +9,7 @@ defaultContentLanguage = "ja"
 googleAnalytics = "UA-8443903-1"
 
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "kenjisato1983"
+disqusShortname = "kenjisatojp"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 [permalinks]
