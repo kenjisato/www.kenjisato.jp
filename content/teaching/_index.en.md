@@ -26,15 +26,16 @@ Intermediate to advanced macroeconomics course, designed for GMAP students. Prov
 
 Graduate level economic dynamics. Provided in Japanese. Some course materials are written in English.
 
-- [2016 (Q1)](/ja/teaching/ed/2016) [in Japanese]
-- [2015 (Spring)](/ja/teaching/ed/2015) [in Japanese]
+- [2017 (Q1)]({{< relref ""ed17.ja.md >}}) [in Japanese]
+- [2016 (Q1)]({{< relref "ed16.ja.md" >}}) [in Japanese]
+- [2015 (Spring)]({{< relref "ed15.ja.md" >}}) [in Japanese]
 
 
 ## Economic Policy of Public Choice (Osaka Pref. Univ.)
 
 Advanced undergraduate lecture on economic policy, introductory public choice. Provided in Japanse.  
 
-- [2016 (Fall)](/ja/teaching/pc/2016)
+- [2016 (Fall)]({{< relref "pc16.ja.md" >}})
 - 2015 (Spring)
 - 2014 (Fall)
 
