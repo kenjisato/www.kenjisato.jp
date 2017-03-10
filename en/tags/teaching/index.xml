@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on kenjisato.jp</title>
-    <link>/www.kenjisato.jp/en/tags/teaching/index.xml</link>
+    <link>https://www.kenjisato.jp/en/tags/teaching/index.xml</link>
     <description>Recent content in Teaching on kenjisato.jp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/www.kenjisato.jp/en/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kenjisato.jp/en/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Computation of the Optimal Policy for the Optimal Growth (Euler Equation)</title>
-      <link>/www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</link>
+      <link>https://www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</link>
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</guid>
-      <description>&lt;p&gt;(Mainly for students attending &lt;a href=&#34;www.kenjisato.jp/teaching/ma/2016Q4&#34;&gt;my class&lt;/a&gt;.)&lt;/p&gt;
+      <guid>https://www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</guid>
+      <description>&lt;p&gt;(Mainly for students attending &lt;a href=&#34;https://www.kenjisato.jp/teaching/ma/2016Q4&#34;&gt;my class&lt;/a&gt;.)&lt;/p&gt;
 
 &lt;p&gt;As supplementary matrials on our way to understanding the optimal growth
 model, I put an R code and related documents on my github repository:
