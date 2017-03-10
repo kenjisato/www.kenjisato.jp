@@ -3,10 +3,15 @@
 .RData
 .Ruserdata
 
+# Local site, Travis CI will create them for us
 /public/*
-!/public/.gitkeep
-!/public/.nojekyll
-!/public/CNAME
-!/public/google*
 
+# Intermediate files created by blogdown package
 /blogdown/*
+/static/post
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
