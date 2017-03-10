@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.kenjisato.jp/"
+baseurl = "www.kenjisato.jp/"
 themesDir = "themes"
 title = "kenjisato.jp"
 theme = "hugo-cactus-theme"
