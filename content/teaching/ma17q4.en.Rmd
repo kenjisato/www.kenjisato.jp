@@ -7,12 +7,15 @@ output:
     toc: true
 ---
 
+```{r}
+source("../../.Rprofile")
+```
+
 # 2017 Q4 Macroeconomics (Kobe Univ.)
 
 ## Syllabus
 
 Under construction.
 
-`r htmltools::HTML("{{< tweet 666616452582129664 >}}")`
 
-[Q2](`r bd_relref("ma17q2.en.html")`)
+[2017Q2](`r bd_relref("ma17q2.en.html")`)
