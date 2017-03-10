@@ -2,61 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.kenjisato.jp/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/</loc>
+    <loc>/www.kenjisato.jp/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/</loc>
     <lastmod>2017-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</loc>
+    <loc>/www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</loc>
     <lastmod>2017-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/tags/computer/</loc>
+    <loc>/www.kenjisato.jp/en/tags/computer/</loc>
     <lastmod>2017-02-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/teaching/ma/2016Q2/</loc>
+    <loc>/www.kenjisato.jp/en/teaching/ma/2016Q2/</loc>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/teaching/ma/2016Q4/</loc>
+    <loc>/www.kenjisato.jp/en/teaching/ma/2016Q4/</loc>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/post/</loc>
+    <loc>/www.kenjisato.jp/en/teaching/ma/2017Q4/</loc>
+  </url>
+  
+  <url>
+    <loc>/www.kenjisato.jp/en/post/</loc>
     <lastmod>2017-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/tags/r/</loc>
+    <loc>/www.kenjisato.jp/en/tags/r/</loc>
     <lastmod>2017-02-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/research/</loc>
+    <loc>/www.kenjisato.jp/en/research/</loc>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/tags/</loc>
+    <loc>/www.kenjisato.jp/en/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/tags/teaching/</loc>
+    <loc>/www.kenjisato.jp/en/tags/teaching/</loc>
     <lastmod>2017-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/teaching/</loc>
+    <loc>/www.kenjisato.jp/en/teaching/</loc>
   </url>
   
   <url>
-    <loc>http://www.kenjisato.jp/en/</loc>
+    <loc>/www.kenjisato.jp/en/</loc>
     <lastmod>2017-02-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
