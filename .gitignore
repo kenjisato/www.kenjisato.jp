@@ -9,6 +9,7 @@
 # Intermediate files created by blogdown package
 /blogdown/*
 /static/post
+/content/**/*.html
 
 # Jupyter Notebook
 .ipynb_checkpoints

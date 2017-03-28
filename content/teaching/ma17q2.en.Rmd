@@ -1,0 +1,24 @@
+---
+title: "Macroeconomics (2017Q2)"
+author: kenjisato
+slug: "ma/2017Q2"
+output:
+  blogdown::html_page:
+    toc: true
+draft: true
+---
+
+# 2017 Q2 Macroeconomics (Kobe Univ.)
+
+## Syllabus
+
+Under construction.
+
+`r htmltools::HTML("{{< tweet 666616452582129664 >}}")`
+
+`r htmltools::HTML("{{< relref \"ma17q2.en.html\" >}}")`
+
+
+$$
+ f(x) = \int q(y)dy
+$$
