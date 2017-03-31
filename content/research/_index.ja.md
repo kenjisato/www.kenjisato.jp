@@ -36,7 +36,7 @@ hidden = true
 
 ### ディスカッションペーパー
 
-
+- Y. Furukawa and K. Sato (2017) "**Receptivity and innovation**." Chukyo University Institute of Economics Discussion Paper Series **1612**. [PDF](http://www.econo.chukyo-u.ac.jp/academicInfo/discussionPdf/1612.pdf)
 
 ### 査読付き国際学会論文
 

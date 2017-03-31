@@ -39,7 +39,7 @@ Innovation Policy
 
 ### Working Papers
 
-
+- Y. Furukawa and K. Sato (2017) "**Receptivity and innovation**." Chukyo University Institute of Economics Discussion Paper Series **1612**. [PDF](http://www.econo.chukyo-u.ac.jp/academicInfo/discussionPdf/1612.pdf)
 
 ### Refereed Conference Papers
 
