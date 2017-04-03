@@ -3,6 +3,27 @@ title: "Economic Dynamics (2017)"
 slug: "ed/2017"
 ---
 
+```{r, include = FALSE}
+day01 = "https://rawgit.com/rokko-ed17q1/slides/master/day01/guidance.html"
+day02 = "#"
+```
+
+
 # 2017Q1 Economic Dynamics (Kobe Univ.)
 
-Forthcoming.
+## Lecture Slides
+
+| Day    |  Title                                            | Memo |
+|:-------|:--------------------------------------------------|:-----|
+| Day 01 | [Course Overview (mostly in Japanese)](`r day01`) |      |
+| Day 02 | [Slides](`r day02`)                               |      |
+
+
+## Lecture Notes
+
+http://led.kenjisato.jp (work in progress, in Japanese)
+
+
+## Assignments
+
+https://github.com/rokko-ed17q1/hw-portal

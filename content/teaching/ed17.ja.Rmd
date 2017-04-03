@@ -3,6 +3,26 @@ title: "経済動学 (2017)"
 slug: "ed/2017"
 ---
 
+```{r, include = FALSE}
+day01 = "https://rawgit.com/rokko-ed17q1/slides/master/day01/guidance.html"
+day02 = "#"
+```
+
+
 # 2017Q1 経済動学 (神戸大学大学院)
 
-準備中
+## 講義スライド
+
+| Day    |  Title                                | Memo |
+|:-------|:--------------------------------------|:-----|
+| Day 01 | [ガイダンス資料](`r day01`)           |      |
+| Day 02 | [講義資料](`r day02`)                 |      |
+
+## 講義ノート
+
+http://led.kenjisato.jp (work in progress)
+
+## 課題
+
+https://github.com/rokko-ed17q1/hw-portal
+
