@@ -4,7 +4,7 @@ slug: "ed/2017"
 ---
 
 ```{r, include = FALSE}
-day01 = "https://rawgit.com/rokko-ed17q1/slides/master/day01/guidance.html"
+day01 = "https://rawgit.com/rokko-ed17q1/slides/master/day01/day01.html"
 day02 = "https://rawgit.com/rokko-ed17q1/slides/master/day02/day02.html"
 ```
 
