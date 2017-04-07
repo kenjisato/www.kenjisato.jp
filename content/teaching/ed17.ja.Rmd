@@ -26,3 +26,7 @@ http://led.kenjisato.jp (work in progress)
 
 https://github.com/rokko-ed17q1/hw-portal
 
+
+## 参考資料
+
+[hw-portal/Wiki](https://github.com/rokko-ed17q1/hw-portal/wiki)]

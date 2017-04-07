@@ -25,7 +25,13 @@ Mostly in Japanese.
 
 http://led.kenjisato.jp (work in progress, in Japanese)
 
-
 ## Assignments
 
 https://github.com/rokko-ed17q1/hw-portal
+
+
+## Additional Information
+
+[hw-portal/Wiki](https://github.com/rokko-ed17q1/hw-portal/wiki)]
+
+
