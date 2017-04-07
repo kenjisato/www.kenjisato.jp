@@ -5,13 +5,15 @@ slug: "ed/2017"
 
 ```{r, include = FALSE}
 day01 = "https://rawgit.com/rokko-ed17q1/slides/master/day01/guidance.html"
-day02 = "#"
+day02 = "https://rawgit.com/rokko-ed17q1/slides/master/day02/day02.html"
 ```
 
 
 # 2017Q1 Economic Dynamics (Kobe Univ.)
 
 ## Lecture Slides
+
+Mostly in Japanese.
 
 | Day    |  Title                                            | Memo |
 |:-------|:--------------------------------------------------|:-----|
