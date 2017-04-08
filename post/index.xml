@@ -6,8 +6,34 @@
     <description>Recent content in Posts on kenjisato.jp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 08 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Apr 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kenjisato.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Keynote ファイルをエクスポートするスクリプト</title>
+      <link>https://www.kenjisato.jp/post/2017/04/export-keynote/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2017/04/export-keynote/</guid>
+      <description>&lt;p&gt;データに基いて描く必要のない概念図などは Keynote で描いている。Rmarkdown や LaTeX などで読み込むには，JPEG や PDF にエクスポートして利用する。&lt;/p&gt;
+
+&lt;p&gt;Rmarkdown で使う場合に利用する &lt;code&gt;knitr::include_graphics()&lt;/code&gt; は出力がHTMLのときはJPEG画像を読み込んで，LaTeXのときはPDFを使うということをやってくれる。便利だけど手間は2倍。手作業を減らしたいので下のようなスクリプトを書いた。AppleScript も Bashスクリプトも初心者だけど一応動いている動いている。&lt;/p&gt;
+
+&lt;p&gt;使い方は Keynote ファイルを入れているフォルダを引数にしてBashスクリプトの方を実行する。例えば&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bash keynote_export.sh folder -t pdf
+bash keynote_export.sh folder -t jpeg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;などとする。&lt;/p&gt;
+
+&lt;p&gt;ただし，本当に &lt;code&gt;knitr::include_graphics()&lt;/code&gt; に渡すための PDF を作るためにはできたPDFファイル &lt;code&gt;filename.pdf&lt;/code&gt; を &lt;code&gt;filename/filename.001.pdf&lt;/code&gt; のように分割する必要があるので，もう少し処理が必要。&lt;/p&gt;
+
+&lt;p&gt;普通に LaTeX で &lt;code&gt;\includegraphics&lt;/code&gt; を使う場合は pgfpages を使えばよい。&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/kenjisato/de8435e64041d421605ea22af617038a.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Hugo &#43; blogdown</title>
