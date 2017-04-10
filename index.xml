@@ -217,12 +217,12 @@ print(sys.version_info)&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.kenjisato.jp/files/ed/2016/16ED06.pdf&#34;&gt;16ED06: Schur分解・QZ分解&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://nbviewer.jupyter.org/github/kenjisato/www.kenjisato.jp/blob/gh-pages/teaching/QZMethod.ipynb&#34;&gt;QZ法の実装&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/kenjisato/www.kenjisato.jp/blob/master/static/files/ed/2016/QZMethod.ipynb&#34;&gt;QZ法の実装&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.kenjisato.jp/files/ed/2016/16ED07.pdf&#34;&gt;16ED07: 線形確率システム&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://nbviewer.jupyter.org/github/kenjisato/www.kenjisato.jp/blob/gh-pages/teaching/StochasticProcess.ipynb&#34;&gt;確率過程のシミュレーション&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/kenjisato/www.kenjisato.jp/blob/master/static/files/ed/2016/StochasticProcess.ipynb&#34;&gt;確率過程のシミュレーション&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
