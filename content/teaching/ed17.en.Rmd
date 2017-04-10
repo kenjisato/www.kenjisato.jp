@@ -32,6 +32,6 @@ https://github.com/rokko-ed17q1/hw-portal
 
 ## Additional Information
 
-[hw-portal/Wiki](https://github.com/rokko-ed17q1/hw-portal/wiki)]
+[hw-portal/Wiki](https://github.com/rokko-ed17q1/hw-portal/wiki)
 
 
