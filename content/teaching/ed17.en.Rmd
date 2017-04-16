@@ -6,6 +6,8 @@ slug: "ed/2017"
 ```{r, include = FALSE}
 day01 = "https://rawgit.com/rokko-ed17q1/slides/master/day01/day01.html"
 day02 = "https://rawgit.com/rokko-ed17q1/slides/master/day02/day02.html"
+day02pdf = "https://rawgit.com/rokko-ed17q1/slides/master/day02/ramsey.pdf"
+day03 = "https://rawgit.com/rokko-ed17q1/slides/master/day03/day03.html"
 ```
 
 
@@ -19,7 +21,8 @@ Mostly in Japanese.
 |:-------|:--------------------------------------------------|:-----|
 | Day 01 | [Course Overview (mostly in Japanese)](`r day01`) |      |
 | Day 02 | [Slides](`r day02`)                               |      |
-
+|        | [Notes on the Ramsey model](`r day02pdf`)         |      |
+| Day 03 | [Slides](`r day03`)                               |      |
 
 ## Lecture Notes
 

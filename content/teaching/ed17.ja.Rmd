@@ -6,6 +6,8 @@ slug: "ed/2017"
 ```{r, include = FALSE}
 day01 = "https://rawgit.com/rokko-ed17q1/slides/master/day01/day01.html"
 day02 = "https://rawgit.com/rokko-ed17q1/slides/master/day02/day02.html"
+day02pdf = "https://rawgit.com/rokko-ed17q1/slides/master/day02/ramsey.pdf"
+day03 = "https://rawgit.com/rokko-ed17q1/slides/master/day03/day03.html"
 ```
 
 
@@ -17,6 +19,8 @@ day02 = "https://rawgit.com/rokko-ed17q1/slides/master/day02/day02.html"
 |:-------|:--------------------------------------|:-----|
 | Day 01 | [ガイダンス資料](`r day01`)           |      |
 | Day 02 | [講義資料](`r day02`)                 |      |
+|        | [ラムゼーモデル](`r day02pdf`)        |      |
+| Day 03 | [講義資料](`r day03`)                 |      |
 
 ## 講義ノート
 
