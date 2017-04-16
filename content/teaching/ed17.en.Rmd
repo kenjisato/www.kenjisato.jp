@@ -8,6 +8,7 @@ day01 = "https://rawgit.com/rokko-ed17q1/slides/master/day01/day01.html"
 day02 = "https://rawgit.com/rokko-ed17q1/slides/master/day02/day02.html"
 day02pdf = "https://rawgit.com/rokko-ed17q1/slides/master/day02/ramsey.pdf"
 day03 = "https://rawgit.com/rokko-ed17q1/slides/master/day03/day03.html"
+day03suppl = "https://rawgit.com/rokko-ed17q1/slides/master/day03/day03suppl.html"
 ```
 
 
@@ -23,6 +24,7 @@ Mostly in Japanese.
 | Day 02 | [Slides](`r day02`)                               |      |
 |        | [Notes on the Ramsey model](`r day02pdf`)         |      |
 | Day 03 | [Slides](`r day03`)                               |      |
+|        | [RStudio Shortcuts](`r day03suppl`)               |      |
 
 ## Lecture Notes
 
