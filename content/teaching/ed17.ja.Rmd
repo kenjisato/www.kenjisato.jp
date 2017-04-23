@@ -11,6 +11,7 @@ day03 = "https://rawgit.com/rokko-ed17q1/slides/master/day03/day03.html"
 day03suppl = "https://rawgit.com/rokko-ed17q1/slides/master/day03/day03suppl.html"
 day04 = "https://rawgit.com/rokko-ed17q1/slides/master/day04/day04.html"
 day04quiz = "https://rawgit.com/rokko-ed17q1/slides/master/day04/day04quiz.pdf"
+day05 = "https://rawgit.com/rokko-ed17q1/slides/master/day05/day05.html"
 ```
 
 
@@ -27,6 +28,7 @@ day04quiz = "https://rawgit.com/rokko-ed17q1/slides/master/day04/day04quiz.pdf"
 |        | [RStudio Shortcuts](`r day03suppl`)   |      |
 | Day 04 | [講義資料](`r day04`)                 |      |
 |        | [Quiz](`r day04quiz`)                 |      |
+| Day 05 | [講義資料](`r day05`)                               |      |
 
 ## 講義ノート
 

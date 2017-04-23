@@ -11,6 +11,7 @@ day03 = "https://rawgit.com/rokko-ed17q1/slides/master/day03/day03.html"
 day03suppl = "https://rawgit.com/rokko-ed17q1/slides/master/day03/day03suppl.html"
 day04 = "https://rawgit.com/rokko-ed17q1/slides/master/day04/day04.html"
 day04quiz = "https://rawgit.com/rokko-ed17q1/slides/master/day04/day04quiz.pdf"
+day05 = "https://rawgit.com/rokko-ed17q1/slides/master/day05/day05.html"
 ```
 
 
@@ -29,6 +30,7 @@ Mostly in Japanese.
 |        | [RStudio Shortcuts](`r day03suppl`)               |      |
 | Day 04 | [Slides](`r day04`)                               |      |
 |        | [Quiz](`r day04quiz`)                             |      |
+| Day 05 | [Slides](`r day05`)                               |      |
 
 ## Lecture Notes
 
