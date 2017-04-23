@@ -6,8 +6,58 @@
     <description>Recent content on kenjisato.jp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 08 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Apr 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kenjisato.jp/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>[R] El Capital に xml2 パッケージのインストール</title>
+      <link>https://www.kenjisato.jp/post/2017/04/r-el-capital-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
+      <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2017/04/r-el-capital-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
+      <description>&lt;p&gt;OSX El Capitan と XCode に問題があって， &lt;strong&gt;tidyverse&lt;/strong&gt; をインストールしようとすると &lt;strong&gt;xml2&lt;/strong&gt; パッケージをコンパイルできず止まってしまう。一向に解決されない，OS のアップグレードもしたくない。学習さえしないので同じ問題に遭遇した回数はや3回。ようやく記録を取ろうと思う。&lt;/p&gt;
+
+&lt;p&gt;注意：Sierra にアップグレードできる人は，アップグレードした方がいいと思います。&lt;/p&gt;
+
+&lt;p&gt;参考にしたのは&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hadley/xml2/issues/127&#34;&gt;https://github.com/hadley/xml2/issues/127&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stat.ethz.ch/pipermail/r-sig-mac/2016-September/012046.html&#34;&gt;https://stat.ethz.ch/pipermail/r-sig-mac/2016-September/012046.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;要するに，こういうことだろう。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cp /usr/bin/xml2-config ~/bin
+$ nano ~/bin/xml2-config
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3行目を書き換える&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#prefix=$(xcrun -show-sdk-path)/usr
+prefix=/usr
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;一時的に PATH の優先順位を変えてやる。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ export PATH=~/bin:$PATH
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;同じシェルのセッションから R を呼び出す。（RStudio などを使いたければから &lt;code&gt;open -a RStudio&lt;/code&gt; などとすればよいかもしれない）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ R
+R version 3.4.0 (2017-04-21) -- &amp;quot;You Stupid Darkness&amp;quot;                                Copyright (C) 2017 The R Foundation for Statistical Computing
+...
+
+&amp;gt; install.packages(&amp;quot;xml2&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;CRAN ミラーを選ぶように促されるのでこだわりがなければ 0-Cloud を選ぶ。インストールがはじまる。上手くいったら &lt;code&gt;q()&lt;/code&gt; で終了。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; q()
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Keynote ファイルをエクスポートするスクリプト</title>
