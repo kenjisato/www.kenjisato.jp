@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on kenjisato.jp</title>
-    <link>https://www.kenjisato.jp/en/tags/teaching/index.xml</link>
+    <link>https://www.kenjisato.jp/en/tags/teaching/</link>
     <description>Recent content in Teaching on kenjisato.jp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://www.kenjisato.jp/en/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.kenjisato.jp/en/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Computation of the Optimal Policy for the Optimal Growth (Euler Equation)</title>
@@ -14,38 +17,9 @@
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</guid>
-      <description>&lt;p&gt;(Mainly for students attending &lt;a href=&#34;https://www.kenjisato.jp/teaching/ma/2016Q4&#34;&gt;my class&lt;/a&gt;.)&lt;/p&gt;
-
-&lt;p&gt;As supplementary matrials on our way to understanding the optimal growth
-model, I put an R code and related documents on my github repository:
-&lt;a href=&#34;https://github.com/kenjisato/intro-macro&#34;&gt;kenjisato/intro-macro&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kenjisato/intro-macro/blob/master/r/optimal_growth_euler.R&#34;&gt;/r/optimal_growth_euler.R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kenjisato/intro-macro/blob/master/doc/r/optimal_growth_euler.Rmd&#34;&gt;/doc/r/optimal_growth_euler.Rmd&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kenjisato/intro-macro/blob/master/doc/r/optimal_growth_euler.pdf&#34;&gt;Compiled PDF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I do this mainly for a pedagogical reason. As a matter of fact, the above
-mentioned script &lt;strong&gt;isn&amp;rsquo;t practical&lt;/strong&gt;; it does work if the initial condition is
-close to the steady state and the initial guesses of optimal consumption are
-sufficiently accurate but otherwise doesn&amp;rsquo;t (it&amp;rsquo;d take very loong time).&lt;/p&gt;
-
-&lt;p&gt;The only utility of this excercise is to show how it is difficult to compute
-the optimal policy!&lt;/p&gt;
-
-&lt;p&gt;Human beings (as main agents in our economic system) might have a different
-decision making strategy such as adaptive learning (when you realize that you
-aren&amp;rsquo;t on the right track you will make some adjustments).
-Incorporating such notion in formal analysis might be an interesting
-direction but is beyond the scope of the course.&lt;/p&gt;
-
-&lt;p&gt;We, in fact, have a more practical method to compute the optimal policy, in which
-we exploit the technique of dynamic programming. This will be discussed elsewhere.&lt;/p&gt;
-</description>
+      <description>(Mainly for students attending my class.)
+As supplementary matrials on our way to understanding the optimal growth model, I put an R code and related documents on my github repository: kenjisato/intro-macro:
+ /r/optimal_growth_euler.R /doc/r/optimal_growth_euler.Rmd  Compiled PDF   I do this mainly for a pedagogical reason. As a matter of fact, the above mentioned script isn&amp;rsquo;t practical; it does work if the initial condition is close to the steady state and the initial guesses of optimal consumption are sufficiently accurate but otherwise doesn&amp;rsquo;t (it&amp;rsquo;d take very loong time).</description>
     </item>
     
   </channel>

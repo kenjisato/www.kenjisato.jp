@@ -37,6 +37,11 @@
   </url>
   
   <url>
+    <loc>https://www.kenjisato.jp/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.kenjisato.jp/tags/computer/</loc>
     <lastmod>2017-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -71,6 +76,7 @@
   
   <url>
     <loc>https://www.kenjisato.jp/tags/</loc>
+    <lastmod>2017-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

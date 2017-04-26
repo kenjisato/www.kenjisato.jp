@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lyx on kenjisato.jp</title>
-    <link>https://www.kenjisato.jp/tags/lyx/index.xml</link>
+    <link>https://www.kenjisato.jp/tags/lyx/</link>
     <description>Recent content in Lyx on kenjisato.jp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <atom:link href="https://www.kenjisato.jp/tags/lyx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Oct 2014 13:13:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.kenjisato.jp/tags/lyx/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>pythontex を lyx で使うときのメモ</title>
@@ -14,8 +17,8 @@
       <pubDate>Wed, 01 Oct 2014 13:13:00 +0900</pubDate>
       
       <guid>https://www.kenjisato.jp/post/2014/10/pythontex-on-lyx/</guid>
-      <description>&lt;p&gt;&lt;p&gt;PDFを作る話なのでPDFに書いた.  &lt;a href=&#34;https://dl.dropboxusercontent.com/u/1028642/files/pythontex.pdf&#34;&gt;pythontex.pdf&lt;/a&gt;&lt;/p&gt; &lt;p&gt;要点としては, &lt;/p&gt;&lt;ul&gt;&lt;li&gt;コンパイルに関して &lt;ul&gt;  &lt;li&gt;コンパイルはGUIに頼らず, lyx -&amp;gt; xelatex -&amp;gt; pythontex -&amp;gt; xelatex のコマンドを順に実行する&lt;/li&gt;  &lt;li&gt;1回目のxelatex コンパイルはエラーを無視する&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;画像挿入に関して &lt;ul&gt;  &lt;li&gt;フロート, キャプション, ラベルはGUIを使う&lt;/li&gt;  &lt;li&gt; 画像本体の挿入はTeXコマンド( \includegraphics{hoge.pdf} )を書く&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Instant Preview は「No math」にしておくとよい&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-</description>
+      <description>PDFを作る話なのでPDFに書いた. pythontex.pdf
+要点としては, コンパイルに関して  コンパイルはGUIに頼らず, lyx -&amp;gt; xelatex -&amp;gt; pythontex -&amp;gt; xelatex のコマンドを順に実行する 1回目のxelatex コンパイルはエラーを無視する画像挿入に関して  フロート, キャプション, ラベルはGUIを使う  画像本体の挿入はTeXコマンド( \includegraphics{hoge.pdf} )を書くInstant Preview は「No math」にしておくとよい</description>
     </item>
     
   </channel>
