@@ -1,5 +1,5 @@
 ---
-title: "[R] El Capital に xml2 パッケージのインストール"
+title: "[R] El Capitan に xml2 パッケージのインストール"
 author: ~
 date: '2017-04-23'
 slug: ''
