@@ -13,6 +13,7 @@ day04 = "https://rawgit.com/rokko-ed17q1/slides/master/day04/day04.html"
 day04quiz = "https://rawgit.com/rokko-ed17q1/slides/master/day04/day04quiz.pdf"
 day05 = "https://rawgit.com/rokko-ed17q1/slides/master/day05/day05.html"
 day06 = "https://rawgit.com/rokko-ed17q1/slides/master/day06/day06.html"
+day07 = "https://rawgit.com/rokko-ed17q1/slides/master/day07/day07.html"
 ```
 
 
@@ -33,6 +34,7 @@ Mostly in Japanese.
 |        | [Quiz](`r day04quiz`)                             |      |
 | Day 05 | [Slides](`r day05`)                               |      |
 | Day 06 | [Slides](`r day06`)                               |      |
+| Day 07 | [Slides](`r day07`)                               |      |
 
 ## Lecture Notes
 
