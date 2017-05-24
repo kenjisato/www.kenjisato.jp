@@ -20,6 +20,8 @@ day09 = "https://rawgit.com/rokko-ed17q1/slides/master/day09/day09.html"
 day10 = "https://rawgit.com/rokko-ed17q1/slides/master/day10/day10.html"
 day10quiz = "https://rawgit.com/rokko-ed17q1/slides/master/day10/day10quiz.pdf"
 day11 = "https://rawgit.com/rokko-ed17q1/slides/master/day11/day11.html"
+day12 = "https://rawgit.com/rokko-ed17q1/slides/master/day12/day12.html"
+day12note = "https://rawgit.com/rokko-ed17q1/slides/master/day12/day12note.pdf"
 ```
 
 
@@ -45,6 +47,8 @@ day11 = "https://rawgit.com/rokko-ed17q1/slides/master/day11/day11.html"
 | Day 10 | [講義資料](`r day10`)                 |      |
 |        | [Quiz](`r day10quiz`)                 |      |
 | Day 11 | [講義資料](`r day11`)                 |      |
+| Day 12 | [講義資料](`r day12`)                 |      |
+|        | [例](`r day12note`)                   |      |
 
 ## 講義ノート
 
