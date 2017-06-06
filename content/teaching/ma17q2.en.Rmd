@@ -1,10 +1,6 @@
 ---
 title: "Macroeconomics (2017Q2)"
-author: kenjisato
 slug: "ma/2017q2"
-output:
-  blogdown::html_page
-draft: true
 ---
 
 # 2017 Q2 Macroeconomics (Kobe Univ.)
