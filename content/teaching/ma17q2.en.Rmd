@@ -12,13 +12,19 @@ draft: true
 
 ## Syllabus
 
-Under construction.
-
-`r htmltools::HTML("{{< tweet 666616452582129664 >}}")`
-
-`r htmltools::HTML("{{< relref \"ma17q2.en.html\" >}}")`
 
 
-$$
- f(x) = \int q(y)dy
-$$
+## Lecture Slides
+
+
+
+## Assignments
+
+https://github.com/rokko-ma17q2/hw-portal
+
+
+## Additional Information
+
+[hw-portal/Wiki](https://github.com/rokko-ma17q2/hw-portal/wiki)
+
+

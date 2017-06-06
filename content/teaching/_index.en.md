@@ -19,6 +19,7 @@ hidden= true
 
 Intermediate to advanced macroeconomics course, designed for GMAP students. Provided in English.
 
+- [2017 Q2]({{< relref "ma17q2.en.md" >}})
 - [2016 Q4]({{< relref "ma16q4.en.md" >}})
 - [2016 Q2]({{< relref "ma16q2.en.md" >}})
 

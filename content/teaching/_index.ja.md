@@ -16,6 +16,7 @@ hidden= true
 
 ## Macroeconomics (神戸大学大学院, GMAPコース)
 
+- [2017年度 (Q2)]({{< relref "ma17q2.en.md" >}})
 - [2016年度 (Q4)]({{< relref "ma16q4.en.md" >}})
 - [2016年度 (Q2)]({{< relref "ma16q2.en.md" >}})
 
