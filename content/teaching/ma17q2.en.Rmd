@@ -5,17 +5,17 @@ slug: "ma/2017q2"
 
 # 2017 Q2 Macroeconomics (Kobe Univ.)
 
-## Syllabus
+## Course materials
 
-
-
-## Lecture Slides
-
-
-
+- Day 01
+  - [Slides](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/day01/day01.html)
+  - [Syllabus:A](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/handouts/ma17q2-A.pdf)
+  - [Problem Set:B](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/handouts/ma17q2-B.pdf)
+  
 ## Assignments
 
 See https://github.com/rokko-ma17q2/hw-portal
+
 
 
 ## Additional Information
