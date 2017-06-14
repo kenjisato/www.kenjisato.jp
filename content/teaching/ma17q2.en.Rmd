@@ -12,7 +12,10 @@ slug: "ma/2017q2"
     - [Syllabus : A](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/handouts/ma17q2-A.pdf)
     - [Problem Set : B](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/handouts/ma17q2-B.pdf)
     - [Homework : hw01](https://rawgit.com/rokko-ma17q2/hw01/master/problem.pdf)
-  
+- Day 02
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day02/day02.html)
+    - [Problem Set : C](https://cdn.rawgit.com/rokko-ma17q2/slides/18d08796/handouts/ma17q2-C.pdf)
+
 ## Assignments
 
 See https://github.com/rokko-ma17q2/hw-portal
