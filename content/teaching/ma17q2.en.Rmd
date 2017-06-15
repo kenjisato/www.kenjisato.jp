@@ -15,6 +15,7 @@ slug: "ma/2017q2"
 - Day 02
     - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day02/day02.html)
     - [Problem Set : C](https://cdn.rawgit.com/rokko-ma17q2/slides/18d08796/handouts/ma17q2-C.pdf)
+    - [Homework : hw02](https://rawgit.com/rokko-ma17q2/hw02/master/problem.pdf)
 
 ## Assignments
 
