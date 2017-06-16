@@ -8,8 +8,7 @@ hidden= true
 **Office**: Faculty Offices (Dainikenkyushitsu) Room #208<br>
 **Office Hours**:
 
-- Tuesdays, 13:20-14:50
-- Wednesdays, 10:40-12:10
+- Tuesdays, 12:30 - 14:30
 - ... and upon request.
 
 **Contact**: mail@kenjisato.jp
