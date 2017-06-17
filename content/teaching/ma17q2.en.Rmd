@@ -16,12 +16,18 @@ slug: "ma/2017q2"
     - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day02/day02.html)
     - [Problem Set : C](https://cdn.rawgit.com/rokko-ma17q2/slides/18d08796/handouts/ma17q2-C.pdf)
     - [Homework : hw02](https://rawgit.com/rokko-ma17q2/hw02/master/problem.pdf)
+    - Exercise : ex01
+- Day 03
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day03/day03.html)
+    - [Problem Set : D](https://cdn.rawgit.com/rokko-ma17q2/slides/57b986a9/handouts/ma17q2-D.pdf)
+    - [Homework : ex02](https://rawgit.com/rokko-ma17q2/ex02/master/problem.pdf)
 
-## Assignments
+## Assignments and exercises
 
 See https://github.com/rokko-ma17q2/hw-portal
 
-
+Assignments should be submitted through GitHub unless otherwise stated.
+Always start an assignment from the "Get Invitation" link in the above portal site.
 
 ## Additional Information
 
