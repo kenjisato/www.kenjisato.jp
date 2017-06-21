@@ -21,6 +21,9 @@ slug: "ma/2017q2"
     - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day03/day03.html)
     - [Problem Set : D](https://cdn.rawgit.com/rokko-ma17q2/slides/57b986a9/handouts/ma17q2-D.pdf)
     - [Homework : ex02](https://rawgit.com/rokko-ma17q2/ex02/master/problem.pdf)
+- Day 04
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day04/day04.html)
+    - [Problem Set : E](https://cdn.rawgit.com/rokko-ma17q2/slides/5940815d/handouts/ma17q2-E.pdf)
 
 ## Assignments and exercises
 
