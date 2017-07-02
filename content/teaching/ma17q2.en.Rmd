@@ -35,7 +35,7 @@ slug: "ma/2017q2"
     - [Midterm : Due on 2017/07/14 18:00](https://rawgit.com/rokko-ma17q2/mid/master/problem.pdf)
 - Day 07
     - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day07/day07.html)
-    - [Problem Set : G](https://cdn.rawgit.com/rokko-ma17q2/slides/0d62501a/handouts/ma17q2-H.pdf)
+    - [Problem Set : H](https://cdn.rawgit.com/rokko-ma17q2/slides/0d62501a/handouts/ma17q2-H.pdf)
 
 
 ## Assignments and exercises
