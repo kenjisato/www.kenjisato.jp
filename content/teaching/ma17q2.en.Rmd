@@ -39,7 +39,9 @@ slug: "ma/2017q2"
 - Day 08
     - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day08/day08.html)
     - [Problem Set : I](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-I.pdf)
-
+- Day 09
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day09/day09.html)
+    - [Problem Set : I](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-J.pdf)
 
 ## Assignments and exercises
 
