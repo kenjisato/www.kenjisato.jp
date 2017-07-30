@@ -54,6 +54,7 @@ slug: "ma/2017q2"
 - Day 13
     - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day13/day13.html)
     - [Problem Set : N](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-N.pdf)
+    - [Problem Set : O](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-O.pdf)
 
 
 ## Assignments and exercises
