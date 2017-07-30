@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://www.kenjisato.jp/post/2017/05/macro/</loc>
@@ -49,12 +50,32 @@
   <url>
     <loc>https://www.kenjisato.jp/categories/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kenjisato.jp/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kenjisato.jp/categories/"
+                />
   </url>
   
   <url>
     <loc>https://www.kenjisato.jp/tags/computer/</loc>
     <lastmod>2017-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kenjisato.jp/en/tags/computer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kenjisato.jp/tags/computer/"
+                />
   </url>
   
   <url>
@@ -66,6 +87,16 @@
   <url>
     <loc>https://www.kenjisato.jp/post/</loc>
     <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kenjisato.jp/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kenjisato.jp/post/"
+                />
   </url>
   
   <url>
@@ -76,6 +107,16 @@
   
   <url>
     <loc>https://www.kenjisato.jp/research/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kenjisato.jp/en/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kenjisato.jp/research/"
+                />
   </url>
   
   <url>
@@ -88,12 +129,32 @@
     <loc>https://www.kenjisato.jp/tags/</loc>
     <lastmod>2017-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kenjisato.jp/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kenjisato.jp/tags/"
+                />
   </url>
   
   <url>
     <loc>https://www.kenjisato.jp/tags/teaching/</loc>
     <lastmod>2016-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kenjisato.jp/en/tags/teaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kenjisato.jp/tags/teaching/"
+                />
   </url>
   
   <url>
@@ -104,11 +165,31 @@
   
   <url>
     <loc>https://www.kenjisato.jp/teaching/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kenjisato.jp/en/teaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kenjisato.jp/teaching/"
+                />
   </url>
   
   <url>
     <loc>https://www.kenjisato.jp/</loc>
     <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kenjisato.jp/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kenjisato.jp/"
+                />
   </url>
   
   <url>
@@ -125,6 +206,16 @@
   
   <url>
     <loc>https://www.kenjisato.jp/teaching/ed/2017/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kenjisato.jp/en/teaching/ed/2017/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kenjisato.jp/teaching/ed/2017/"
+                />
   </url>
   
 </urlset>
