@@ -71,7 +71,7 @@ bash keynote_export.sh folder -t pdf bash keynote_export.sh folder -t jpeg  な�
 記事（ポストとページ）を Rmarkdown で書くことができるので，次のようなコード（チャンク）によって
 ```{r} library(ggplot2) ggplot(iris) + geom_point(aes(Sepal.Length, Sepal.Width, color = Species)) ``` 次のような出力が得られる。
 library(ggplot2) ggplot(iris) + geom_point(aes(Sepal.Length, Sepal.Width, color = Species)) 制限付きではあるものの無論 Python エンジンも使える。
-import sys print(sys.version_info) ## sys.version_info(major=2, minor=7, micro=3, releaselevel=&amp;#39;final&amp;#39;, serial=0) R 以外のエンジンはシェルでコマンドを実行するのでコードチャンク間で変数を共有するなどができない。
+import sys print(sys.version_info) ## sys.version_info(major=2, minor=7, micro=6, releaselevel=&amp;#39;final&amp;#39;, serial=0) R 以外のエンジンはシェルでコマンドを実行するのでコードチャンク間で変数を共有するなどができない。
  Hugo のサイトは充実しているように見えて，YAMLの構文とTOMLの構文がごっちゃになってたりして（どちらで書いてもいいから詳しい人にはどうってことはないんだろうけど）素人には大変難解なドキュメントのように思います。↩
    </description>
     </item>

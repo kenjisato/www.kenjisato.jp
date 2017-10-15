@@ -71,7 +71,7 @@ bash keynote_export.sh folder -t pdf bash keynote_export.sh folder -t jpeg  な�
 記事（ポストとページ）を Rmarkdown で書くことができるので，次のようなコード（チャンク）によって
 ```{r} library(ggplot2) ggplot(iris) + geom_point(aes(Sepal.Length, Sepal.Width, color = Species)) ``` 次のような出力が得られる。
 library(ggplot2) ggplot(iris) + geom_point(aes(Sepal.Length, Sepal.Width, color = Species)) 制限付きではあるものの無論 Python エンジンも使える。
-import sys print(sys.version_info) ## sys.version_info(major=2, minor=7, micro=3, releaselevel=&amp;#39;final&amp;#39;, serial=0) R 以外のエンジンはシェルでコマンドを実行するのでコードチャンク間で変数を共有するなどができない。
+import sys print(sys.version_info) ## sys.version_info(major=2, minor=7, micro=6, releaselevel=&amp;#39;final&amp;#39;, serial=0) R 以外のエンジンはシェルでコマンドを実行するのでコードチャンク間で変数を共有するなどができない。
  Hugo のサイトは充実しているように見えて，YAMLの構文とTOMLの構文がごっちゃになってたりして（どちらで書いてもいいから詳しい人にはどうってことはないんだろうけど）素人には大変難解なドキュメントのように思います。↩
    </description>
     </item>
@@ -128,6 +128,18 @@ import sys print(sys.version_info) ## sys.version_info(major=2, minor=7, micro=3
       <description> 2016年度 公共選択的経済政策 (大阪府大) 講義資料 講義スライドや講義時に配布した資料の一部は授業支援システムにて履修者にのみ公開しています.
 補足資料 作図に使ったソースコード等を配布します.
  第10回講義 (2016/12/8) の補足資料 (ドント方式)  R Notebook ファイル  第12回講義 (2016/12/22) の補足資料 (政治的波乗りの確認)  スライドで使った図の作成方法を解説しています データおよびコードをダウンロード して, 自分で手を動かして確認することができます. 実行には R と RStudio をインストール してください.   Word テンプレート Word でレポートを作成する方は以下のテンプレートの使用を検討してください. 書式を微調整する苦労を 最小限に抑えることができると思います.
+ レポートのテンプレート  </description>
+    </item>
+    
+    <item>
+      <title>公共選択的経済政策 (2017)</title>
+      <link>https://www.kenjisato.jp/teaching/pc/2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/teaching/pc/2017/</guid>
+      <description> 2017年度 公共選択的経済政策 (大阪府大) 講義資料 講義時に配布
+補足資料 作図に使ったソースコード等を配布します.
+Word テンプレート Word でレポートを作成する方は以下のテンプレートを使用してください. 書式を微調整する苦労を 最小限に抑えることができると思います.
  レポートのテンプレート  </description>
     </item>
     
