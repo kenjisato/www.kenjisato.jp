@@ -36,7 +36,7 @@ hidden = true
 
 ### ディスカッションペーパー
 
-- Y. Furukawa, T. Lai and K. Sato (2017) "**Receptivity and innovation**." [MPRA Paper 8153](https://mpra.ub.uni-muenchen.de/81536/), September 2017.
+- Y. Furukawa, T. Lai and K. Sato (2017) "**Receptivity and innovation**." [MPRA Paper 82566](https://mpra.ub.uni-muenchen.de/82566/), September 2017.
 
 ### 査読付き国際学会論文
 
