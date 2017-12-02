@@ -13,9 +13,39 @@ source("../../.Rprofile")
 
 # 2017 Q4 Macroeconomics (Kobe Univ.)
 
-## Syllabus
 
-Under construction.
+## Course materials
+
+- Day 01
+    - [Slides](#)
+    - [Syllabus : A](#)
+    - [Problem Set : B](#)
+    - [Homework : hw01, Due on 7 Dec. ](https://rawgit.com/rokko-ma17q4/hw-portal)
+- Day 02
+    - [Slides](#)
+    - [Problem Set : C](#)
+    - [Homework : hw02](#)
+    - Exercise : ex01
 
 
-[2017Q2](`r bd_relref("ma17q2.en.html")`)
+## Assignments and exercises
+
+See https://github.com/rokko-ma17q4/hw-portal
+
+Assignments should be submitted through GitHub unless otherwise stated.
+Always start an assignment from the "Get Invitation" link in the above portal site.
+
+## Additional Information
+
+If you plan to use at a computer at the computer lab, you might want to 
+know several techniques to install applications on Mac. See [hw-portal/Wiki](https://github.com/rokko-ma17q2/hw-portal/wiki)
+
+
+Here is a series of notes concerning R, R Markdown and related stuff.
+
+* [Quick Tutorial for R Markdown](https://cdn.rawgit.com/kenjisato/tips/2e4d7a9d/rmarkdown-basic/basic.html)
+
+
+## Old materials
+
+Want a head start? Visit [2017Q2](`r bd_relref("ma17q2.en.html")`)
