@@ -1,6 +1,5 @@
 ---
 title: "Macroeconomics (2017Q4)"
-author: kenjisato
 slug: "ma/2017Q4"
 ---
 
