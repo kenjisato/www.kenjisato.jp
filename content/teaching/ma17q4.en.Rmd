@@ -2,9 +2,6 @@
 title: "Macroeconomics (2017Q4)"
 author: kenjisato
 slug: "ma/2017Q4"
-output:
-  blogdown::html_page:
-    toc: true
 ---
 
 ```{r, include=FALSE}
