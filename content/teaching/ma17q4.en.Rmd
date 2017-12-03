@@ -13,9 +13,9 @@ source("../../.Rprofile")
 ## Course materials
 
 - Day 01
-    - [Slides](#)
-    - [Syllabus : A](#)
-    - [Problem Set : B](#)
+    - [Slides](https://rawgit.com/rokko-ma17q4/material/master/day01/day01.html)
+    - [Syllabus : A](https://cdn.rawgit.com/rokko-ma17q4/material/4de4b3c9/handouts/ma17q4-A.pdf)
+    - [Problem Set : B](https://cdn.rawgit.com/rokko-ma17q4/material/4de4b3c9/handouts/ma17q4-B.pdf)
     - [Homework : hw01, Due on 7 Dec. ](https://rawgit.com/rokko-ma17q4/hw-portal)
 - Day 02
     - [Slides](#)
