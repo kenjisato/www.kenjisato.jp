@@ -18,10 +18,10 @@ source("../../.Rprofile")
     - [Problem Set : B](https://cdn.rawgit.com/rokko-ma17q4/material/4de4b3c9/handouts/ma17q4-B.pdf)
     - [Homework : hw01, Due on 7 Dec. ](https://rawgit.com/rokko-ma17q4/hw-portal)
 - Day 02
-    - [Slides](#)
-    - [Problem Set : C](#)
-    - [Homework : hw02](#)
-    - Exercise : ex01
+    - [Slides](https://rawgit.com/rokko-ma17q4/material/master/day02/day02.html)
+    - [Problem Set : C](https://cdn.rawgit.com/rokko-ma17q4/material/892d2989/handouts/ma17q4-C.pdf)
+    - [Homework : hw02, Due on 11 Dec.](https://rawgit.com/rokko-ma17q4/hw-portal)
+
 
 
 ## Assignments and exercises
@@ -30,6 +30,10 @@ See https://github.com/rokko-ma17q4/hw-portal
 
 Assignments should be submitted through GitHub unless otherwise stated.
 Always start an assignment from the "Get Invitation" link in the above portal site.
+
+### R basics on DataCamp
+
+I decided to use [DataCamp](datacamp.com) instead of me coaching you for programming basics. All the enrolled students should have been invited to the Classroom Account by now. Please approve the request and enjoy the great courses provided by [DataCamp](datacamp.com). 
 
 ## Additional Information
 
