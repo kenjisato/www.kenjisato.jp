@@ -21,7 +21,10 @@ source("../../.Rprofile")
     - [Slides](https://rawgit.com/rokko-ma17q4/material/master/day02/day02.html)
     - [Problem Set : C](https://cdn.rawgit.com/rokko-ma17q4/material/892d2989/handouts/ma17q4-C.pdf)
     - [Homework : hw02, Due on 11 Dec.](https://rawgit.com/rokko-ma17q4/hw-portal)
-
+- Day 03
+    - [Slides]((https://rawgit.com/rokko-ma17q4/material/master/day03/day03.html))
+    - [Problem Set : D](https://cdn.rawgit.com/rokko-ma17q4/material/6b31842f/handouts/ma17q4-D.pdf)
+    - [Homework : hw03, Due on 14 Dec.](https://rawgit.com/rokko-ma17q4/hw-portal)
 
 
 ## Assignments and exercises
