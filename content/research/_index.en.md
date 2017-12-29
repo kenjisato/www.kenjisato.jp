@@ -12,9 +12,9 @@ Innovation Policy
 
 ### Academic Positions
 
-<dt>2015/2/1 &mdash; Present</dt>
+<dt>2016/2/1 &mdash; Present</dt>
 <dd>Associate Professor, Graduate School of Economics, Kobe University</dd>
-<dt>2014/4/1 &mdash; 2015/1/31</dt>
+<dt>2014/4/1 &mdash; 2016/1/31</dt>
 <dd>Postdoctoral Researcher, RIEB, Kobe University</dd>
 <dd>JSPS Research Fellow (PD)</dd>
 <dt>2012/4/1 &mdash; 2014/3/31</dt>
