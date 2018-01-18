@@ -43,7 +43,10 @@ source("../../.Rprofile")
     - [Problem Set : I](https://rawgit.com/rokko-ma17q4/material/master/handouts/ma17q4-I.pdf)
 - Day 09
     - [Slides](https://rawgit.com/rokko-ma17q4/material/master/day09/day09.html)
-    - [Problem Set : I](https://rawgit.com/rokko-ma17q4/material/master/handouts/ma17q4-J.pdf)
+    - [Problem Set : J](https://rawgit.com/rokko-ma17q4/material/master/handouts/ma17q4-J.pdf)
+- Day 10
+    - [Slides](https://rawgit.com/rokko-ma17q4/material/master/day10/day10.html)
+    - [Problem Set : K](https://rawgit.com/rokko-ma17q4/material/master/handouts/ma17q4-K.pdf)
 
 
 ## Assignments and exercises
