@@ -53,6 +53,10 @@ source("../../.Rprofile")
 - Day 12
     - [Slides](https://rawgit.com/rokko-ma17q4/material/master/day12/day12.html)
     - [Problem Set : L](https://rawgit.com/rokko-ma17q4/material/master/handouts/ma17q4-M.pdf)
+- Day 13
+    - [Slides](https://rawgit.com/rokko-ma17q4/material/master/day13/day13.html)
+    - [Problem Set : L](https://rawgit.com/rokko-ma17q4/material/master/handouts/ma17q4-N.pdf)
+
 
 
 ## Assignments and exercises
