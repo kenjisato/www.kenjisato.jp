@@ -1,6 +1,5 @@
 +++
 title= "Teaching"
-hidden= true
 +++
 
 # Teaching

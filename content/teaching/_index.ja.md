@@ -1,6 +1,5 @@
 +++
 title= "Teaching"
-hidden= true
 +++
 
 # Teaching
@@ -25,11 +24,11 @@ hidden= true
 
 ## Macroeconomics (神戸大学大学院, GMAPコース)
 
-- [2018年度 (Q1)]({{< ref "ma18q1.en.html" >}})
-- [2017年度 (Q4)]({{< ref "ma17q4.en.html" >}})
-- [2017年度 (Q2)]({{< ref "ma17q2.en.html" >}})
-- [2016年度 (Q4)]({{< ref "ma16q4.en.md" >}})
-- [2016年度 (Q2)]({{< ref "ma16q2.en.md" >}})
+- [2018年度 (Q1)]({{< relref "ma18q1.en.html" >}})
+- [2017年度 (Q4)]({{< relref "ma17q4.en.html" >}})
+- [2017年度 (Q2)]({{< relref "ma17q2.en.html" >}})
+- [2016年度 (Q4)]({{< relref "ma16q4.en.md" >}})
+- [2016年度 (Q2)]({{< relref "ma16q2.en.md" >}})
 
 ## 経済動学 (神戸大学大学院)
 
