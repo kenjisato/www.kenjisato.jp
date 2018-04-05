@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computer on kenjisato.jp</title>
-    <link>https://www.kenjisato.jp/tags/computer/</link>
+    <link>/tags/computer/</link>
     <description>Recent content in Computer on kenjisato.jp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 23 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.kenjisato.jp/tags/computer/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/computer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[R] El Capitan に xml2 パッケージのインストール</title>
-      <link>https://www.kenjisato.jp/post/2017/04/r-el-capitan-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
+      <link>/post/2017/04/r-el-capitan-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
       <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kenjisato.jp/post/2017/04/r-el-capitan-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
+      <guid>/post/2017/04/r-el-capitan-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
       <description>OSX El Capitan と XCode に問題があって， tidyverse をインストールしようとすると xml2 パッケージをコンパイルできず止まってしまう。一向に解決されない，OS のアップグレードもしたくない。学習さえしないので同じ問題に遭遇した回数はや3回。ようやく記録を取ろうと思う。
 注意：Sierra にアップグレードできる人は，アップグレードした方がいいと思います。
 参考にしたのは
@@ -29,10 +29,10 @@ $ R R version 3.4.0 (2017-04-21) -- &amp;quot;You Stupid Darkness&amp;quot; Copy
     
     <item>
       <title>Keynote ファイルをエクスポートするスクリプト</title>
-      <link>https://www.kenjisato.jp/post/2017/04/export-keynote/</link>
+      <link>/post/2017/04/export-keynote/</link>
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kenjisato.jp/post/2017/04/export-keynote/</guid>
+      <guid>/post/2017/04/export-keynote/</guid>
       <description>データに基いて描く必要のない概念図などは Keynote で描いている。Rmarkdown や LaTeX などで読み込むには，JPEG や PDF にエクスポートして利用する。
 Rmarkdown で使う場合に利用する knitr::include_graphics() は出力がHTMLのときはJPEG画像を読み込んで，LaTeXのときはPDFを使うということをやってくれる。便利だけど手間は2倍。手作業を減らしたいので下のようなスクリプトを書いた。AppleScript も Bashスクリプトも初心者だけど一応動いている動いている。
 使い方は Keynote ファイルを入れているフォルダを引数にしてBashスクリプトの方を実行する。例えば
@@ -44,10 +44,10 @@ bash keynote_export.sh folder -t pdf bash keynote_export.sh folder -t jpeg  な�
     
     <item>
       <title>pythontex を lyx で使うときのメモ</title>
-      <link>https://www.kenjisato.jp/post/2014/10/pythontex-on-lyx/</link>
+      <link>/post/2014/10/pythontex-on-lyx/</link>
       <pubDate>Wed, 01 Oct 2014 13:13:00 +0900</pubDate>
       
-      <guid>https://www.kenjisato.jp/post/2014/10/pythontex-on-lyx/</guid>
+      <guid>/post/2014/10/pythontex-on-lyx/</guid>
       <description>PDFを作る話なのでPDFに書いた. pythontex.pdf
 要点としては, コンパイルに関して  コンパイルはGUIに頼らず, lyx -&amp;gt; xelatex -&amp;gt; pythontex -&amp;gt; xelatex のコマンドを順に実行する 1回目のxelatex コンパイルはエラーを無視する画像挿入に関して  フロート, キャプション, ラベルはGUIを使う  画像本体の挿入はTeXコマンド( \includegraphics{hoge.pdf} )を書くInstant Preview は「No math」にしておくとよい</description>
     </item>
