@@ -5,19 +5,26 @@ hidden= true
 
 # Teaching
 
-**Office**: Faculty Offices (Dainikenkyushitsu) Room #208<br>
+**Office**: B1-319, Nakamozu Campus, Osaka Prefecture University<br>
 **Office Hours**:
 
-- Tuesdays, 11:30 - 13:15
+- Tuesdays, 12:15 - 12:50
+- Wednesdays, 12:15 - 12:50
 - ... and upon request.
 
 **Contact**: mail@kenjisato.jp
+
+
+## Macroeconomics I/II (Osaka Prefecture Univ., Undergraduate)
+
+## Macroeconomics 1A/1B (Osaka Prefecture Univ., Graduate)
 
 
 ## Macroeconomics (Kobe Univ.)
 
 Intermediate to advanced macroeconomics course, designed for GMAP students. Provided in English.
 
+- [2018 Q1]({{< relref "ma18q1.en.html" >}})
 - [2017 Q4]({{< relref "ma17q4.en.html" >}})
 - [2017 Q2]({{< relref "ma17q2.en.html" >}})
 - [2016 Q4]({{< relref "ma16q4.en.md" >}})

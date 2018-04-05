@@ -1,0 +1,78 @@
+---
+title: "Macroeconomics (2018Q1)"
+slug: "ma/2018q1"
+---
+
+# 2018 Q1 Macroeconomics (Kobe Univ.)
+
+## Course materials
+
+(Some materials are linked to old slides and handouts. They will be updated when ready.)
+
+
+- Day 01
+    - [Slides](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/day01/day01.html)
+    - [Syllabus : A](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/handouts/ma17q2-A.pdf)
+    - [Problem Set : B](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/handouts/ma17q2-B.pdf)
+- Day 02
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day02/day02.html)
+    - [Problem Set : C](https://cdn.rawgit.com/rokko-ma17q2/slides/18d08796/handouts/ma17q2-C.pdf)
+- Day 03
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day03/day03.html)
+    - [Problem Set : D](https://cdn.rawgit.com/rokko-ma17q2/slides/57b986a9/handouts/ma17q2-D.pdf)
+- Day 04
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day04/day04.html)
+    - [Problem Set : E](https://cdn.rawgit.com/rokko-ma17q2/slides/5940815d/handouts/ma17q2-E.pdf)
+- Day 05
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day05/day05.html)
+    - [Problem Set : F](https://cdn.rawgit.com/rokko-ma17q2/slides/083f938d/handouts/ma17q2-F.pdf)
+- Day 06
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day06/day06.html)
+    - [Problem Set : G](https://cdn.rawgit.com/rokko-ma17q2/slides/84ff5356/handouts/ma17q2-G.pdf)
+- Day 07
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day07/day07.html)
+    - [Problem Set : H](https://cdn.rawgit.com/rokko-ma17q2/slides/0d62501a/handouts/ma17q2-H.pdf)
+- Day 08
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day08/day08.html)
+    - [Problem Set : I](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-I.pdf)
+- Day 09
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day09/day09.html)
+    - [Problem Set : J](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-J.pdf)
+- Day 10
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day10/day10.html)
+    - [Problem Set : K](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-K.pdf)
+- Day 11
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day11/day11.html)
+    - [Problem Set : L](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-L.pdf)
+- Day 12
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day12/day12.html)
+    - [Problem Set : M](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-M.pdf)
+- Day 13
+    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day13/day13.html)
+    - [Problem Set : N](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-N.pdf)
+    - [Problem Set : O](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-O.pdf)
+
+
+## Assignments 
+
+| ID                                           | Suggested Deadline  | Description | Invitation Link                                           | Solution     |
+|:---------------------------------------------|:--------------------|:------------|:----------------------------------------------------------|:-------------|
+| [hw01](https://github.com/rokko-ma18q1/hw01) | 2018-04-13 18:00:00 | Setup       | [Get Invitation](https://classroom.github.com/a/z4BiTzo1) | Not Provided |
+| [hw02](https://github.com/rokko-ma18q1/hw02) | 2018-04-20 18:00:00 | PWT         | [Get Invitation](https://classroom.github.com/a/RUF6Ghra) | NA           |
+| [hw03](https://github.com/rokko-ma18q1/hw03) | 2018-04-27 18:00:00 | Euler       | [Get Invitation](https://classroom.github.com/a/I1ZvLWcG) | NA           |
+| [hw04](https://github.com/rokko-ma18q1/hw04) | 2018-05-11 18:00:00 | Graph       | [Get Invitation](https://classroom.github.com/a/Kp2NHBEA) | NA           |
+| [hw05](https://github.com/rokko-ma18q1/hw05)   | 2018-05-18 18:00:00 | Final     | [Get Invitation](https://classroom.github.com/a/t7hPULXZ) | NA           |
+
+
+
+All assignments must be submitted through GitHub.
+**Always start an assignment with the "Get Invitation" link in the above portal site**.
+
+If you plan to use at a computer at the computer lab, you might want to 
+know several techniques to install applications on the Mac on campus. See [hw-portal/Wiki](https://github.com/rokko-ma17q4/hw-portal/wiki)
+
+
+Here is a series of notes concerning R, R Markdown and related stuff.
+
+* [Quick Tutorial for R Markdown](https://cdn.rawgit.com/kenjisato/tips/2e4d7a9d/rmarkdown-basic/basic.html)
+
