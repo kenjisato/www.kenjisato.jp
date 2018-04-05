@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on kenjisato.jp</title>
+    <link>https://www.kenjisato.jp/post/</link>
+    <description>Recent content in Posts on kenjisato.jp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 26 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.kenjisato.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>中級マクロ経済学I演習の補講</title>
+      <link>https://www.kenjisato.jp/post/2017/05/macro/</link>
+      <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2017/05/macro/</guid>
+      <description>中級マクロ経済学I演習（2017Q1）の佐藤担当クラス受講のみなさま。
+6月2日は補講を開講いたします。出席に関する取り決めは本日（26日）の講義内で説明した通りです。 よろしくお願いします。</description>
+    </item>
+    
+    <item>
+      <title>オフィスアワーの中止について</title>
+      <link>https://www.kenjisato.jp/post/2017/05/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B9%E3%82%A2%E3%83%AF%E3%83%BC%E3%81%AE%E4%B8%AD%E6%AD%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2017/05/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B9%E3%82%A2%E3%83%AF%E3%83%BC%E3%81%AE%E4%B8%AD%E6%AD%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+      <description>本日2017年5月10日はオフィスアワーをお休みさせていただきます。昨日に引き続きご不便おかけします。</description>
+    </item>
+    
+    <item>
+      <title>[R] El Capitan に xml2 パッケージのインストール</title>
+      <link>https://www.kenjisato.jp/post/2017/04/r-el-capitan-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
+      <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2017/04/r-el-capitan-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
+      <description>OSX El Capitan と XCode に問題があって， tidyverse をインストールしようとすると xml2 パッケージをコンパイルできず止まってしまう。一向に解決されない，OS のアップグレードもしたくない。学習さえしないので同じ問題に遭遇した回数はや3回。ようやく記録を取ろうと思う。
+注意：Sierra にアップグレードできる人は，アップグレードした方がいいと思います。
+参考にしたのは
+ https://github.com/hadley/xml2/issues/127 https://stat.ethz.ch/pipermail/r-sig-mac/2016-September/012046.html  要するに，こういうことだろう。
+$ cp /usr/bin/xml2-config ~/bin $ nano ~/bin/xml2-config  3行目を書き換える
+#prefix=$(xcrun -show-sdk-path)/usr prefix=/usr  一時的に PATH の優先順位を変えてやる。
+$ export PATH=~/bin:$PATH  同じシェルのセッションから R を呼び出す。（RStudio などを使いたければから open -a RStudio などとすればよいかもしれない）
+$ R R version 3.4.0 (2017-04-21) -- &amp;quot;You Stupid Darkness&amp;quot; Copyright (C) 2017 The R Foundation for Statistical Computing ... &amp;gt; install.packages(&amp;quot;xml2&amp;quot;)  CRAN ミラーを選ぶように促されるのでこだわりがなければ 0-Cloud を選ぶ。インストールがはじまる。上手くいったら q() で終了。</description>
+    </item>
+    
+    <item>
+      <title>Keynote ファイルをエクスポートするスクリプト</title>
+      <link>https://www.kenjisato.jp/post/2017/04/export-keynote/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2017/04/export-keynote/</guid>
+      <description>データに基いて描く必要のない概念図などは Keynote で描いている。Rmarkdown や LaTeX などで読み込むには，JPEG や PDF にエクスポートして利用する。
+Rmarkdown で使う場合に利用する knitr::include_graphics() は出力がHTMLのときはJPEG画像を読み込んで，LaTeXのときはPDFを使うということをやってくれる。便利だけど手間は2倍。手作業を減らしたいので下のようなスクリプトを書いた。AppleScript も Bashスクリプトも初心者だけど一応動いている動いている。
+使い方は Keynote ファイルを入れているフォルダを引数にしてBashスクリプトの方を実行する。例えば
+bash keynote_export.sh folder -t pdf bash keynote_export.sh folder -t jpeg  などとする。
+ただし，本当に knitr::include_graphics() に渡すための PDF を作るためにはできたPDFファイル filename.pdf を filename/filename.001.pdf のように分割する必要があるので，もう少し処理が必要。
+普通に LaTeX で \includegraphics を使う場合は pgfpages を使えばよい。
+ </description>
+    </item>
+    
+    <item>
+      <title>Hugo &#43; blogdown</title>
+      <link>https://www.kenjisato.jp/post/2017/03/hugo-blogdown/</link>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2017/03/hugo-blogdown/</guid>
+      <description>昨年からRを真面目に使いはじめて今では毎日のように RStudio を使うようになった。いっそ自分のサイトも rmarkdown で書こうと思ったので，Jekyll をやめて Hugo と blogdown に移行した。3日間の試行錯誤の末1，なんとか似たような感じにすることができたと思う。
+記事（ポストとページ）を Rmarkdown で書くことができるので，次のようなコード（チャンク）によって
+```{r} library(ggplot2) ggplot(iris) + geom_point(aes(Sepal.Length, Sepal.Width, color = Species)) ``` 次のような出力が得られる。
+library(ggplot2) ggplot(iris) + geom_point(aes(Sepal.Length, Sepal.Width, color = Species)) 制限付きではあるものの無論 Python エンジンも使える。
+import sys print(sys.version_info) ## sys.version_info(major=2, minor=7, micro=10, releaselevel=&amp;#39;final&amp;#39;, serial=0) R 以外のエンジンはシェルでコマンドを実行するのでコードチャンク間で変数を共有するなどができない。
+ Hugo のサイトは充実しているように見えて，YAMLの構文とTOMLの構文がごっちゃになってたりして（どちらで書いてもいいから詳しい人にはどうってことはないんだろうけど）素人には大変難解なドキュメントのように思います。↩
+   </description>
+    </item>
+    
+    <item>
+      <title>夏季休暇中のオフィスアワー中止について</title>
+      <link>https://www.kenjisato.jp/post/2016/08/officehours-summer/</link>
+      <pubDate>Tue, 09 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2016/08/officehours-summer/</guid>
+      <description>原則的に8月, 9月のオフィスアワーはありません. 第3クオーター（後期）が開始に合わせて再開します. 面会を希望する方はメールで連絡してください.</description>
+    </item>
+    
+    <item>
+      <title>2016年4月7日の経済動学</title>
+      <link>https://www.kenjisato.jp/post/2016/04/edclass-of-4-7/</link>
+      <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2016/04/edclass-of-4-7/</guid>
+      <description>4月7日の講義を予定通り実施しました. 2016年4月7日10時頃に神戸市に対して暴風警報が発令されたため規則上は休講となるところですが,すでに登校されていた学生と相談した結果, 開講の判断をしました.(演習等の少人数クラスの場合は開講してよいという規則になっているようです)
+経済学研究科教務のウェブ掲示板には休講情報が掲載されていなかったので (経済学部教務のウェブ掲示板には休講の旨が掲載されていました)警報に関する情報が行き届いていなかった可能性もあったのかと思います.
+規定通り休講になると思って教室にいらっしゃらなかった方は正しい判断をされましたので,今後の受講に不利にならないように配慮いたします. 一方で, そのような心配は必要ないとも考えております. といいますのも, 第1回目に行った内容というのはやや初級の（高校数学の範囲内の）数学的な基礎事項の復習ということもあって大部分の受講生にとって既知の内容の確認だったと思うからです. 次回 (4&amp;frasl;11) から参加しても十分フォローできるはずです.
+少しでも不安のある方は, 使用した講義資料を 講義のページ にて公開していますので確認しておいてください. なお, 4月11日締め切りの宿題は4月14日に締め切りを変更します.</description>
+    </item>
+    
+    <item>
+      <title>SFR -&gt; Orange, プリペイドSIMのMNP</title>
+      <link>https://www.kenjisato.jp/post/2015/11/prepaid-sim-in-france/</link>
+      <pubDate>Mon, 02 Nov 2015 15:24:00 +0900</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2015/11/prepaid-sim-in-france/</guid>
+      <description>2015年10月、フランスのプリペイド SIM からプリペイドSIM に MNP（番号そのまま通信会社を変更）を試みた。ほぼ無料でできた（SIM代金 3.90€ は必要）
+ただし、いくつか注意点。
+試みたのが SFR から Orange だけなのでどこまで一般性があるか分からない僕が訪れたOrange の店舗のおじさんは、プリペイドSIMのMNP (La portabilité du numéro) ができることを把握してなかったようなので、店頭では手続きしてもらえないかもしれない Orange のインターネットショップ経由で申し込むことになるが、それにはフランス (or EU圏?) 発行のクレジットカードが必要開通まで10日くらいかかる 短中期滞在者で「電話番号変えたよと伝えるのは面倒だけどこういう手続は面倒じゃないと思う人」はごく少数に違いないので詳しいことは書かないでおきますが、無事できました。なお、長期間滞在でMNPしたい人は http://ugokumono.blogspot.fr/2013/10/mnp-orange-b.html などいくつか日本語の情報も見つかりますので、探してみてください。 クレジットカードは Travelex のキャッシュパスポートでも通ると思います。僕の場合、3度目の買い物で弾かれたので、本来使ってほしくないかチャージ額の下限があるのかもしれない。分かりません。キャッシュパスポートは手数料がものすごく高いので、これ自体をオススメするものではありません。たまたま持ってたので使ってみたということです。 日本で短期滞在用の音声SIM でMNP転入出が可能かどうかは分かりませんが、通常の契約でも
+転出元に対する、契約期間に応じた違約金転出元に対する、MNP転出手数料2,000-3,000円、転出先に対する、契約手数料2,000-3,000円程度（SIM代金?) を払わないといけないケースが典型的なので、オペレータ間の移動はかなり制限されてます。フランスだと500円。 転入出手数料と契約期間の制限をなくしたら、出入りは増えて利用者は増える（減る）みたいな実証研究はあるのかしら</description>
+    </item>
+    
+    <item>
+      <title>pythontex を lyx で使うときのメモ</title>
+      <link>https://www.kenjisato.jp/post/2014/10/pythontex-on-lyx/</link>
+      <pubDate>Wed, 01 Oct 2014 13:13:00 +0900</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/2014/10/pythontex-on-lyx/</guid>
+      <description>PDFを作る話なのでPDFに書いた. pythontex.pdf
+要点としては, コンパイルに関して  コンパイルはGUIに頼らず, lyx -&amp;gt; xelatex -&amp;gt; pythontex -&amp;gt; xelatex のコマンドを順に実行する 1回目のxelatex コンパイルはエラーを無視する画像挿入に関して  フロート, キャプション, ラベルはGUIを使う  画像本体の挿入はTeXコマンド( \includegraphics{hoge.pdf} )を書くInstant Preview は「No math」にしておくとよい</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kenjisato.jp/post/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/post/1/01/</guid>
+      <description>[R] El Capital に xml2 パッケージのインストール       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+  </channel>
+</rss>

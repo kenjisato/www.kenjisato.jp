@@ -1,0 +1,248 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Kenji Sato">
+		<meta name="description" content="a little page">
+		<meta name="generator" content="Hugo 0.38" />
+		<title>Computation of the Optimal Policy for the Optimal Growth (Euler Equation) &middot; kenjisato.jp</title>
+		<link rel="shortcut icon" href="https://www.kenjisato.jp/images/favicon/favicon.ico">
+		<link rel="stylesheet" href="https://www.kenjisato.jp/css/style.css">
+		<link rel="stylesheet" href="https://www.kenjisato.jp/css/highlight.css">
+		
+		<link rel="stylesheet" href="https://www.kenjisato.jp/css/highlight.css">
+		
+		<link rel="stylesheet" href="https://www.kenjisato.jp/css/mystyle.css">
+		
+
+		
+		<link rel="stylesheet" href="https://www.kenjisato.jp/css/monosocialiconsfont.css">
+		
+
+		
+		<link href="https://www.kenjisato.jp/index.xml" rel="alternate" type="application/rss+xml" title="kenjisato.jp" />
+		
+
+		<meta property="og:title" content="Computation of the Optimal Policy for the Optimal Growth (Euler Equation)" />
+<meta property="og:description" content="(Mainly for students attending my class.)
+As supplementary matrials on our way to understanding the optimal growth model, I put an R code and related documents on my github repository: kenjisato/intro-macro:
+ /r/optimal_growth_euler.R /doc/r/optimal_growth_euler.Rmd  Compiled PDF   I do this mainly for a pedagogical reason. As a matter of fact, the above mentioned script isn&rsquo;t practical; it does work if the initial condition is close to the steady state and the initial guesses of optimal consumption are sufficiently accurate but otherwise doesn&rsquo;t (it&rsquo;d take very loong time)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/" />
+
+
+
+<meta property="article:published_time" content="2017-01-15T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-01-15T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+	    
+	    
+<meta itemprop="name" content="Computation of the Optimal Policy for the Optimal Growth (Euler Equation)">
+<meta itemprop="description" content="(Mainly for students attending my class.)
+As supplementary matrials on our way to understanding the optimal growth model, I put an R code and related documents on my github repository: kenjisato/intro-macro:
+ /r/optimal_growth_euler.R /doc/r/optimal_growth_euler.Rmd  Compiled PDF   I do this mainly for a pedagogical reason. As a matter of fact, the above mentioned script isn&rsquo;t practical; it does work if the initial condition is close to the steady state and the initial guesses of optimal consumption are sufficiently accurate but otherwise doesn&rsquo;t (it&rsquo;d take very loong time).">
+
+
+<meta itemprop="datePublished" content="2017-01-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-01-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="184">
+
+
+
+<meta itemprop="keywords" content="teaching," />
+
+	    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Computation of the Optimal Policy for the Optimal Growth (Euler Equation)"/>
+<meta name="twitter:description" content="(Mainly for students attending my class.)
+As supplementary matrials on our way to understanding the optimal growth model, I put an R code and related documents on my github repository: kenjisato/intro-macro:
+ /r/optimal_growth_euler.R /doc/r/optimal_growth_euler.Rmd  Compiled PDF   I do this mainly for a pedagogical reason. As a matter of fact, the above mentioned script isn&rsquo;t practical; it does work if the initial condition is close to the steady state and the initial guesses of optimal consumption are sufficiently accurate but otherwise doesn&rsquo;t (it&rsquo;d take very loong time)."/>
+<meta name="twitter:site" content="@https://www.twitter.com/kenjisatojp"/>
+
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://www.kenjisato.jp/'> <span class="arrow">←</span>Home</a>
+	
+	
+	
+	
+
+</nav>
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Computation of the Optimal Policy for the Optimal Growth (Euler Equation)</h1>
+                    <h2 class="headline">
+                    January 15, 2017
+                    <br>
+                    
+                    
+                        
+                            <a href="https://www.kenjisato.jp/tags/teaching">teaching</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <p>(Mainly for students attending <a href="/teaching/ma/2016Q4">my class</a>.)</p>
+
+<p>As supplementary matrials on our way to understanding the optimal growth
+model, I put an R code and related documents on my github repository:
+<a href="https://github.com/kenjisato/intro-macro">kenjisato/intro-macro</a>:</p>
+
+<ul>
+<li><a href="https://github.com/kenjisato/intro-macro/blob/master/r/optimal_growth_euler.R">/r/optimal_growth_euler.R</a></li>
+<li><a href="https://github.com/kenjisato/intro-macro/blob/master/doc/r/optimal_growth_euler.Rmd">/doc/r/optimal_growth_euler.Rmd</a>
+
+<ul>
+<li><a href="https://github.com/kenjisato/intro-macro/blob/master/doc/r/optimal_growth_euler.pdf">Compiled PDF</a></li>
+</ul></li>
+</ul>
+
+<p>I do this mainly for a pedagogical reason. As a matter of fact, the above
+mentioned script <strong>isn&rsquo;t practical</strong>; it does work if the initial condition is
+close to the steady state and the initial guesses of optimal consumption are
+sufficiently accurate but otherwise doesn&rsquo;t (it&rsquo;d take very loong time).</p>
+
+<p>The only utility of this excercise is to show how it is difficult to compute
+the optimal policy!</p>
+
+<p>Human beings (as main agents in our economic system) might have a different
+decision making strategy such as adaptive learning (when you realize that you
+aren&rsquo;t on the right track you will make some adjustments).
+Incorporating such notion in formal analysis might be an interesting
+direction but is beyond the scope of the course.</p>
+
+<p>We, in fact, have a more practical method to compute the optimal policy, in which
+we exploit the technique of dynamic programming. This will be discussed elsewhere.</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/kenjisatojp">
+                        <img class="avatar" src="https://www.kenjisato.jp/images/me.jpg">
+                        <div>
+                            <span class="dark">Kenji Sato</span>
+                            <span>Loves Economics, Programming and Beer</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.kenjisato.jp%2fen%2fpost%2f2017%2f01%2fcomputation-of-the-optimal-policy-for-the-optimal-growth-euler-equation%2f - Computation%20of%20the%20Optimal%20Policy%20for%20the%20Optimal%20Growth%20%28Euler%20Equation%29 by @kenjisatojp"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            <div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = "https://www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/"; 
+this.page.identifier = "e7144f12d306591977c12fce7b5d66cb"; 
+};
+(function() {
+if (window.location.hostname == "127.0.0.1")
+    return;
+var d = document, s = d.createElement('script');
+s.src = 'https://kenjisatojp.disqus.com/embed.js';
+console.log(s.src)
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        
+        <li>
+            <a href="https://www.kenjisato.jp/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/">Cross Referenceable Equation with Preview in RMarkdown<aside class="dates">Feb 12</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/">Computation of the Optimal Policy for the Optimal Growth (Euler Equation)<aside class="dates">Jan 15</aside></a>
+        </li>
+        
+   
+    
+        
+   
+</ul>
+
+            <footer id="footer">
+    <p class="small">
+    
+        © Copyright 2018 Kenji Sato
+    
+    
+	    <a class="symbol" href="https://www.kenjisato.jp/index.xml">rss</a>
+	    
+    </p>
+</footer>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://www.kenjisato.jp/js/main.js"></script>
+<script src="https://www.kenjisato.jp/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script src="https://www.kenjisato.jp/js/highlight.js"></script>
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-8443903-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+    </body>
+</html>

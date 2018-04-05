@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on kenjisato.jp</title>
+    <link>https://www.kenjisato.jp/en/tags/r/</link>
+    <description>Recent content in R on kenjisato.jp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.kenjisato.jp/en/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cross Referenceable Equation with Preview in RMarkdown</title>
+      <link>https://www.kenjisato.jp/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/</link>
+      <pubDate>Sun, 12 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kenjisato.jp/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/</guid>
+      <description>Cross-referenceable math equation in RMarkdown You can cross-reference equations in Rmarkdown if you set output to bookdown::pdf_document2 and write equations within \begin{align} ~ \end{align} or \begin{equation} ~ \end{equation}
+To make a tag, put (\#eq:label_name) inside a math environment. The equation can be cross-referenced by \＠ref(eq:label_name). See this stackoverflow answer by Yihui Xie and the related section of his bookdown book for more detail.
+\begin{equation*} ~ \end{equation*} also produces an equation without number.</description>
+    </item>
+    
+  </channel>
+</rss>
