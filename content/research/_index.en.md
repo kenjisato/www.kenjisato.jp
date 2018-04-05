@@ -12,7 +12,9 @@ Innovation Policy
 
 ### Academic Positions
 
-<dt>2016/2/1 &mdash; Present</dt>
+<dt>2018/4/1 &mdash; Present</dt>
+<dd>Associate Professor, Graduate School of Economics, Osaka Prefecture University</dd>
+<dt>2016/2/1 &mdash; 2018/3/31</dt>
 <dd>Associate Professor, Graduate School of Economics, Kobe University</dd>
 <dt>2014/4/1 &mdash; 2016/1/31</dt>
 <dd>Postdoctoral Researcher, RIEB, Kobe University</dd>
