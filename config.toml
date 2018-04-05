@@ -2,7 +2,7 @@
 baseurl = "https://www.kenjisato.jp/"
 themesDir = "themes"
 title = "kenjisato.jp"
-theme = "hugo-theme-cactus-plus"
+theme = "hugo-cactus-theme"
 defaultContentLanguage = "ja"
 
 # Enter your tracking code to enable Google Analytics
@@ -74,4 +74,3 @@ languageCode = "ja-jp"
 weight = 10
 languageName = "English"
 languageCode = "en-us"
-
