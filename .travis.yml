@@ -1,5 +1,5 @@
 language: r
-pandoc_version: 1.17
+pandoc_version: 1.19
 cache: 
   packages: yes
   directories:
