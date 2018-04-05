@@ -1,14 +1,28 @@
 ---
 title: "Macroeconomics (2018Q1)"
-slug: "ma/2018q1"
+slug: "ma/2018Q1"
 ---
+
+```{r, include = FALSE}
+slides <- sprintf("https://rawgit.com/rokko-ma18q1/material/master/day%02d/day%02d.html", 1:15, 1:15)
+
+handouts <- sprintf("https://rawgit.com/rokko-ma18q1/material/master/handouts/ma18q1-%s.pdf", toupper(letters))
+
+```
+
 
 # 2018 Q1 Macroeconomics (Kobe Univ.)
 
-## Course materials
+## Course material
 
-(Some materials are linked to old slides and handouts. They will be updated when ready.)
 
+| Date    | Slides                   |  Handouts                        |
+|:--------|:-------------------------|:---------------------------------|
+| April 6 | [Day 01](`r slides[1]`)  | [Syllabus : A](`r handouts[1]`)  |
+|         |                          | [Problem : B](`r handouts[2]`)   |
+
+
+Here's the old slides and handouts.
 
 - Day 01
     - [Slides](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/day01/day01.html)
