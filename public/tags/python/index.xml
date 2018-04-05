@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on kenjisato.jp</title>
+    <link>/tags/python/</link>
+    <description>Recent content in Python on kenjisato.jp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 01 Oct 2014 13:13:00 +0900</lastBuildDate>
+    
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pythontex を lyx で使うときのメモ</title>
+      <link>/post/2014/10/pythontex-on-lyx/</link>
+      <pubDate>Wed, 01 Oct 2014 13:13:00 +0900</pubDate>
+      
+      <guid>/post/2014/10/pythontex-on-lyx/</guid>
+      <description>PDFを作る話なのでPDFに書いた. pythontex.pdf
+要点としては, コンパイルに関して  コンパイルはGUIに頼らず, lyx -&amp;gt; xelatex -&amp;gt; pythontex -&amp;gt; xelatex のコマンドを順に実行する 1回目のxelatex コンパイルはエラーを無視する画像挿入に関して  フロート, キャプション, ラベルはGUIを使う  画像本体の挿入はTeXコマンド( \includegraphics{hoge.pdf} )を書くInstant Preview は「No math」にしておくとよい</description>
+    </item>
+    
+  </channel>
+</rss>

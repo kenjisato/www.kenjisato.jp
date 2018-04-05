@@ -4,7 +4,7 @@
 .Ruserdata
 
 # Local site, Travis CI will create them for us
-/public/*
+#/public/*
 
 # Intermediate files created by blogdown package
 /blogdown/*

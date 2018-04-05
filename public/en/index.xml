@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kenjisato.jp</title>
+    <link>/en/</link>
+    <description>Recent content on kenjisato.jp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cross Referenceable Equation with Preview in RMarkdown</title>
+      <link>/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/</link>
+      <pubDate>Sun, 12 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/</guid>
+      <description>Cross-referenceable math equation in RMarkdown You can cross-reference equations in Rmarkdown if you set output to bookdown::pdf_document2 and write equations within \begin{align} ~ \end{align} or \begin{equation} ~ \end{equation}
+To make a tag, put (\#eq:label_name) inside a math environment. The equation can be cross-referenced by \＠ref(eq:label_name). See this stackoverflow answer by Yihui Xie and the related section of his bookdown book for more detail.
+\begin{equation*} ~ \end{equation*} also produces an equation without number.</description>
+    </item>
+    
+    <item>
+      <title>Computation of the Optimal Policy for the Optimal Growth (Euler Equation)</title>
+      <link>/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</guid>
+      <description>(Mainly for students attending my class.)
+As supplementary matrials on our way to understanding the optimal growth model, I put an R code and related documents on my github repository: kenjisato/intro-macro:
+ /r/optimal_growth_euler.R /doc/r/optimal_growth_euler.Rmd  Compiled PDF   I do this mainly for a pedagogical reason. As a matter of fact, the above mentioned script isn&amp;rsquo;t practical; it does work if the initial condition is close to the steady state and the initial guesses of optimal consumption are sufficiently accurate but otherwise doesn&amp;rsquo;t (it&amp;rsquo;d take very loong time).</description>
+    </item>
+    
+    <item>
+      <title>Economic Dynamics (2017)</title>
+      <link>/en/teaching/ed/2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/teaching/ed/2017/</guid>
+      <description>2017Q1 Economic Dynamics (Kobe Univ.) Lecture Slides Mostly in Japanese.
+  Day Title Memo    Day 01 Course Overview (mostly in Japanese)   Day 02 Slides    Notes on the Ramsey model   Day 03 Slides    RStudio Shortcuts   Day 04 Slides    Quiz   Day 05 Slides   Day 06 Slides   Day 07 Slides   Day 08 Slides    Quiz   Day 09 Slides   Day 10 Slides    Quiz   Day 11 Slides   Day 12 Slides    Example      Lecture Notes http://led.</description>
+    </item>
+    
+    <item>
+      <title>Macroeconomics (2016Q2)</title>
+      <link>/en/teaching/ma/2016q2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/teaching/ma/2016q2/</guid>
+      <description>2016 Q2 Macroeconomics (GMAP, GSE, Kobe University) Syllabus  16MA2A: Syllabus  Lecture Notes, Problem Sets  [16MA2B: Problem Set + Homework]  [16MA2B-Sol: Solution to [16MA2B]]  [16MA2C: Problem Set] [16MA2D: Units of measurement in continuous- and discrete-time models] [16MA2E: Summary of the Solow model] [16MA2F: Homework assignment 2] [16MA2G-Sol: Solution to Quiz] [16MA2H: Exercise (Hamiltonian)] [16MA2I: Discrete-time Ramsey model]  Jupyter Notebooks  Launch Binder  When you can&amp;rsquo;t reach the app, the binder service might be busy.</description>
+    </item>
+    
+    <item>
+      <title>Macroeconomics (2016Q4)</title>
+      <link>/en/teaching/ma/2016q4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/teaching/ma/2016q4/</guid>
+      <description>2016 Q4 Macroeconomics (Kobe Univ.) Syllabus  16MA4A: Syllabus  Lecture Notes, Problem Sets  16MA4B: Problem Set 16MA4a: Simulation of the Solow model  R Notebook  16MA4b: Convergence  R Notebook  16MA4-Mid: Take-home exam  Due on 13 January, 2017   Presentation Files  Day 01 Day 05  Source  Day 06  Source  Day 07 Day 08  Source  Day 09  Source  Day 10 Day 11 Day 12 Day 13 Day 14  Supplementary Materials  Computation of Optimal Growth based on Euler Equation  PDF or HTML  Computation of Optimal Growth based on Dynamic Programming  PDF or HTML   RStudio To run Rmd files above and to compile (knit) them to pdf or other document format, install RStudio &amp;gt; 1.</description>
+    </item>
+    
+    <item>
+      <title>Macroeconomics (2017Q2)</title>
+      <link>/en/teaching/ma/2017q2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/teaching/ma/2017q2/</guid>
+      <description>2017 Q2 Macroeconomics (Kobe Univ.) Course materials  Day 01  Slides Syllabus : A Problem Set : B Homework : hw01  Day 02  Slides Problem Set : C Homework : hw02 Exercise : ex01  Day 03  Slides Problem Set : D Exercise : ex02  Day 04  Slides Problem Set : E Exercise : ex03  Day 05  Slides Problem Set : F Homework : hw03  Day 06  Slides Problem Set : G Midterm : Due on 2017/07/14 18:00  Day 07  Slides Problem Set : H  Day 08  Slides Problem Set : I  Day 09  Slides Problem Set : J  Day 10  Slides Problem Set : K  Day 11  Slides Problem Set : L  Day 12  Slides Problem Set : M  Day 13  Slides Problem Set : N Problem Set : O    Assignments and exercises See https://github.</description>
+    </item>
+    
+    <item>
+      <title>Macroeconomics (2017Q4)</title>
+      <link>/en/teaching/ma/2017q4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/teaching/ma/2017q4/</guid>
+      <description>2017 Q4 Macroeconomics (Kobe Univ.) Course materials  Day 01  Slides Syllabus : A Problem Set : B Homework : hw01, Due on 7 Dec.  Day 02  Slides Problem Set : C Homework : hw02, Due on 11 Dec.  Day 03  Slides Problem Set : D Homework : hw03, Due on 14 Dec.  Day 04  Slides Problem Set : E Homework : hw04, Due on 18 Dec.</description>
+    </item>
+    
+    <item>
+      <title>Macroeconomics (2018Q1)</title>
+      <link>/en/teaching/ma/2018q1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/teaching/ma/2018q1/</guid>
+      <description>2018 Q1 Macroeconomics (Kobe Univ.) Course materials (Some materials are linked to old slides and handouts. They will be updated when ready.)
+ Day 01  Slides Syllabus : A Problem Set : B  Day 02  Slides Problem Set : C  Day 03  Slides Problem Set : D  Day 04  Slides Problem Set : E  Day 05  Slides Problem Set : F  Day 06  Slides Problem Set : G  Day 07  Slides Problem Set : H  Day 08  Slides Problem Set : I  Day 09  Slides Problem Set : J  Day 10  Slides Problem Set : K  Day 11  Slides Problem Set : L  Day 12  Slides Problem Set : M  Day 13  Slides Problem Set : N Problem Set : O    Assignments   ID Suggested Deadline Description Invitation Link Solution    hw01 2018-04-13 18:00:00 Setup Get Invitation Not Provided  hw02 2018-04-20 18:00:00 PWT Get Invitation NA  hw03 2018-04-27 18:00:00 Euler Get Invitation NA  hw04 2018-05-11 18:00:00 Graph Get Invitation NA  hw05 2018-05-18 18:00:00 Final Get Invitation NA    All assignments must be submitted through GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>

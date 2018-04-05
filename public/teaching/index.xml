@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on kenjisato.jp</title>
+    <link>/teaching/</link>
+    <description>Recent content in Teaching on kenjisato.jp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    
+	<atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>公共選択的経済政策 (2016)</title>
+      <link>/teaching/pc/2016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/pc/2016/</guid>
+      <description> 2016年度 公共選択的経済政策 (大阪府大) 講義資料 講義スライドや講義時に配布した資料の一部は授業支援システムにて履修者にのみ公開しています.
+補足資料 作図に使ったソースコード等を配布します.
+ 第10回講義 (2016/12/8) の補足資料 (ドント方式)  R Notebook ファイル  第12回講義 (2016/12/22) の補足資料 (政治的波乗りの確認)  スライドで使った図の作成方法を解説しています データおよびコードをダウンロード して, 自分で手を動かして確認することができます. 実行には R と RStudio をインストール してください.   Word テンプレート Word でレポートを作成する方は以下のテンプレートの使用を検討してください. 書式を微調整する苦労を 最小限に抑えることができると思います.
+ レポートのテンプレート  </description>
+    </item>
+    
+    <item>
+      <title>公共選択的経済政策 (2017)</title>
+      <link>/teaching/pc/2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/pc/2017/</guid>
+      <description> 2017年度 公共選択的経済政策 (大阪府大) 講義資料 講義時に配布
+補足資料 作図に使ったソースコード等を配布します.
+Word テンプレート Word でレポートを作成する方は以下のテンプレートを使用してください. 書式を微調整する苦労を 最小限に抑えることができると思います.
+ レポートのテンプレート  </description>
+    </item>
+    
+    <item>
+      <title>経済動学 (2015)</title>
+      <link>/teaching/ed/2015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/ed/2015/</guid>
+      <description> 2015年度 経済動学 (神戸大学大学院) 講義ノート  問題設定 解析学の復習 ラムゼーモデルの局所動学 横断性条件 ターンパイク定理 動的計画法 最適カオス  補助資料  Python速習 (その1) Python速習 (その2) 2015-05-18 資料 2015-05-25 資料 2015-06-15 資料 2015-06-29 資料 2015-07-06 資料  </description>
+    </item>
+    
+    <item>
+      <title>経済動学 (2016)</title>
+      <link>/teaching/ed/2016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/ed/2016/</guid>
+      <description> 2016年度 経済動学 (神戸大学大学院) 講義ノート  16ED00: 講義概要 16ED01: 基本事項のまとめ 16ED02: 行列論の復習 16ED03: 線形空間 16ED04: 行列の標準形 16ED05: 線形システムの分析 16ED06: Schur分解・QZ分解  QZ法の実装  16ED07: 線形確率システム  確率過程のシミュレーション   補助資料  経済動学のためのPython入門 (順次更新) 16EDH2S: 逆行列の計算 宿題2 添付資料 16EDP2S: 問題2の解答 問題2 解答  </description>
+    </item>
+    
+    <item>
+      <title>経済動学 (2017)</title>
+      <link>/teaching/ed/2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/ed/2017/</guid>
+      <description>2017Q1 経済動学 (神戸大学大学院) 講義スライド   Day Title Memo    Day 01 ガイダンス資料   Day 02 講義資料    ラムゼーモデル   Day 03 講義資料    RStudio Shortcuts   Day 04 講義資料    Quiz   Day 05 講義資料   Day 06 講義資料   Day 07 講義資料   Day 08 講義資料    Quiz   Day 09 講義資料   Day 10 講義資料    Quiz   Day 11 講義資料   Day 12 講義資料    例      講義ノート http://led.</description>
+    </item>
+    
+  </channel>
+</rss>
