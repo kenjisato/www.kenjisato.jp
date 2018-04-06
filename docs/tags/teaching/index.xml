@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on kenjisato.jp</title>
-    <link>https://www.kenjisato.jp/tags/teaching/</link>
+    <link>/tags/teaching/</link>
     <description>Recent content in Teaching on kenjisato.jp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 09 Aug 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.kenjisato.jp/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>夏季休暇中のオフィスアワー中止について</title>
-      <link>https://www.kenjisato.jp/post/2016/08/officehours-summer/</link>
+      <link>/post/2016/08/officehours-summer/</link>
       <pubDate>Tue, 09 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kenjisato.jp/post/2016/08/officehours-summer/</guid>
+      <guid>/post/2016/08/officehours-summer/</guid>
       <description>原則的に8月, 9月のオフィスアワーはありません. 第3クオーター（後期）が開始に合わせて再開します. 面会を希望する方はメールで連絡してください.</description>
     </item>
     
     <item>
       <title>2016年4月7日の経済動学</title>
-      <link>https://www.kenjisato.jp/post/2016/04/edclass-of-4-7/</link>
+      <link>/post/2016/04/edclass-of-4-7/</link>
       <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kenjisato.jp/post/2016/04/edclass-of-4-7/</guid>
+      <guid>/post/2016/04/edclass-of-4-7/</guid>
       <description>4月7日の講義を予定通り実施しました. 2016年4月7日10時頃に神戸市に対して暴風警報が発令されたため規則上は休講となるところですが,すでに登校されていた学生と相談した結果, 開講の判断をしました.(演習等の少人数クラスの場合は開講してよいという規則になっているようです)
 経済学研究科教務のウェブ掲示板には休講情報が掲載されていなかったので (経済学部教務のウェブ掲示板には休講の旨が掲載されていました)警報に関する情報が行き届いていなかった可能性もあったのかと思います.
 規定通り休講になると思って教室にいらっしゃらなかった方は正しい判断をされましたので,今後の受講に不利にならないように配慮いたします. 一方で, そのような心配は必要ないとも考えております. といいますのも, 第1回目に行った内容というのはやや初級の（高校数学の範囲内の）数学的な基礎事項の復習ということもあって大部分の受講生にとって既知の内容の確認だったと思うからです. 次回 (4&amp;frasl;11) から参加しても十分フォローできるはずです.

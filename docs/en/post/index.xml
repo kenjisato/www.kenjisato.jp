@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on kenjisato.jp</title>
-    <link>https://www.kenjisato.jp/en/post/</link>
+    <link>/en/post/</link>
     <description>Recent content in Posts on kenjisato.jp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Feb 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.kenjisato.jp/en/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/en/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cross Referenceable Equation with Preview in RMarkdown</title>
-      <link>https://www.kenjisato.jp/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/</link>
+      <link>/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/</link>
       <pubDate>Sun, 12 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kenjisato.jp/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/</guid>
+      <guid>/en/post/2017/02/cross-referenceable-equation-with-preview-in-rmarkdown/</guid>
       <description>Cross-referenceable math equation in RMarkdown You can cross-reference equations in Rmarkdown if you set output to bookdown::pdf_document2 and write equations within \begin{align} ~ \end{align} or \begin{equation} ~ \end{equation}
 To make a tag, put (\#eq:label_name) inside a math environment. The equation can be cross-referenced by \＠ref(eq:label_name). See this stackoverflow answer by Yihui Xie and the related section of his bookdown book for more detail.
 \begin{equation*} ~ \end{equation*} also produces an equation without number.</description>
@@ -24,10 +24,10 @@ To make a tag, put (\#eq:label_name) inside a math environment. The equation can
     
     <item>
       <title>Computation of the Optimal Policy for the Optimal Growth (Euler Equation)</title>
-      <link>https://www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</link>
+      <link>/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</link>
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kenjisato.jp/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</guid>
+      <guid>/en/post/2017/01/computation-of-the-optimal-policy-for-the-optimal-growth-euler-equation/</guid>
       <description>(Mainly for students attending my class.)
 As supplementary matrials on our way to understanding the optimal growth model, I put an R code and related documents on my github repository: kenjisato/intro-macro:
  /r/optimal_growth_euler.R /doc/r/optimal_growth_euler.Rmd  Compiled PDF   I do this mainly for a pedagogical reason. As a matter of fact, the above mentioned script isn&amp;rsquo;t practical; it does work if the initial condition is close to the steady state and the initial guesses of optimal consumption are sufficiently accurate but otherwise doesn&amp;rsquo;t (it&amp;rsquo;d take very loong time).</description>

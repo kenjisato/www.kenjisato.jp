@@ -3,226 +3,226 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.kenjisato.jp/post/2017/05/macro/</loc>
+    <loc>/post/2017/05/macro/</loc>
     <lastmod>2017-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/post/2017/05/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B9%E3%82%A2%E3%83%AF%E3%83%BC%E3%81%AE%E4%B8%AD%E6%AD%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    <loc>/post/2017/05/%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B9%E3%82%A2%E3%83%AF%E3%83%BC%E3%81%AE%E4%B8%AD%E6%AD%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
     <lastmod>2017-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/post/2017/04/r-el-capitan-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</loc>
+    <loc>/post/2017/04/r-el-capitan-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</loc>
     <lastmod>2017-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/post/2017/04/export-keynote/</loc>
+    <loc>/post/2017/04/export-keynote/</loc>
     <lastmod>2017-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/post/2017/03/hugo-blogdown/</loc>
+    <loc>/post/2017/03/hugo-blogdown/</loc>
     <lastmod>2017-03-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/post/2016/08/officehours-summer/</loc>
+    <loc>/post/2016/08/officehours-summer/</loc>
     <lastmod>2016-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/post/2016/04/edclass-of-4-7/</loc>
+    <loc>/post/2016/04/edclass-of-4-7/</loc>
     <lastmod>2016-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/post/2015/11/prepaid-sim-in-france/</loc>
+    <loc>/post/2015/11/prepaid-sim-in-france/</loc>
     <lastmod>2015-11-02T15:24:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/post/2014/10/pythontex-on-lyx/</loc>
+    <loc>/post/2014/10/pythontex-on-lyx/</loc>
     <lastmod>2014-10-01T13:13:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/post/1/01/</loc>
+    <loc>/post/1/01/</loc>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kenjisato.jp/en/categories/"
+                href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kenjisato.jp/categories/"
+                href="/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/tags/computer/</loc>
+    <loc>/tags/computer/</loc>
     <lastmod>2017-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kenjisato.jp/en/tags/computer/"
+                href="/en/tags/computer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kenjisato.jp/tags/computer/"
+                href="/tags/computer/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/tags/lyx/</loc>
+    <loc>/tags/lyx/</loc>
     <lastmod>2014-10-01T13:13:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2017-05-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kenjisato.jp/en/post/"
+                href="/en/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kenjisato.jp/post/"
+                href="/post/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/tags/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2014-10-01T13:13:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/research/</loc>
+    <loc>/research/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kenjisato.jp/en/research/"
+                href="/en/research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kenjisato.jp/research/"
+                href="/research/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/tags/rmarkdown/</loc>
+    <loc>/tags/rmarkdown/</loc>
     <lastmod>2017-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2017-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kenjisato.jp/en/tags/"
+                href="/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kenjisato.jp/tags/"
+                href="/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/tags/teaching/</loc>
+    <loc>/tags/teaching/</loc>
     <lastmod>2016-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kenjisato.jp/en/tags/teaching/"
+                href="/en/tags/teaching/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kenjisato.jp/tags/teaching/"
+                href="/tags/teaching/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/categories/teaching/</loc>
+    <loc>/categories/teaching/</loc>
     <lastmod>2017-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/teaching/</loc>
+    <loc>/teaching/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kenjisato.jp/en/teaching/"
+                href="/en/teaching/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kenjisato.jp/teaching/"
+                href="/teaching/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/</loc>
+    <loc>/</loc>
     <lastmod>2017-05-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kenjisato.jp/en/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kenjisato.jp/"
+                href="/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/teaching/pc/2016/</loc>
+    <loc>/teaching/pc/2016/</loc>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/teaching/pc/2017/</loc>
+    <loc>/teaching/pc/2017/</loc>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/teaching/ed/2015/</loc>
+    <loc>/teaching/ed/2015/</loc>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/teaching/ed/2016/</loc>
+    <loc>/teaching/ed/2016/</loc>
   </url>
   
   <url>
-    <loc>https://www.kenjisato.jp/teaching/ed/2017/</loc>
+    <loc>/teaching/ed/2017/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kenjisato.jp/en/teaching/ed/2017/"
+                href="/en/teaching/ed/2017/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kenjisato.jp/teaching/ed/2017/"
+                href="/teaching/ed/2017/"
                 />
   </url>
   
