@@ -15,56 +15,28 @@ handouts <- sprintf("https://rawgit.com/rokko-ma18q1/material/master/handouts/ma
 
 ## Course material
 
+| Date      | Slides                        | Handouts                                               |
+|:----------|:------------------------------|:-------------------------------------------------------|
+| April 6   | [Day 01](`r cat(slides[1])`)  | [A](`r cat(handouts[1])`), [B](`r cat(handouts[2])`)   |
+| April 10  |  Day 02                       |                                                        |
+| April 13  |  Day 03                       |                                                        |
+| April 17  |  Day 04                       |                                                        |
+| April 20  |  Day 05                       |                                                        |
+| April 24  |  Day 06                       |                                                        |
+| April 27  |  Day 07                       |                                                        |
+| May 1     |  Day 08 (Midterm Exam)        |                                                        |
+| May 8     |  Day 09                       |                                                        |
+| May 11    |  Day 10                       |                                                        |
+| May 18    |  Day 11                       |                                                        |
+| May 22    |  Day 12                       |                                                        |
+| May 25    |  Day 13                       |                                                        |
+| May 29    |  Day 14                       |                                                        |
+| June 5    |  Day 15 (Final Exam)          |                                                        |
 
-| Date    | Slides                   |  Handouts                        |
-|:--------|:-------------------------|:---------------------------------|
-| April 6 | [Day 01](`r slides[1]`)  | [Syllabus : A](`r handouts[1]`)  |
-|         |                          | [Problem : B](`r handouts[2]`)   |
 
 
-Here's the old slides and handouts.
+The slides and handouts for 2017Q4 are available [here](`r blogdown::shortcode("relref", "teaching/ma17q4.en.html")`).
 
-- Day 01
-    - [Slides](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/day01/day01.html)
-    - [Syllabus : A](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/handouts/ma17q2-A.pdf)
-    - [Problem Set : B](https://cdn.rawgit.com/rokko-ma17q2/slides/9c6d2de2/handouts/ma17q2-B.pdf)
-- Day 02
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day02/day02.html)
-    - [Problem Set : C](https://cdn.rawgit.com/rokko-ma17q2/slides/18d08796/handouts/ma17q2-C.pdf)
-- Day 03
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day03/day03.html)
-    - [Problem Set : D](https://cdn.rawgit.com/rokko-ma17q2/slides/57b986a9/handouts/ma17q2-D.pdf)
-- Day 04
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day04/day04.html)
-    - [Problem Set : E](https://cdn.rawgit.com/rokko-ma17q2/slides/5940815d/handouts/ma17q2-E.pdf)
-- Day 05
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day05/day05.html)
-    - [Problem Set : F](https://cdn.rawgit.com/rokko-ma17q2/slides/083f938d/handouts/ma17q2-F.pdf)
-- Day 06
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day06/day06.html)
-    - [Problem Set : G](https://cdn.rawgit.com/rokko-ma17q2/slides/84ff5356/handouts/ma17q2-G.pdf)
-- Day 07
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day07/day07.html)
-    - [Problem Set : H](https://cdn.rawgit.com/rokko-ma17q2/slides/0d62501a/handouts/ma17q2-H.pdf)
-- Day 08
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day08/day08.html)
-    - [Problem Set : I](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-I.pdf)
-- Day 09
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day09/day09.html)
-    - [Problem Set : J](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-J.pdf)
-- Day 10
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day10/day10.html)
-    - [Problem Set : K](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-K.pdf)
-- Day 11
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day11/day11.html)
-    - [Problem Set : L](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-L.pdf)
-- Day 12
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day12/day12.html)
-    - [Problem Set : M](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-M.pdf)
-- Day 13
-    - [Slides](https://rawgit.com/rokko-ma17q2/slides/master/day13/day13.html)
-    - [Problem Set : N](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-N.pdf)
-    - [Problem Set : O](https://rawgit.com/rokko-ma17q2/slides/master/handouts/ma17q2-O.pdf)
 
 
 ## Assignments 
