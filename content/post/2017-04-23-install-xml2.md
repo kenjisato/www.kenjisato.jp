@@ -2,7 +2,7 @@
 title: "[R] El Capitan に xml2 パッケージのインストール"
 author: ~
 date: '2017-04-23'
-slug: ''
+slug: 'xml2-on-el-capitan'
 categories: []
 tags: ["computer", "Rmarkdown"]
 description: ''

@@ -32,10 +32,10 @@
     
     <item>
       <title>[R] El Capitan に xml2 パッケージのインストール</title>
-      <link>/post/2017/04/r-el-capitan-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
+      <link>/post/2017/04/xml2-on-el-capitan/</link>
       <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017/04/r-el-capitan-%E3%81%AB-xml2-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
+      <guid>/post/2017/04/xml2-on-el-capitan/</guid>
       <description>OSX El Capitan と XCode に問題があって， tidyverse をインストールしようとすると xml2 パッケージをコンパイルできず止まってしまう。一向に解決されない，OS のアップグレードもしたくない。学習さえしないので同じ問題に遭遇した回数はや3回。ようやく記録を取ろうと思う。
 注意：Sierra にアップグレードできる人は，アップグレードした方がいいと思います。
 参考にしたのは
