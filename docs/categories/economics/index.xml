@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Economics on kenjisato.jp</title>
+    <link>/categories/economics/</link>
+    <description>Recent content in Economics on kenjisato.jp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 23 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/economics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>「家計調査」を用いて平均消費性向逓減を確認する</title>
+      <link>/post/2018/04/apc-cross-section/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/04/apc-cross-section/</guid>
+      <description>学部のマクロ経済学では，国家会計の基本恒等式 \( Y = C + I + G + NX \) の右辺の各項目について順番に見ていきます。各項目の決定要因や，他の変数との関係を記述しながら，所得 \( Y\) の決まり方を考えていきます。とりわけ，消費は GDP に占める割合が大きく重要な項目で，マクロ経済学の学習の初期段階で学びます。
+消費に関する（ケインズによるものとされている）想定は，現在の消費は現在の可処分所得 \(Y - T\) のみに依存して決まり（\(T\) は税），限界消費性向は1未満，平均消費性向は可処分所得が大きくなるにつれて低下するというものでした。この関係はクロスセクションデータ（＝同一期間・複数集団の行動を観測したデータ）を使って確認することができます。
+この投稿を参考に，各自で図を作りながらマクロ経済の手触りを感じてみましょう。それでは，Google から出発しましょう。（データを掲載しているページにリンクを貼ればもっと簡単じゃないか，という批判の声もあるかもしれませんが，データを探す技術も練習して身につけるものなのです）
+1. 検索サイトで「家計調査」と検索 Google を使うとこのような結果になります。つづいて調査結果のページに移動しましょう。
+2. 過去の調査結果から「家計調査年報」を探す 3. 調べたい年の年報を調べる 4. 過去の調査結果から「詳細結果表へ＞二人以上の世帯」を探す 5. 「年間収入階級別（全国・都市階級）＞勤労者世帯」を探す 「Excel」ボタンをクリックしてExcelファイルをダウンロードする。
+6. ダウンロードしたファイルを開く 「平均消費性向（％）」を探しましょう。
+7. 必要なデータを選択してグラフ用のボタンをクリックする 「平均消費性向（％）」の行に並んでいる数字を選択し，折れ線グラフを作成しましょう。
+8. 図を確認して最終調整 グラフが右下がりの傾向を持っていることを確認します。これで，クロスセクションデータに対してはケインズの想定が概ね正しいだろうと予想できます。
+レポート・論文やプレゼンテーションに利用する場合は，タイトルや横軸，スタイルを調整してから，画像ファイルとして保存すれば完了です。</description>
+    </item>
+    
+  </channel>
+</rss>
