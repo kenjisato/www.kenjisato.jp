@@ -1,0 +1,41 @@
+---
+title: "Macroeconomics 1A/1B (2018)"
+slug: "mag/2018"
+---
+
+```{r, include = FALSE}
+slides <- sprintf("https://rawgit.com/macopu/mag-material/master/day%02d/day%02d.html", 1:15, 1:15)
+
+handouts <- sprintf("https://rawgit.com/macopu/mag-material/master/handouts/%02d.pdf", 1:15)
+notes_dir <- "https://rawgit.com/macopu/mag-material/master/notes"
+```
+
+
+# 2018 Macroeconomics 1A
+
+## Course material
+
+| Slides                        | Handouts                                               |
+|:------------------------------|:-------------------------------------------------------|
+| [Day 01](`r slides[1]`)       | [#1](`r handouts[1]`)                                  |
+| [Day 02](`r slides[2]`)       | [#2](`r handouts[2]`)                                  |
+| Day 03       |                                                        |
+| Day 04     |                                                        |
+| Day 05      |                                                        |
+| Day 06      |                                                        |
+|  Day 07                       |                                                        |
+|  Day 08 (Midterm Exam?)       |                                                        |
+|  Day 09                       |                                                        |
+|  Day 10                       |                                                        |
+|  Day 11                       |                                                        |
+|  Day 12                       |                                                        |
+|  Day 13                       |                                                        |
+|  Day 14                       |                                                        |
+|  Day 15 (Final Exam?)         |                                                        |
+
+
+## Homework assignments (optional)
+
+1. Read this [note on simulating differential equations](`r notes_dir`/de.html) and 
+   solve the 練習問題 (exercises). Submit the solution as a Rmd document. 
+

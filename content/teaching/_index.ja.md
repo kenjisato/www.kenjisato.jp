@@ -19,7 +19,7 @@ title= "Teaching"
 
 ## マクロ経済学特論 1A・1B
 
-準備中
+- [2018年度]({{<relref "teaching/mag18.ja.html" >}})
 
 
 ## Macroeconomics (神戸大学大学院, GMAPコース)
