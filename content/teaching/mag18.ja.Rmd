@@ -19,7 +19,7 @@ notes_dir <- "https://rawgit.com/macopu/mag-material/master/notes"
 |:------------------------------|:-------------------------------------------------------|
 | [Day 01](`r slides[1]`)       | [#1](`r handouts[1]`)                                  |
 | [Day 02](`r slides[2]`)       | [#2](`r handouts[2]`)                                  |
-| Day 03       |                                                        |
+| [Day 03](`r slides[3]`)       | [#3](`r handouts[3]`)                                  |
 | Day 04     |                                                        |
 | Day 05      |                                                        |
 | Day 06      |                                                        |
