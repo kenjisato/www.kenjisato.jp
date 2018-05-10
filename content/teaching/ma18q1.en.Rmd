@@ -26,7 +26,7 @@ handouts <- sprintf("https://rawgit.com/rokko-ma18q1/material/master/handouts/ma
 | April 27  |  Day 07                       | [I](`r handouts[9]`)                                   |
 | May 1     |  Day 08 (Midterm Exam)        |                                                        |
 | May 8     | [Day 09](`r slides[9]`)       | [J](`r handouts[10]`)                                  |
-| May 11    |  Day 10                       |                                                        |
+| May 11    | [Day 10](`r slides[10]`)      | [K](`r handouts[11]`)                                  |
 | May 18    |  Day 11                       |                                                        |
 | May 22    |  Day 12                       |                                                        |
 | May 25    |  Day 13                       |                                                        |
