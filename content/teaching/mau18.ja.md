@@ -15,7 +15,8 @@ slug = "mau/2018"
 
 - Week 3
   - [「家計調査」を用いて平均消費性向逓減を確認する]({{< ref "/post/2018-04-23-apc-crosssection.md" >}})
-
+- Week 6
+  - [講義スライド](https://kjst.updog.co/mau18/1-06/day06.html)
 
 ## マクロ経済学 II (後期)
 
