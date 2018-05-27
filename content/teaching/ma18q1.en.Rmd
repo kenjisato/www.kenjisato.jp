@@ -30,7 +30,7 @@ handouts <- sprintf("https://rawgit.com/rokko-ma18q1/material/master/handouts/ma
 | May 18    | [Day 11](`r slides[11]`)      | [L](`r handouts[12]`)                                  |
 | May 22    |  Day 12                       | [M](`r handouts[13]`)                                  |
 | May 25    | [Day 13](`r slides[13]`)      | [N](`r handouts[14]`)                                  |
-| May 29    |  Day 14                       |                                                        |
+| May 29    | [Day 14](`r slides[14]`)      | [O](`r handouts[15]`)                                  |
 | June 5    |  Day 15 (Final Exam)          |                                                        |
 
 
