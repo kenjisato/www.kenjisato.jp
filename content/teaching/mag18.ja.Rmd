@@ -25,7 +25,7 @@ notes_dir <- "https://rawgit.com/macopu/mag-material/master/notes"
 | [Day 06](`r slides[6]`)       | [#6](`r handouts[6]`)                                  |
 |  Day 07                       |                                                        |
 |  Day 08 (Midterm Exam?)       |                                                        |
-|  Day 09                       |                                                        |
+|  Day 09                       | [#7](`r handouts[7]`)                                  |
 |  Day 10                       |                                                        |
 |  Day 11                       |                                                        |
 |  Day 12                       |                                                        |
@@ -38,4 +38,8 @@ notes_dir <- "https://rawgit.com/macopu/mag-material/master/notes"
 
 1. Read this [note on simulating differential equations](`r notes_dir`/de.html) and 
    solve the 練習問題 (exercises). Submit the solution as a Rmd document. 
-
+2. Read this [note on simulating Solow model](`r notes_dir`/solow_model.html) and 
+   solve the 練習問題 (exercises). Submit the solution as a Rmd document.
+   
+   
+   
