@@ -6,6 +6,7 @@ slug: criteria-for-reports
 categories: ["OPU", "Undergraduate", "Economics"]
 tags: []
 description: '課題レポートの評価'
+draft: true
 ---
 
 ## はじめに
