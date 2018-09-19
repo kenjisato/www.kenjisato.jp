@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.kenjisato.jp/"
+baseurl = "/"
 themesDir = "themes"
 publishDir = "public"
 title = "kenjisato.jp"
