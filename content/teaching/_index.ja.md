@@ -15,26 +15,26 @@ title= "Teaching"
 
 ## マクロ経済学 I・II（大阪府立大学，現代システム科学域マネジメント学類）
 
-- [2018年度]({{<relref "teaching/mau18.ja.md" >}})
+- [2018年度]({{< relref "mau18.ja.md" >}})
 
 ## マクロ経済学特論 1A・1B
 
-- [2018年度]({{<relref "teaching/mag18.ja.html" >}})
+- [2018年度]({{< relref "mag18.ja.html" >}})
 
 
 ## Macroeconomics (神戸大学大学院, GMAPコース)
 
-- [2018年度 (Q1)]({{< relref "teaching/ma18q1.en.html" >}})
-- [2017年度 (Q4)]({{< relref "teaching/ma17q4.en.html" >}})
-- [2017年度 (Q2)]({{< relref "teaching/ma17q2.en.html" >}})
-- [2016年度 (Q4)]({{< relref "teaching/ma16q4.en.md" >}})
-- [2016年度 (Q2)]({{< relref "teaching/ma16q2.en.md" >}})
+- [2018年度 (Q1)]({{< relref path = "ma18q1.en.html" lang = "en" >}})
+- [2017年度 (Q4)]({{< relref path = "ma17q4.en.html" lang = "en" >}})
+- [2017年度 (Q2)]({{< relref path = "ma17q2.en.html" lang = "en" >}})
+- [2016年度 (Q4)]({{< relref path = "ma16q4.en.md" lang = "en" >}})
+- [2016年度 (Q2)]({{< relref path = "ma16q2.en.md" lang = "en">}})
 
 ## 経済動学 (神戸大学大学院)
 
-- [2017年度（Q1）]({{< relref "teaching/ed17.ja.html" >}})
-- [2016年度 (Q1)]({{< relref "teaching/ed16.ja.md" >}})
-- [2015年度 (前期)]({{< relref "teaching/ed15.ja.md" >}})
+- [2017年度（Q1）]({{< relref "ed17.ja.html" >}})
+- [2016年度 (Q1)]({{< relref "ed16.ja.md" >}})
+- [2015年度 (前期)]({{< relref "ed15.ja.md" >}})
 
 
 ## 公共選択的経済政策 (大阪府立大学)
@@ -49,8 +49,8 @@ title= "Teaching"
 - 2018年度　外書ゼミナール（大阪府立大学）
   - [David Romer (2013). Short-run Fluctuations](https://eml.berkeley.edu/~dromer/papers/ISMP%20Text%20Graphs%202013.pdf) を読む予定です
 - 2017年度 中級マクロ経済学I演習（神戸大学）
-  - [6月2日の補講について]({{< ref "post/2017-05-26-macro.md" >}})
+  - [6月2日の補講について]({{< relref "post/2017-05-26-macro.md" >}})
 - 2016年度 中級マクロ経済学I演習 (神戸大学)
 - 2016年度 中級マクロ経済学II演習 (神戸大学)
 - 2014年度 外書ゼミナール（大阪府立大学)
-  - [Heller (2008) _The gridlock economy_](http://www.amazon.co.jp/Gridlock-Economy-Ownership-Markets-Innovation/dp/0465029167/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=) を輪読しました
+  - [Heller (2008) _The gridlock economy_](http://www.amazon.co.jp/Gridlock-Economy-Ownership-Markets-Innovation/dp/0465029167/relref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=) を輪読しました
