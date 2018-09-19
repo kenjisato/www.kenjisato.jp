@@ -3,13 +3,13 @@
 .RData
 .Ruserdata
 
-# Local site, Travis CI will create them for us
+# Local site, Netlify will create them for us
 /public/*
+/docs
 
 # Intermediate files created by blogdown package
 /blogdown/*
 /static/post
-/content/**/*.html
 
 # Jupyter Notebook
 .ipynb_checkpoints

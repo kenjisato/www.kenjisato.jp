@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://www.kenjisato.jp/"
 themesDir = "themes"
-publishDir = "docs"
+publishDir = "public"
 title = "kenjisato.jp"
 theme = "hugo-cactus-theme"
 defaultContentLanguage = "ja"
