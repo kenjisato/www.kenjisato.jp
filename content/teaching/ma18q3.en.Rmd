@@ -38,7 +38,7 @@ inv <- c(
 
 slides <- sprintf("https://rawgit.com/rokko-ma18q3/material/master/day%02d/day%02d.html", 1:15, 1:15)
 
-handouts <- sprintf("https://rawgit.com/rokko-ma18q3/material/master/handouts/ma18q1-%s.pdf", toupper(letters))
+handouts <- sprintf("https://rawgit.com/rokko-ma18q3/material/master/handouts/ma18q3-%s.pdf", toupper(letters))
 
 ```
 
