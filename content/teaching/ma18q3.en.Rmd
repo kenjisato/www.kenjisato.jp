@@ -86,6 +86,8 @@ The slides and handouts for 2017Q4 are available [here](`r blogdown::shortcode("
 All assignments must be submitted through GitHub.
 **Always start an assignment with the "Get Invitation" link in the above portal site**.
 
+Didn't you forget to open a Pull Request? See this [list of PRs](https://github.com/issues?utf8=✓&q=is%3Apr+user%3Arokko-ma18q3).
+
 If you plan to use at a computer at the computer lab, you might want to 
 know several techniques to install applications on the Mac on campus. See [hw-portal/Wiki](https://github.com/rokko-ma17q4/hw-portal/wiki)
 
