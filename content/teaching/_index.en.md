@@ -23,6 +23,7 @@ title= "Teaching"
 
 Intermediate to advanced macroeconomics course, designed for GMAP students. Provided in English.
 
+- [2018 Q3]({{< relref "ma18q3.en.html" >}})
 - [2018 Q1]({{< relref "ma18q1.en.html" >}})
 - [2017 Q4]({{< relref "ma17q4.en.html" >}})
 - [2017 Q2]({{< relref "ma17q2.en.html" >}})
