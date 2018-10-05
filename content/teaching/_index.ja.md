@@ -47,8 +47,9 @@ title= "Teaching"
 
 ## その他
 
+- [2018年度　基礎ゼミナールI（大阪府立大学）]({{< relref "kiso18.ja.md" >}})
 - 2018年度　外書ゼミナール（大阪府立大学）
-  - [David Romer (2013). Short-run Fluctuations](https://eml.berkeley.edu/~dromer/papers/ISMP%20Text%20Graphs%202013.pdf) を読む予定です
+  - [David Romer (1999; 2018). Short-run Fluctuations](https://eml.berkeley.edu/~dromer/papers/Romer%20Short-Run%20Fluctuations%20January2018.pdf) を読んでいます
 - 2017年度 中級マクロ経済学I演習（神戸大学）
   - [6月2日の補講について]({{< relref "post/2017-05-26-macro.md" >}})
 - 2016年度 中級マクロ経済学I演習 (神戸大学)
