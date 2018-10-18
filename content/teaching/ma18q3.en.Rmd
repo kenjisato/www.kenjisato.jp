@@ -36,9 +36,8 @@ inv <- c(
   "https://classroom.github.com/a/ozu4GHOH"  # 05
 )
 
-slides <- sprintf("https://rawgit.com/rokko-ma18q3/material/master/day%02d/day%02d.html", 1:15, 1:15)
-
-handouts <- sprintf("https://rawgit.com/rokko-ma18q3/material/master/handouts/ma18q3-%s.pdf", toupper(letters))
+slides <- sprintf("https://rokko-ma18q3.github.io/material/day%02d/day%02d.html", 1:15, 1:15)
+handouts <- sprintf("https://rokko-ma18q3.github.io/material/handouts/ma18q3-%s.pdf", toupper(letters))
 
 ```
 
@@ -53,16 +52,16 @@ handouts <- sprintf("https://rawgit.com/rokko-ma18q3/material/master/handouts/ma
 | `r days[2]`  | [Day 02](`r slides[2]`)       | [C](`r handouts[3]`)                                   |
 | `r days[3]`  | [Day 03](`r slides[3]`)       | [D](`r handouts[4]`)                                   |
 | `r days[4]`  | [Day 04](`r slides[4]`)       | [E](`r handouts[5]`)                                   |
-| `r days[5]`  | [Day 05](`r slides[5]`)       | [F](`r handouts[6]`)                                   |
-| `r days[6]`  | [Day 06](`r slides[6]`)       | [G](`r handouts[7]`), [H](`r handouts[8]`)             |
-| `r days[7]`  |  Day 07                       | [I](`r handouts[9]`)                                   |
+| `r days[5]`  | [Day 05](`r slides[5]`)       |                                                        |
+| `r days[6]`  | Day 06                        | [F](`r handouts[6]`)            |
+| `r days[7]`  |  Day 07                       |                                  |
 | `r days[8]`  |  Day 08 (Midterm Exam)        |                                                        |
-| `r days[9]`  | [Day 09](`r slides[9]`)       | [J](`r handouts[10]`)                                  |
-| `r days[10]` | [Day 10](`r slides[10]`)      | [K](`r handouts[11]`)                                  |
-| `r days[11]` | [Day 11](`r slides[11]`)      | [L](`r handouts[12]`)                                  |
-| `r days[12]` |  Day 12                       | [M](`r handouts[13]`)                                  |
-| `r days[13]` | [Day 13](`r slides[13]`)      | [N](`r handouts[14]`)                                  |
-| `r days[14]` | [Day 14](`r slides[14]`)      | [O](`r handouts[15]`)                                  |
+| `r days[9]`  | [Day 09](`r slides[9]`)       |                                |
+| `r days[10]` | [Day 10](`r slides[10]`)      |                                 |
+| `r days[11]` | [Day 11](`r slides[11]`)      |                                  |
+| `r days[12]` |  Day 12                       |                                   |
+| `r days[13]` | [Day 13](`r slides[13]`)      |                                   |
+| `r days[14]` | [Day 14](`r slides[14]`)      |                                   |
 | `r days[15]` |  Day 15 (Final Exam)          |                                                        |
 
 
