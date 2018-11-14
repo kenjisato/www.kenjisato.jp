@@ -56,12 +56,12 @@ handouts <- sprintf("https://rokko-ma18q3.github.io/material/handouts/ma18q3-%s.
 | `r days[6]`  | Day 06                        | [F](`r handouts[6]`)                                   |
 | `r days[7]`  | [Day 07](`r slides[7]`)       |                                                        |
 | `r days[8]`  |  Day 08 (Midterm Exam)        |                                                        |
-| `r days[9]`  | [Day 09](`r slides[9]`)       |                                |
-| `r days[10]` | [Day 10](`r slides[10]`)      | [G](`r handouts[7]`)                                 |
-| `r days[11]` | [Day 11](`r slides[11]`)      |                                  |
-| `r days[12]` |  Day 12                       |                                   |
-| `r days[13]` | [Day 13](`r slides[13]`)      |                                   |
-| `r days[14]` | [Day 14](`r slides[14]`)      |                                   |
+| `r days[9]`  | [Day 09](`r slides[9]`)       |                                                        |
+| `r days[10]` | [Day 10](`r slides[10]`)      | [G](`r handouts[7]`)                                   |
+| `r days[11]` | [Day 11](`r slides[11]`)      | [H](`r handouts[8]`)                                   |
+| `r days[12]` |  Day 12                       | [I](`r handouts[9]`)                                   |
+| `r days[13]` | [Day 13](`r slides[13]`)      |                                                        |
+| `r days[14]` | [Day 14](`r slides[14]`)      | [J](`r handouts[10]`)                                  |
 | `r days[15]` |  Day 15 (Final Exam)          |                                                        |
 
 
