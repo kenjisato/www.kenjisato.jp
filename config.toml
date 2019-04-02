@@ -36,6 +36,7 @@ post = "/post/:year/:month/:slug/"
 	# Navigation links
 	home = ""
 	about = "Research"
+	privacyLink = "privacy"
 	# subscribe = ""
 	# Pagination links
 	olderPosts = ""
