@@ -24,34 +24,34 @@ title= "Teaching"
 
 ## Macroeconomics (神戸大学大学院, GMAPコース)
 
-- [2018年度 (Q3)]({{< relref path = "ma18q3.en.html" lang = "en" >}})
-- [2018年度 (Q1)]({{< relref path = "ma18q1.en.html" lang = "en" >}})
-- [2017年度 (Q4)]({{< relref path = "ma17q4.en.html" lang = "en" >}})
-- [2017年度 (Q2)]({{< relref path = "ma17q2.en.html" lang = "en" >}})
-- [2016年度 (Q4)]({{< relref path = "ma16q4.en.md" lang = "en" >}})
-- [2016年度 (Q2)]({{< relref path = "ma16q2.en.md" lang = "en">}})
+- [2018年度 (Q3)]({{< ref path = "/teaching/ma18q3.en.html" lang = "en" >}})
+- [2018年度 (Q1)]({{< ref path = "/teaching/ma18q1.en.html" lang = "en" >}})
+- [2017年度 (Q4)]({{< ref path = "/teaching/ma17q4.en.html" lang = "en" >}})
+- [2017年度 (Q2)]({{< ref path = "/teaching/ma17q2.en.html" lang = "en" >}})
+- [2016年度 (Q4)]({{< ref path = "/teaching/ma16q4.en.md" lang = "en" >}})
+- [2016年度 (Q2)]({{< ref path = "/teaching/ma16q2.en.md" lang = "en">}})
 
 ## 経済動学 (神戸大学大学院)
 
-- [2017年度（Q1）]({{< relref "ed17.ja.html" >}})
-- [2016年度 (Q1)]({{< relref "ed16.ja.md" >}})
-- [2015年度 (前期)]({{< relref "ed15.ja.md" >}})
+- [2017年度（Q1）]({{< ref "/teaching/ed17.ja.html" >}})
+- [2016年度 (Q1)]({{< ref "/teaching/ed16.ja.md" >}})
+- [2015年度 (前期)]({{< ref "/teaching/ed15.ja.md" >}})
 
 
 ## 公共選択的経済政策 (大阪府立大学)
 
-- [2017年度 (後期)]({{< relref "pc17.ja.md" >}})
-- [2016年度 (後期)]({{< relref "pc16.ja.md" >}})
+- [2017年度 (後期)]({{< ref "/teaching/pc17.ja.md" >}})
+- [2016年度 (後期)]({{< ref "/teaching/pc16.ja.md" >}})
 - 2015年度 (前期)
 - 2014年度 (後期)
 
 ## その他
 
-- [2018年度　基礎ゼミナールI（大阪府立大学）]({{< relref "kiso18.ja.md" >}})
+- [2018年度　基礎ゼミナールI（大阪府立大学）]({{< ref "/teaching/kiso18.ja.md" >}})
 - 2018年度　外書ゼミナール（大阪府立大学）
   - [David Romer (1999; 2018). Short-run Fluctuations](https://eml.berkeley.edu/~dromer/papers/Romer%20Short-Run%20Fluctuations%20January2018.pdf) を読んでいます
 - 2017年度 中級マクロ経済学I演習（神戸大学）
-  - [6月2日の補講について]({{< relref "post/2017-05-26-macro.md" >}})
+  - [6月2日の補講について]({{< ref "/post/2017-05-26-macro.md" >}})
 - 2016年度 中級マクロ経済学I演習 (神戸大学)
 - 2016年度 中級マクロ経済学II演習 (神戸大学)
 - 2014年度 外書ゼミナール（大阪府立大学)

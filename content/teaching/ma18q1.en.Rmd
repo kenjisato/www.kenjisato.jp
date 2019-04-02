@@ -35,7 +35,7 @@ handouts <- sprintf("https://rawgit.com/rokko-ma18q1/material/master/handouts/ma
 
 
 
-The slides and handouts for 2017Q4 are available [here](`r blogdown::shortcode("relref", "teaching/ma17q4.en.html")`).
+The slides and handouts for 2017Q4 are available [here](`r blogdown::shortcode("ref", "/teaching/ma17q4.en.html")`).
 
 
 
