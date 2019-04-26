@@ -15,7 +15,7 @@ description: ''
 
 コードはきれいではないけどとりあえず。
 
-```{r}
+```{r, normal}
 set.seed(100)
 xaxpos <- - 0.001
 xaxmin <- -4.5
