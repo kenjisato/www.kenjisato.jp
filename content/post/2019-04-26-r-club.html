@@ -1,0 +1,83 @@
+---
+title: "*norm()"
+author: Kenji
+date: '2019-04-26'
+slug: r-club
+categories: ["RClub"]
+tags: ["R"]
+description: ''
+---
+
+
+
+<p>所属先でRの勉強会（<a href="https://opur.club">RClub</a>）をするので，準備中。
+役に立つか分からないけど *norm() 関数のイメージ図を作った。少し覚えやすくなるのではないか。</p>
+<div id="rnorm-dnorm-pnorm-qnorm-" class="section level2">
+<h2>rnorm(), dnorm(), pnorm(), qnorm() の関係</h2>
+<p>コードはきれいではないけどとりあえず。</p>
+<pre class="r"><code>set.seed(100)
+xaxpos &lt;- - 0.001
+xaxmin &lt;- -4.5
+xaxmax &lt;- 4.5
+
+X = 1.2
+x &lt;- seq(-4, 4, by = 0.05)
+
+# rnorm
+
+plot(NULL, axes = FALSE, xlab = &quot;&quot;, ylab = &quot;&quot;, xlim = range(x), ylim = c(-0.02, dnorm(0)), lwd = 2)
+curve(dnorm, from = min(x), to = max(x), lwd = 2, add = TRUE)
+arrows(xaxmin, xaxpos, xaxmax, xaxpos, xpd = TRUE, lwd = 2, length = 0.1)
+rs = rnorm(50)
+for (r in rs) {
+  segments(r, xaxpos - 0.01, r, xaxpos + 0.01)
+}
+text(0, 0.1, &quot;rnorm(n)&quot;, pos = 1, cex = 1.4)</code></pre>
+<p><img src="/post/2019-04-26-r-club_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<pre class="r"><code># dnorm
+
+plot(NULL, axes = FALSE, xlab = &quot;&quot;, ylab = &quot;&quot;, xlim = range(x), ylim = c(-0.02, dnorm(0)), lwd = 2)
+curve(dnorm, from = min(x), to = max(x), lwd = 2, add = TRUE)
+arrows(xaxmin, xaxpos, xaxmax, xaxpos, xpd = TRUE, lwd = 2, length = 0.1)
+segments(X, 0, X, dnorm(X))
+segments(X - 0.1, dnorm(X), X + 0.3, dnorm(X))
+text(X, -0.02, &quot;x&quot;, cex = 1.4)
+text(X + 0.3, dnorm(X), &quot;dnorm(x)&quot;, pos = 4, cex = 1.4)</code></pre>
+<p><img src="/post/2019-04-26-r-club_files/figure-html/unnamed-chunk-1-2.png" width="672" /></p>
+<pre class="r"><code># pnorm
+
+plot(NULL, axes = FALSE, xlab = &quot;&quot;, ylab = &quot;&quot;, xlim = c(-4, 4), ylim = c(-0.02, dnorm(0)), lwd = 2)
+polygon(c(x[x &lt; X], X), c(dnorm(x[x &lt; X]), 0), col = rgb(1, 0, 0, 0.2), lty = 0)
+curve(dnorm, from = - 4, to = 4, lwd = 2, add = TRUE)
+arrows(xaxmin, xaxpos, xaxmax, xaxpos, xpd = TRUE, lwd = 2, length = 0.1)
+text(X, -0.02, &quot;q&quot;, cex = 1.4)
+text(0, 0.8 * dnorm(X), &quot;pnorm(q)&quot;, pos = 3, cex = 1.4)</code></pre>
+<p><img src="/post/2019-04-26-r-club_files/figure-html/unnamed-chunk-1-3.png" width="672" /></p>
+<pre class="r"><code># qnorm 
+
+plot(NULL, axes = FALSE, xlab = &quot;&quot;, ylab = &quot;&quot;, xlim = c(-4, 4), ylim = c(-0.02, dnorm(0)), lwd = 2)
+polygon(c(x[x &lt; X], X), c(dnorm(x[x &lt; X]), 0), col = rgb(1, 0, 0, 0.2), lty = 0)
+curve(dnorm, from = - 4, to = 4, lwd = 2, add = TRUE)
+arrows(xaxmin, xaxpos, xaxmax, xaxpos, xpd = TRUE, lwd = 2, length = 0.1)
+text(X, -0.02, &quot;qnorm(p)&quot;, cex = 1.4)
+text(0, 0.8 * dnorm(X), &quot;p&quot;, pos = 3, cex = 1.4)</code></pre>
+<p><img src="/post/2019-04-26-r-club_files/figure-html/unnamed-chunk-1-4.png" width="672" /></p>
+<pre class="r"><code># complement 
+
+plot(NULL, axes = FALSE, xlab = &quot;&quot;, ylab = &quot;&quot;, xlim = c(-4, 4), ylim = c(-0.02, dnorm(0)), lwd = 2)
+polygon(c(x[x &gt; X], X), c(dnorm(x[x &gt; X]), 0), col = rgb(1, 0, 0, 0.2), lty = 0)
+curve(dnorm, from = - 4, to = 4, lwd = 2, add = TRUE)
+arrows(xaxmin, xaxpos, xaxmax, xaxpos, xpd = TRUE, lwd = 2, length = 0.1)
+text(X, -0.02, &quot;q&quot;, cex = 1.4)
+text(0.2, 0.06, &quot;1-pnorm(q)&quot;, pos = 3, cex = 1.4)</code></pre>
+<p><img src="/post/2019-04-26-r-club_files/figure-html/unnamed-chunk-1-5.png" width="672" /></p>
+<pre class="r"><code># complement 
+
+plot(NULL, axes = FALSE, xlab = &quot;&quot;, ylab = &quot;&quot;, xlim = c(-4, 4), ylim = c(-0.02, dnorm(0)), lwd = 2)
+polygon(c(x[x &gt; X], X), c(dnorm(x[x &gt; X]), 0), col = rgb(1, 0, 0, 0.2), lty = 0)
+curve(dnorm, from = - 4, to = 4, lwd = 2, add = TRUE)
+arrows(xaxmin, xaxpos, xaxmax, xaxpos, xpd = TRUE, lwd = 2, length = 0.1)
+text(X, -0.02, &quot;qnorm(1-p)&quot;, cex = 1.4)
+text(X + 0.3, 0.04, &quot;p&quot;, pos = 3, cex = 1.4)</code></pre>
+<p><img src="/post/2019-04-26-r-club_files/figure-html/unnamed-chunk-1-6.png" width="672" /></p>
+</div>
