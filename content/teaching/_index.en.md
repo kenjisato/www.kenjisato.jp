@@ -7,8 +7,8 @@ title= "Teaching"
 **Office**: B1-319, Nakamozu Campus, Osaka Prefecture University<br>
 **Office Hours**:
 
-- Wednesdays, 12:15 - 12:50
-- Thursdays, 12:15 - 12:50
+- Mondays, 12:20 - 12:50
+- Tuesdays, 12:20 - 12:50
 - ... and upon request.
 
 **Contact**: mail@kenjisato.jp
