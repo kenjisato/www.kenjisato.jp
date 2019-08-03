@@ -12,10 +12,13 @@ title= "Teaching"
 
 その他の時間に面会を希望する方は、mail@kenjisato.jp 宛にメールしてください。
 
+## マクロ経済学入門（大阪府立大学，現代システム科学域マネジメント学類）
+
+- [2019年度](#)
 
 ## マクロ経済学 I・II（大阪府立大学，現代システム科学域マネジメント学類）
 
-- [2019年度]({{< relref "mau19.ja.md" >}})
+- [2019年度, I のみ]({{< relref "mau19.ja.md" >}})
 - [2018年度]({{< relref "mau18.ja.md" >}})
 
 ## マクロ経済学特論 1A・1B
@@ -49,6 +52,7 @@ title= "Teaching"
 
 ## その他
 
+-  パワーアッププラクティス講座IV「キャリアと情報」[南大阪地域大学コンソーシアム](http://www.osaka-unicon.org/)
 - [2018年度　基礎ゼミナールI（大阪府立大学）]({{< ref "/teaching/kiso18.ja.md" >}})
 - 2018年度　外書ゼミナール（大阪府立大学）
   - [David Romer (1999; 2018). Short-run Fluctuations](https://eml.berkeley.edu/~dromer/papers/Romer%20Short-Run%20Fluctuations%20January2018.pdf) を読んでいます
