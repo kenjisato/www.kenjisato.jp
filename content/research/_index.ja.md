@@ -27,7 +27,7 @@ hidden = true
 ### 学術論文誌
 
 - Y. Furukawa, T. Lai, K. Sato "Novelty-Seeking Traits and Applied Research Activities," accepted at <em>Applied Economics Letters</em>, July 2019. 
-- M. Yano, K. Sato "Ergodic Chaos for Non-expansive Economic Models," accepted at <em>International Journal of Economic Theory</em>, May 2019.
+- M. Yano, K. Sato (2019) "Ergodic Chaos for Non-expansive Economic Models," accepted at <em>International Journal of Economic Theory</em> 15, pp. 311-320.
 - K. Sato, M. Yano (2013) "Optimal Ergodic Chaos under Slow Capital Depreciation," <em>International Journal of Economic Theory</em> 9, pp. 57-67.
 - K. Sato, M. Yano (2012) "Comparative Dynamics in Stochastic Models with Respect to the L∞-L∞ Duality: A Differential Approach," <em>Macroeconomic Dynamics</em> 16, pp. 127-138.
 - K. Sato, Y. Yamada, H. Fujioka (2009) "<strong>Mean Square Optimal Hedging with Non-Uniform Rebalancing Intervals</strong>," <em>SICE Journal of Control, Measurement, and System Integration</em>, Vol. 2, No. 1.
