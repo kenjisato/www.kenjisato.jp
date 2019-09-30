@@ -80,6 +80,17 @@ article.post {
   margin-top: 0;
 }
 
+article.post ul, article.post ol {
+  margin-bottom: 1rem;
+}
+article.post ul > li > ul {
+  margin-bottom: 0;
+}
+article.post li {
+  list-style-position: outside;
+  margin-left: 2rem;
+}
+
 #post-body h2 {
   margin-bottom: 10px;
   font-weight: bold;
