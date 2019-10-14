@@ -25,4 +25,4 @@ slug = "mai/2019"
 
 1. [Day 01: 文部科学省「学校基本調査」の最新データの取得 (締切: 2019年 10月 8日(火曜日) 00:00)](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=246674)
 1. [Day 02: 2015年以降の日経平均を取得する](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=247636)
-
+1. [Day 03: 四半期別GDP速報2019年4-6月期・2次速報　の取得](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=248422)
