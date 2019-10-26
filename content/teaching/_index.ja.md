@@ -53,6 +53,7 @@ title= "Teaching"
 ## その他
 
 -  パワーアッププラクティス講座IV「キャリアと情報」[南大阪地域大学コンソーシアム](http://www.osaka-unicon.org/)
+  - [ミニ講義 6 スライド](/files/pp4/PP4.pdf)
 - [2018年度　基礎ゼミナールI（大阪府立大学）]({{< ref "/teaching/kiso18.ja.md" >}})
 - 2018年度　外書ゼミナール（大阪府立大学）
   - [David Romer (1999; 2018). Short-run Fluctuations](https://eml.berkeley.edu/~dromer/papers/Romer%20Short-Run%20Fluctuations%20January2018.pdf) を読んでいます
