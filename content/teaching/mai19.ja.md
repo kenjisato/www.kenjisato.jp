@@ -20,6 +20,7 @@ slug = "mai/2019"
 1. [Day 03]({{< relref "mai19/day03-1-protected.html" >}})
 1. [Day 04]({{< relref "mai19/day04-1-protected.html" >}})
 1. [Day 05]({{< relref "mai19/day05-1-protected.html" >}})
+1. [Day 06]({{< relref "mai19/day06-1-protected.html" >}})
 
 ### 課題
 
@@ -30,4 +31,4 @@ slug = "mai/2019"
 1. [Day 03: 四半期別GDP速報2019年4-6月期・2次速報　の取得](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=248422)
 1. [Day 04: 消費関数の推計をやってみよう](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=249317)
 1. [Day 05: 投資関数を推計してみよう](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=249554)
-
+1. [Day 06: 教科書 p. 88 の記述の事実確認](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=250023)
