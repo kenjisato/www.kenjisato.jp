@@ -24,6 +24,7 @@ slug = "mai/2019"
 1. [Day 07]({{< relref "mai19/day07-1-protected.html" >}})
 1. (中間テスト)
 1. [Day 09]({{< relref "mai19/day09-1-protected.html" >}})
+1. [Day 10]({{< relref "mai19/day10-1-protected.html" >}})
 
 
 
@@ -40,3 +41,6 @@ slug = "mai/2019"
 1. Day 07: なし。
 1. Day 08: なし。
 1. [Day 09: 教科書 図表8-8 の再現](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=251696)
+1. [Day 10: IS-LMモデルの作図](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=252166)
+
+
