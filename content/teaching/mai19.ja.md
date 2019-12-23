@@ -26,7 +26,7 @@ slug = "mai/2019"
 1. [Day 09]({{< relref "mai19/day09-1-protected.html" >}})
 1. [Day 10]({{< relref "mai19/day10-1-protected.html" >}})
 1. [Day 11]({{< relref "mai19/day11-1-protected.html" >}})
-
+1. [Day 12]({{< relref "mai19/day12-1-protected.html" >}})
 
 
 ### 課題
