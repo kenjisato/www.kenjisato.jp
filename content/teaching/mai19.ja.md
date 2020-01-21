@@ -28,6 +28,7 @@ slug = "mai/2019"
 1. [Day 11]({{< relref "mai19/day11-1-protected.html" >}})
 1. [Day 12]({{< relref "mai19/day12-1-protected.html" >}})
 1. [Day 13]({{< relref "mai19/day13-1-protected.html" >}})
+1. [Day 14]({{< relref "mai19/day14-1-protected.html" >}})
 
 
 ### 課題
@@ -47,6 +48,6 @@ slug = "mai/2019"
 1. [Day 11: 教科書 p.158 「調べてみよう」](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=252566)
 1. Day 12: なし。
 1. [Day 13: 名目額の異常な動きの原因は?](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=253602)
-
+1. [Day 14: 失われた 20年(30年?)](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=253971)
 
 
