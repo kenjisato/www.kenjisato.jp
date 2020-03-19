@@ -18,8 +18,13 @@ title= "Teaching"
 
 ## マクロ経済学 I・II（大阪府立大学，現代システム科学域マネジメント学類）
 
+- [2020年度, I のみ]({{< relref "mau20.ja.md" >}})
 - [2019年度, I のみ]({{< relref "mau19.ja.md" >}})
 - [2018年度]({{< relref "mau18.ja.md" >}})
+
+## 動態マクロ経済学（大阪府立大学，現代システム科学域マネジメント学類）
+
+- [2020年度]({{< relref "mad20.ja.md" >}})
 
 ## マクロ経済学特論 1A・1B
 
@@ -27,7 +32,9 @@ title= "Teaching"
 - [2018年度]({{< relref "mag18.ja.html" >}})
 
 
-## Macroeconomics (神戸大学大学院, GMAPコース)
+## 過去の講義
+
+### Macroeconomics (神戸大学大学院, GMAPコース)
 
 - [2018年度 (Q3)]({{< ref path = "/teaching/ma18q3.en.html" lang = "en" >}})
 - [2018年度 (Q1)]({{< ref path = "/teaching/ma18q1.en.html" lang = "en" >}})
@@ -36,14 +43,14 @@ title= "Teaching"
 - [2016年度 (Q4)]({{< ref path = "/teaching/ma16q4.en.md" lang = "en" >}})
 - [2016年度 (Q2)]({{< ref path = "/teaching/ma16q2.en.md" lang = "en">}})
 
-## 経済動学 (神戸大学大学院)
+### 経済動学 (神戸大学大学院)
 
 - [2017年度（Q1）]({{< ref "/teaching/ed17.ja.html" >}})
 - [2016年度 (Q1)]({{< ref "/teaching/ed16.ja.md" >}})
 - [2015年度 (前期)]({{< ref "/teaching/ed15.ja.md" >}})
 
 
-## 公共選択的経済政策 (大阪府立大学)
+### 公共選択的経済政策 (大阪府立大学)
 
 - [2017年度 (後期)]({{< ref "/teaching/pc17.ja.md" >}})
 - [2016年度 (後期)]({{< ref "/teaching/pc16.ja.md" >}})
