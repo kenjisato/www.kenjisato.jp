@@ -76,3 +76,10 @@ languageCode = "ja-jp"
 weight = 10
 languageName = "English"
 languageCode = "en-us"
+
+# MARKUP
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
