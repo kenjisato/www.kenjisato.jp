@@ -15,21 +15,21 @@ slug = "mai/2019"
 
 ### 小テスト
 
-1. [Day 01]({{< relref "mai19/day01-1-protected.html" >}})
-1. [Day 02]({{< relref "mai19/day02-1-protected.html" >}})
-1. [Day 03]({{< relref "mai19/day03-1-protected.html" >}})
-1. [Day 04]({{< relref "mai19/day04-1-protected.html" >}})
-1. [Day 05]({{< relref "mai19/day05-1-protected.html" >}})
-1. [Day 06]({{< relref "mai19/day06-1-protected.html" >}})
-1. [Day 07]({{< relref "mai19/day07-1-protected.html" >}})
+1. [Day 01](/files/mai19/day01-1-protected.html)
+1. [Day 02](/files/mai19/day02-1-protected.html)
+1. [Day 03](/files/mai19/day03-1-protected.html)
+1. [Day 04](/files/mai19/day04-1-protected.html)
+1. [Day 05](/files/mai19/day05-1-protected.html)
+1. [Day 06](/files/mai19/day06-1-protected.html)
+1. [Day 07](/files/mai19/day07-1-protected.html)
 1. (中間テスト)
-1. [Day 09]({{< relref "mai19/day09-1-protected.html" >}})
-1. [Day 10]({{< relref "mai19/day10-1-protected.html" >}})
-1. [Day 11]({{< relref "mai19/day11-1-protected.html" >}})
-1. [Day 12]({{< relref "mai19/day12-1-protected.html" >}})
-1. [Day 13]({{< relref "mai19/day13-1-protected.html" >}})
-1. [Day 14]({{< relref "mai19/day14-1-protected.html" >}})
-1. [Day 15]({{< relref "mai19/day15-1-protected.html" >}})
+1. [Day 09](/files/mai19/day09-1-protected.html)
+1. [Day 10](/files/mai19/day10-1-protected.html)
+1. [Day 11](/files/mai19/day11-1-protected.html)
+1. [Day 12](/files/mai19/day12-1-protected.html)
+1. [Day 13](/files/mai19/day13-1-protected.html)
+1. [Day 14](/files/mai19/day14-1-protected.html)
+1. [Day 15](/files/mai19/day15-1-protected.html)
 
 ### 課題
 
