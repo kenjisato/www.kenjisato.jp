@@ -61,7 +61,7 @@ post = "/post/:year/:month/:slug/"
   twitter  = "https://www.twitter.com/kenjisatojp"
   facebook = "https://www.facebook.com/kenjisato.jp"
   githubalt   = "https://www.github.com/kenjisato"
-  googleplus  = "https://plus.google.com/+KenjiSato198"
+  # googleplus  = "https://plus.google.com/+KenjiSato198"
   email = "mailto:mail@kenjisato.jp"
 
 
