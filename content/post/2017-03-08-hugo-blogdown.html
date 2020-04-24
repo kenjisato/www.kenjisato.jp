@@ -8,11 +8,11 @@ slug: 'hugo-blogdown'
 
 <p>昨年からRを真面目に使いはじめて今では毎日のように RStudio を使うようになった。いっそ自分のサイトも rmarkdown で書こうと思ったので，Jekyll をやめて Hugo と blogdown に移行した。3日間の試行錯誤の末<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>，なんとか似たような感じにすることができたと思う。</p>
 <p>記事（ポストとページ）を Rmarkdown で書くことができるので，次のようなコード（チャンク）によって</p>
-<pre><code>```{r}
+<pre class="markdown"><code>```{r}
 library(ggplot2)
 ggplot(iris) + 
   geom_point(aes(Sepal.Length, Sepal.Width, color = Species))
-```</code></pre>
+```</code></pre>
 <p>次のような出力が得られる。</p>
 <pre class="r"><code>library(ggplot2)
 ggplot(iris) + 
@@ -21,7 +21,7 @@ ggplot(iris) +
 <p>制限付きではあるものの無論 Python エンジンも使える。</p>
 <pre class="python"><code>import sys
 print(sys.version_info)</code></pre>
-<pre><code>## sys.version_info(major=2, minor=7, micro=10, releaselevel=&#39;final&#39;, serial=0)</code></pre>
+<pre><code>## sys.version_info(major=2, minor=7, micro=16, releaselevel=&#39;final&#39;, serial=0)</code></pre>
 <p>R 以外のエンジンはシェルでコマンドを実行するのでコードチャンク間で変数を共有するなどができない。</p>
 <div class="footnotes">
 <hr />

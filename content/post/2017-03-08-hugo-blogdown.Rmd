@@ -8,13 +8,13 @@ slug: 'hugo-blogdown'
 
 記事（ポストとページ）を Rmarkdown で書くことができるので，次のようなコード（チャンク）によって
 
-```
-```{r}
+````markdown
+`r ''````{r}
 library(ggplot2)
 ggplot(iris) + 
   geom_point(aes(Sepal.Length, Sepal.Width, color = Species))
-```
 ```
+````
 
 次のような出力が得られる。
 
