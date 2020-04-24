@@ -11,6 +11,9 @@ title= "Teaching"
 
 顔を見て話がしたいという要望があれば，Microsoft Teams, Zoom を利用してオンライン・ミーティングを実施します。
 
+
+<span style="color: red;">授業の情報共有には Microsoft Teams のチームを活用します。授業支援システムにチームへのリンクを書いてありますので，受講を希望する方はそちらから登録を進めてください。他学域生で授業支援システムを利用できない方は，大学発行のメールアドレスから sato@eco.osakafu-u.ac.jp までご連絡ください。</span>
+
 <!-- REMOVED UNTIL UNIVERSITY RE-OPENING
 
 **研究室**: 大阪府立大学なかもずキャンパス B1棟319号室<br>
