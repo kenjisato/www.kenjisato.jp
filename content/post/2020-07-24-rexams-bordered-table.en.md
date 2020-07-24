@@ -10,7 +10,7 @@ description: 'R/exams'
 
 ## Motivation
 
-By default, tables in moodle problems created with `exams::exams2moodle` doesn't have table or cell borders. I want tables with borders! 
+By default, tables in moodle problems created with `exams::exams2moodle` do not have table or cell borders. I want tables with borders! 
 
 If you does too, you might find this post useful. 
 
