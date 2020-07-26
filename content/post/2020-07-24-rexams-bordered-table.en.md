@@ -26,7 +26,7 @@ Instead of styling a class, it's possible to style `table` tag itself. But I str
 
  Two important points:
 
-- Embed the style under the Question section. I would use something like  `writeLines(readLines("https://git.io/JJ8DD")`. 
+- Embed the style under the Question section. I would use something like  `writeLines(readLines("https://git.io/JJ4uR")`. 
 - When you make a table, use HTML format and add the class attribute to the table tag (`bordered-table`). `knitr::kable()` has `table.attr` argument that does this for you. 
 
 
@@ -58,7 +58,7 @@ Question
 ========
 
 ```{r CSS, echo = FALSE, results = "asis"}
-writeLines(readLines("https://git.io/JJ8DD"))
+writeLines(readLines("https://git.io/JJ4uR"))
 ```
 
 How high are the following mountains? Answer the height above sea level in meters. 
