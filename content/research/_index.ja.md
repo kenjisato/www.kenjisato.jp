@@ -1,6 +1,5 @@
 +++
 title = "Research"
-hidden = true
 +++
 
 ## 佐藤 健治

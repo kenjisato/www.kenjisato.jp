@@ -1,7 +1,7 @@
 <nav class="main-nav">
 	{{ $url := .Permalink | replaceRE (add "^" .Site.BaseURL) "" }}
 	{{ if not .IsHome }}
-		<a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
+		<a href='{{ .Site.Home.Permalink }}'> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
 	{{ end }}
 	{{ if hasPrefix $url "teaching" }}
 		| <a href='{{ .Site.BaseURL }}teaching'>Teaching</a>

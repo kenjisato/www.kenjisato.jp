@@ -1,5 +1,5 @@
-{{ if and (not .IsHome) .IsTranslated }}
+{{ if .IsTranslated }}
   {{ range .Translations }}
-  | <a href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</a>
+  <a href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</a>
   {{ end}}
 {{ end }}
