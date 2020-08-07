@@ -4,12 +4,13 @@ title= "Teaching"
 
 # Teaching
 
-<span style="color: red;">2020 Spring semester goes online. My office hours, too!</span>
+It seems that we still need to stay alert for a while. My course "Introduction to macroeconomics" will go virtual in the upcoming Fall semester. I will not have regular, face-to-face office hours, either. 
+You have several ways to get in touch with me. 
 
-- Do you have any issues about a class you take? Please ask on Moodle, Microsoft Teams, or Slack (made available for some courses).
-- Do you have more general topics? Or, simply you don't know where to ask? Feel free to send me an email at sato@eco.osakafu-u.ac.jp, or text me with [LINE app](https://lin.ee/abGbNBI). 
+- Do you have any issues about a class you take? Please ask on Moodle, Microsoft Teams, or Slack (made available for some courses). If you can, please post a public post so that other students can learn from your questions. 
+- Do you want to talk about some private concerns? Or, simply you don't know where to ask? Feel free to send me an email at <sato@eco.osakafu-u.ac.jp>, or text me with [LINE app](https://lin.ee/abGbNBI). 
 
-After a little arrangement, we can talk on Microsoft Teams or Zoom, if you prefer.
+If you want to see me in person for some reason, please make an appointment.  
 
 <!-- REMOVED UNTIL UNIVERSITY RE-OPENING
 

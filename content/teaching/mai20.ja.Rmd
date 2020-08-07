@@ -1,0 +1,307 @@
+---
+title: "マクロ経済学入門 (2020)"
+slug: "mai/2020"
+---
+
+## マクロ経済学入門 (2020, 後期)
+
+大阪府立大学現代システム科学域マネジメント学類「マクロ経済学入門」（2020年度）のページです。
+
+受講登録開始までの期間は，授業支援システムのページにアクセスできませんので，こちらで情報発信します。受講の意思決定の参考にしてください。（救済措置の有無が気になる方は[こちら](#救済措置)）
+
+#### 注意
+
+- 予定表のリンクは受講登録者限定です。
+- 動画のアクセスは Microsoft Teams の授業チームのメンバー限定です。 受講済みなのに動画にアクセスできない方は [こちらで登録](https://teams.microsoft.com/l/team/19%3a128ba46ba79d4bd79af676ef66bf5a73%40thread.tacv2/conversations?groupId=2b23b8ab-5019-44c8-90b9-4c8dba604721&tenantId=f8c80ed6-522e-44be-92f9-e1bd3ebe86bf) してください（事前にリクエストされた方は，9月中旬以降順次承認していきます）。
+
+### 予定表
+
+
+```{r, echo = FALSE}
+
+week <- list()
+
+week[[1]] <- list(
+  date = '9/29',
+  range = '1章',
+  movie = '[Week 01](https://web.microsoftstream.com/channel/6fd76e9f-b420-417d-855e-722b33371e35)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365985)',
+  quiz = '[9/29 〜 10/2](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366003)',
+  hw = '[〜 10/5](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366020)')
+
+week[[2]] <- list(
+  date = '10/6',
+  range = '2章',
+  movie = '[Week 02](https://web.microsoftstream.com/channel/48255f9c-b24b-431d-85f3-30e4de75bb49)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365989)',
+  quiz = '[10/6 〜 10/9](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366036)',
+  hw = '[〜 10/12](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366037)') 
+
+week[[3]] <- list(
+  date = '10/13',
+  range = '3章',
+  movie = '[Week 03](https://web.microsoftstream.com/channel/ea663eb6-fb6d-4965-83c6-745e1d524066)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365990)',
+  quiz = '[10/13 〜 10/16](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366038)',
+  hw = '[〜 10/19](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366040)') 
+
+week[[4]] <- list(
+  date = '10/20',
+  range = '4章',
+  movie = '[Week 04](https://web.microsoftstream.com/channel/1d9cf5cc-a166-400b-a02a-7713bfaf8f5d)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365991)',
+  quiz = '[10/20 〜 10/23](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366041)',
+  hw = '[〜 10/26](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366039)') 
+
+week[[5]] <- list(
+  date = '10/27',
+  range = '5章',
+  movie = '[Week 05](https://web.microsoftstream.com/channel/ee28338e-2779-48f2-be2b-ab321045cc0b)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365992)',
+  quiz = '[10/27 〜 10/30](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366042)',
+  hw = '[〜 11/2](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366043)') 
+
+week[[6]] <- list(
+  date = '11/3',
+  range = '休み',
+  movie = '',
+  file = '',
+  quiz = '',
+  hw = '') 
+
+week[[7]] <- list(
+  date = '11/10',
+  range = '6章',
+  movie = '[Week 06](https://web.microsoftstream.com/channel/6a6f20bf-1932-4f56-9367-621ead46e2b4)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365993)',
+  quiz = '[11/10 〜 11/13](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366044)',
+  hw = '[〜 11/16](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366045)') 
+
+week[[8]] <- list(
+  date = '11/17',
+  range = '7章',
+  movie = '[Week 07](https://web.microsoftstream.com/channel/912de2a2-425b-4944-9193-5993cfce8723)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365994)',
+  quiz = '[11/17 〜 11/20](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366046)',
+  hw = '[〜 11/23](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366047)') 
+
+week[[9]] <- list(
+  date = '11/24',
+  range = '8章',
+  movie = '[Week 08](https://web.microsoftstream.com/channel/5d795698-f834-4f32-9668-d6460b5c532e)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365995)',
+  quiz = '[11/24 〜 11/27](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366048)',
+  hw = '[〜 11/30](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366049)') 
+
+week[[10]] <- list(
+  date = '12/1',
+  range = '9章',
+  movie = '[Week 09](https://web.microsoftstream.com/channel/3aae7f1e-ecaa-4b7a-833c-d37c33465ec3)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365996)',
+  quiz = '[12/1 〜 12/4](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366050)',
+  hw = '[〜 12/7](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366051)') 
+
+week[[11]] <- list(
+  date = '12/8',
+  range = '10章',
+  movie = '[Week 10](https://web.microsoftstream.com/channel/4e2ecfb8-4095-425d-912b-d9b2f0faef2c)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365998)',
+  quiz = '[12/8 〜 12/11](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366053)',
+  hw = '[〜 12/14](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366052)') 
+
+week[[12]] <- list(
+  date = '12/15',
+  range = '11章',
+  movie = '[Week 11](https://web.microsoftstream.com/channel/d31a6d45-e36b-4c78-8b63-805c1d08affb)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=365999)',
+  quiz = '[12/15 〜 12/18](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366054)',
+  hw = '[〜 12/21](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366055)') 
+
+week[[13]] <- list(
+  date = '12/22',
+  range = '12章',
+  movie = '[Week 12](https://web.microsoftstream.com/channel/98388b9c-c319-4f6c-b0fd-9fbce22a5af9)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=366000)',
+  quiz = '[12/22 〜 12/25](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366061)',
+  hw = '[〜 12/28](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366062)') 
+
+week[[14]] <- list(
+  date = '12/29',
+  range = '休',
+  movie = '',
+  file = '',
+  quiz = '',
+  hw = '') 
+
+week[[15]] <- list(
+  date = '1/5',
+  range = '休',
+  movie = '',
+  file = '',
+  quiz = '',
+  hw = '') 
+
+
+week[[16]] <- list(
+  date = '1/12',
+  range = '12章',
+  movie = '[Week 13](https://web.microsoftstream.com/channel/80f8b20c-c90a-4b89-bbb0-399e8e3a8bc2)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=366001)',
+  quiz = '[1/12 〜 1/15](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366064)',
+  hw = '[〜 1/18](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366068)') 
+
+
+week[[17]] <- list(
+  date = '1/19',
+  range = '13章',
+  movie = '[Week 14](https://web.microsoftstream.com/channel/434e6ece-4a41-4db6-876b-7970687eee2c)',
+  file = '[ファイル](https://lss.osakafu-u.ac.jp/mod/folder/view.php?id=366002)',
+  quiz = '[1/19 〜 1/22](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366067)',
+  hw = '[〜 1/25](https://lss.osakafu-u.ac.jp/mod/assign/view.php?id=366065)') 
+
+
+week[[18]] <- list(
+  date = '1/26',
+  range = '休',
+  movie = '',
+  file = '',
+  quiz = '',
+  hw = '') 
+
+
+
+week[[18]] <- list(
+  date = '2/2',
+  range = '**期末テスト**',
+  movie = '',
+  file = '',
+  quiz = '[2/1 〜 2/3](https://lss.osakafu-u.ac.jp/mod/quiz/view.php?id=366069)',
+  hw = '') 
+
+plan_df <-do.call(rbind, week)
+colnames(plan_df) <- c("基準日付", "教科書", "動画", "資料", 
+                     "確認テスト", "追加課題（任意）") 
+
+knitr::kable(plan_df)
+```
+
+
+### 基本情報
+
+- 開講基準時間
+  - 毎週火曜日 2限
+  - **非同期オンライン**となりますので，上記開講時間はあくまでも学習の目安です。
+  - ただし，課題には締切が設定されています。<span style="color: red;">締切後の提出はできません</span>。
+    - **出席確認テスト**の締切はその週の金曜日の 23:59，
+    - 追加課題（任意提出）の締切は翌週の月曜日の 23:59 です。
+- 場所（受講生のみアクセス可）: 
+  - [授業支援システム](https://lss.osakafu-u.ac.jp/course/view.php?id=56246)
+  - [解説動画は Microsoft Steam で配信](https://web.microsoftstream.com/group/2b23b8ab-5019-44c8-90b9-4c8dba604721?view=channels) します。
+  - Microsoft Teams (解説動画のアクセス管理のために利用)
+- 教科書: 
+  - [家森 信善『マクロ経済学の基礎』](https://www.amazon.co.jp/dp/4502211818/ref=cm_sw_r_tw_dp_U_x_4xAKDbPPXNPD9)
+  - <span style="color: red;">教科書の図表などは配布資料には載せませんので，教科書は必ず購入してください。</span>
+
+
+### 授業の目標
+
+「マクロ経済学入門」の授業では
+
+1. マクロ経済学の用語に親しむ
+1. 基本的なモデル分析の考え方を知る
+1. 経済データや新聞の経済記事に触れる
+
+の3点をポイントに学習を進めます。
+
+2年次からマクロ経済学のモデル分析，関連する専門科目の学習が本格的にスタートしますので，その準備運動という位置づけです。
+
+
+### 授業の流れ
+
+#### 1. 学習
+
+- [教科書](https://www.amazon.co.jp/dp/4502211818/ref=cm_sw_r_tw_dp_U_x_4xAKDbPPXNPD9)を読む。毎週1章くらいのペース。
+- 配布資料に目を通して，教科書の補足事項について学ぶ。
+- 必要に応じて授業動画を視聴する。
+
+#### 2. 腕試し
+
+- 授業支援システムの問題を解く。
+- 意欲と余裕がある方は追加課題に取り組む。
+- 授業期間の最後に総仕上げとして期末テストを受験していただきます。
+
+#### 3. 復習
+
+- 確認テストの正誤，得点，簡単な解説は提出期間終了後に発表されます。間違えた問題を教科書等で復習してください。
+
+#### ※ 質問する
+
+授業内容に関わる疑問は，原則，授業支援システムのフォーラムやチャットを利用してください。公共性の高い質問をされた方には，ボーナスポイントがあります。ただし，小テストの解答について疑義がある等，他の学生の受験状況に影響があると考えられる質問は，メールや Teams のチャットを利用してください。
+
+双方向のコミュニケーションが必要な場合は，面会時間を事前に調整した上で，佐藤の居室（B1棟319）または Zoom にて面会を実施します。
+
+
+### 各種課題および成績評価について
+
+#### 確認テスト（合格最低点あり）
+
+教科書や解説動画の内容を理解しているかどうかをチェックする問題です。期間内何度でも受験できます。最高得点が評点として採用されます。ただし，各回の点数は表示されませんので，当てずっぽうでいい点が出るまで繰り返すということはできません。
+
+毎週，満点5点として採点されます。出席確認を兼ねています。<span style="color: red;">この授業を合格するためには確認テストの総得点が70点満点中30点以上であることが必要です</a>。
+
+
+#### 期末テスト
+
+<span style="color: red;">2月1日 (月) 7:00 〜 2月3日 (水) 23:59 </span> (深夜帯を除く)
+
+授業支援システム上で受験してください。
+**制限時間は 60分で 2回まで受験可能**，良い方の成績を採用します。満点は80点です。
+
+#### 追加課題・授業への貢献
+
+追加課題の内容はデータの取得や作図などの，コンピュータを用いた実習課題です。やり方を説明したデモ動画を視聴し，自分でも再現してみて，結果のファイルを提出するという形式を予定しています。毎週小さな課題を積み上げて，できることを増やしていきましょう。なお， <span style="color: red;">追加課題の提出は任意で合否判定には影響しません</span>。
+
+- **他の科目の履修状況や体調に応じて取り組みの頻度を調整し，無理のないようにしてください**。
+
+
+さらに，フォーラムで公共性の高い質問をしてくれた方には貢献点を加算します。
+
+- 資料や教科書の誤植の指摘，練習問題の解答間違いの指摘など。
+
+追加課題と貢献点を最大20点として，成績評価時に利用します。
+  - ※ 合否判定には用いません。
+
+#### 合否判定
+
+合否は，確認テストと期末テストの合計で決まる
+
+$$\text{基礎点} = 0.6 \times (\underbrace{\text{確認テスト}}_{\text{70点満点}} + \underbrace{\text{期末テスト}}_{\text{80点満点}})$$
+
+に基づき判定します。<span style="color: red;">確認テストが 30点以上，かつ，基礎点が 60点以上となる場合に合格です</span>。受験時にはあらゆる資料が閲覧可能なので，やや高めの基準に設定しています。
+
+#### 成績評価，追加課題と授業への貢献について
+
+合格者の成績を決める際には，追加課題の提出状況と，授業への貢献を最大20点として数値化し，基礎点に加算した最終得点を利用します。
+  $$\text{最終得点} = \underbrace{\text{基礎点}}_{\text{90点満点}} + \underbrace{\text{追加課題・貢献点}}_{\text{最大20点}}$$
+
+  - ※ 100点を超える場合は一律100点とします。
+
+合格者の成績換算は以下の通り。本学の標準的な成績換算基準を用います。 
+
+<div style="width: 250px;">
+
+| 最終得点         | 成績 |
+|:-----------------|:----:|
+| 90点以上         | A+   |
+| 80点以上90点未満 | A    |
+| 70点以上80点未満 | B    |
+| 60点以上70点未満 | C    |
+</div>
+
+
+
+#### 救済措置
+
+後期の授業では「この授業を落とすと困るから追加課題を出してくれ」という方がいらっしゃいます。こういう要望はあまり気分のいいものではなく，絶対に追加課題など出してたまるか，という気持ちになるだけです。公平性の観点から許容できない要求であることは言うまでもありません。
+
+本当に困るなら，単位を落としそうになってからではなく，受講開始時点で相談してください。分からないところは説明します。重点的に勉強するべきポイントを示唆することくらいならできます。要するに，事後的な救済措置はありません。温情をかすかにでも期待している方は受講をオススメしません。
