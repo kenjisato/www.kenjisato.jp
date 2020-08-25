@@ -18,7 +18,6 @@ slug: "mai/2020"
 
 ### 予定表
 
-
 ```{r, echo = FALSE}
 
 week <- list()
@@ -187,6 +186,7 @@ colnames(plan_df) <- c("基準日付", "教科書", "動画", "資料",
 knitr::kable(plan_df)
 ```
 
+[Google カレンダー](https://calendar.google.com/calendar/embed?src=c_m70l404ahvfq3f9v9ise9pgmlg%40group.calendar.google.com&ctz=Asia%2FTokyo) もあります。
 
 ### 基本情報
 
