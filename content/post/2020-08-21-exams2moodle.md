@@ -3,7 +3,7 @@ title: R/exams でオンラインテストの問題を作成する - その1
 author: kenjisato
 date: '2020-08-21'
 slug: rexams-online-1
-categories: []
+categories: ["teaching"]
 tags: ["R", "exams"]
 description: ''
 ---
