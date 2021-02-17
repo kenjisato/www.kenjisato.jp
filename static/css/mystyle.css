@@ -14,7 +14,7 @@ ol > li {
     margin-right: 0.1rem;
 }
 
-span.code { 
+span.code, code { 
   font-family: "Source Code Pro", "Courier", sans-serif; 
   background-color:#EEE; 
   font-size:14px; 
