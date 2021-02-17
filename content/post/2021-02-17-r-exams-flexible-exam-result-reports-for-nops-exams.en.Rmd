@@ -302,7 +302,7 @@ The placeholders correspond to an internal R list (let's call it `dat`). The fol
  $ image1      : chr "<img src=\"data:image/png;base64,iVBORw0K"| __truncated__
  ```
 
-To access `dat$points`, you use `{{points}}`, for `data$DCF$RegistrationNumber`, `dat$DCF$GivenName`, 
+To access `dat$points`, you use `{{points}}`, for `data$DCF$RegistrationNumber` and `dat$DCF$GivenName`, 
 
 ```
 {{#DCF}}
