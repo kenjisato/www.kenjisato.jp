@@ -1,0 +1,424 @@
+---
+title: R-Exams - Flexible exam result reports for NOPS exams
+author: kenjisato
+date: '2021-02-17'
+slug: r-exams-flexible-exam-result-reports-for-nops-exams
+categories: []
+tags: ["R", "exams"]
+draft: true
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="pen-and-paper-exams-with-rexams" class="section level2">
+<h2>Pen and paper exams with R/exams</h2>
+<p><a href="http://www.r-exams.org/">R/Exams</a> supports <a href="http://www.r-exams.org/intro/written/">written exams called NOPS</a>. Conducting this pen and paper exam is a five-step job:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Create</strong> - Writing problems and compile them with <code>exams2nops()</code></li>
+<li><strong>Print</strong></li>
+<li><strong>Exam</strong></li>
+<li><strong>Scan</strong> - Scan answer sheets and read them with <code>nops_scan()</code></li>
+<li><strong>Evaluate</strong> - Compute grades from the scanned data and then create result reports with <code>nops_eval()</code></li>
+</ol>
+<p>Please read the official website and documentation for the detailed explanations for each step.
+In this post, I focus on the fifth step.</p>
+</div>
+<div id="separation-of-design-from-evaluation-is-now-possible" class="section level2">
+<h2>Separation of design from evaluation is now possible</h2>
+<p>The fifth step is actually a two-stage process: Grading and writing score sheets. They are done in a function <code>nops_eval()</code>. Very very roughly speaking, <code>nops_eval()</code> has a structure like this.</p>
+<pre class="r"><code>nops_eval &lt;~ function() {
+  nops_eval_eval()   # There&#39;s no such function, though.
+  nops_eval_write()
+}</code></pre>
+<p>Since the design of the score sheets was (is) hard-coded in a function <code>nops_eval_write()</code>, and therefore it was very difficult to modify the design of score sheets.</p>
+<p>In <a href="https://r-forge.r-project.org/scm/viewvc.php/pkg/exams/R/nops_eval.R?view=markup&amp;revision=1730&amp;root=exams">Revision 1730</a>, Achim Zeileis made a very nice update to the package to address this issue: We can now override <code>nops_eval_write()</code> with <code>flavor</code> option. With</p>
+<pre class="r"><code>nops_eval(flavor=&quot;mywriter&quot;)</code></pre>
+<p>the following processes run:</p>
+<pre class="r"><code>nops_eval_eval()
+nops_eval_write_mywriter()   # &lt;- What&#39;s new here!!</code></pre>
+<p>So, if you want to customize result reports, all you need to do is define</p>
+<pre class="r"><code>nops_eval_write_custom &lt;- function(args) {
+  # Do what you want.
+}</code></pre>
+<p>and then call</p>
+<pre class="r"><code>nops_eval(flavor=&quot;custom&quot;)</code></pre>
+</div>
+<div id="introducing-nops_eval_write_template" class="section level2">
+<h2>Introducing <code>nops_eval_write_template()</code></h2>
+<p>Since it is not easy to write a custom writer, Achim and I are working on <code>nops_eval_write_template()</code> that writes exam result reports based on a template.</p>
+<p><strong>NB</strong>: As of this writing, the source file is in .Rbuildignore and so you cannot use this “flavor” yet. Usage may change.</p>
+<p>It’s a little overwhelming but the flavor, template, is used with a function call as below.</p>
+<pre class="r"><code>nops_eval(flavor = &quot;template&quot;, 
+          file = &quot;exam_eval&quot;, 
+          language = &quot;en&quot;,
+          template = NULL,
+          converter = &quot;pandoc&quot;
+          zip = TRUE, 
+          return_scan = FALSE,
+          convert_dcf_to = &quot;markdown_strict&quot;,  # argument name may be changed
+          post_process = NULL)</code></pre>
+<p>The minimal usage of this flavor is as follows.</p>
+<pre class="r"><code>nops_eval(flavor = &quot;template&quot;)</code></pre>
+<p>You will see result reports in HTML that look very similar to the results of default <code>nops_eval_write()</code>. So, what’s interesting about this?</p>
+<p><code>nops_eval_write_template()</code> is capable of using different templates (HTML or anything), which are separated from R code.
+The template file for the default HTML output is <code>inst/nops/eval.html</code>:</p>
+<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;{{language}}&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;{{encoding}}&quot;&gt;
+&lt;title&gt;{{registration}} - {{#DCF}}{{ExamResults}}{{/DCF}}&lt;/title&gt;
+
+&lt;style&gt;
+  body { -webkit-print-color-adjust: exact; }
+  h3 { font-family: system-ui, sans-serif; }
+  table { border-collapse: collapse; }
+  #Data {
+    min-width: 200px;
+    float: left;
+  }
+  #ExamResults td { padding: 2px; }
+  #Info { margin-left: 20px; }
+  #Info tr:nth-child(odd){
+    background-color: #F7F7F7;
+  }
+  #Info td:first-child {
+    font-family: system-ui, sans-serif;
+    width: 150px;
+  }
+  #Info td {
+    padding: 2px;
+    height: 20px;
+  }
+  #Evaluation td, th {
+    width: 50px;
+    height: 25px;
+    border: solid 1px black;
+    text-align: center;
+    padding: 2px;
+  }
+  #Evaluation th {
+    font-weight: bold;
+    font-family: system-ui, sans-serif;
+  }
+  #scores { margin-left: 20px; }
+  #ExamSheet {
+    max-width: 1000px;
+    min-width: 480px;
+    float: left;
+  }
+  #ExamSheet img { width: 100%; }
+
+  .full { background-color: #AEF595 !important; }
+  .positive { background-color: #FFDC87 !important; }
+  .neutral { background-color: #E2E2E2 !important; }
+  .negative { background-color: #FFC3DA !important; }
+&lt;/style&gt;
+
+{{{head}}}
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;section&gt;
+
+&lt;div id=&quot;Data&quot;&gt;{{#DCF}}
+&lt;div id=&quot;ExamResults&quot;&gt;
+  &lt;h3&gt;{{ExamResults}}&lt;/h3&gt;
+  &lt;table id=&quot;Info&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;{{Name}}&lt;/td&gt;&lt;td&gt;{{name}}&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;{{RegistrationNumber}}&lt;/td&gt;&lt;td&gt;{{registration}}&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;{{DocumentID}}&lt;/td&gt;&lt;td&gt;{{exam}}&lt;/td&gt;
+  &lt;/tr&gt;
+  {{#has_mark}}
+  &lt;tr&gt;
+    &lt;td&gt;{{Mark}}&lt;/td&gt;&lt;td&gt;{{mark}}&lt;/td&gt;
+  &lt;/tr&gt;
+  {{/has_mark}}
+  &lt;tr&gt;
+    &lt;td&gt;{{Points}}&lt;/td&gt;&lt;td&gt;{{points}}&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;Evaluation&quot;&gt;
+  &lt;h3&gt;{{Evaluation}}&lt;/h3&gt;
+  &lt;table id=&quot;scores&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;{{Question}}&lt;/th&gt;
+    &lt;th&gt;{{Points}}&lt;/th&gt;
+    &lt;th&gt;{{GivenAnswer}}&lt;/th&gt;
+    &lt;th&gt;{{CorrectAnswer}}&lt;/th&gt;
+  &lt;/tr&gt;
+
+  {{#results}}
+    &lt;tr class=&quot;{{check}}&quot;&gt;
+      &lt;td&gt;{{question}}&lt;/td&gt;
+      &lt;td&gt;{{points}}&lt;/td&gt;
+      &lt;td&gt;{{answer}}&lt;/td&gt;
+      &lt;td&gt;{{solution}}&lt;/td&gt;
+    &lt;/tr&gt;
+  {{/results}}
+  &lt;/table&gt;
+&lt;/div&gt;
+{{/DCF}}&lt;/div&gt;
+
+&lt;div id=&quot;ExamSheet&quot;&gt;
+
+  {{{image1}}}
+  {{{image2}}}
+
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p>In the above template, you see such placeholders as <code>{{language}}</code>, <code>{{answer}}</code>.
+Behind the scenes, <code>nops_eval_write_template()</code> makes use of <a href="https://cran.r-project.org/web/packages/whisker/index.html"><strong>whisker</strong> package</a>.
+To write your own template you may want to know what placeholders you can use.</p>
+<div id="available-placeholders" class="section level3">
+<h3>Available placeholders</h3>
+<p>The placeholders correspond to an internal R list (let’s call it <code>dat</code>). The following shows a sample of <code>str(dat)</code>.</p>
+<pre><code> $ language    : chr &quot;en&quot;
+ $ encoding    : chr &quot;UTF-8&quot;
+ $ has_mark    : logi TRUE
+ $ DCF         :List of 32
+  ..$ PersonalData      : chr &quot;Personal Data&quot;
+  ..$ Name              : chr &quot;Name&quot;
+  ..$ FamilyName        : chr &quot;Family Name&quot;
+  ..$ GivenName         : chr &quot;Given Name&quot;
+  ..$ Signature         : chr &quot;Signature&quot;
+  ..$ RegistrationNumber: chr &quot;Registration Number&quot;
+  ..$ Checked           : chr &quot;checked&quot;
+  ..$ NoChanges         : chr &quot;In this section **no** changes or modifications must be made!&quot;
+  ..$ DocumentType      : chr &quot;Type&quot;
+  ..$ DocumentID        : chr &quot;Exam ID&quot;
+  ..$ Scrambling        : chr &quot;Scrambling&quot;
+  ..$ Replacement       : chr &quot;Replacement&quot;
+  ..$ MarkCarefully     : chr &quot;Please mark the boxes carefully&quot;
+  ..$ NotMarked         : chr &quot;Not marked&quot;
+  ..$ Or                : chr &quot;or&quot;
+  ..$ MarkExampleA      : chr &quot;72&quot;
+  ..$ MarkExampleB      : chr &quot;80&quot;
+  ..$ MarkExampleC      : chr &quot;102&quot;
+  ..$ MarkExampleD      : chr &quot;109&quot;
+  ..$ MarkExampleE      : chr &quot;115&quot;
+  ..$ Warning           : chr &quot;This document is scanned automatically. Please keep clean and do not\nbend or fold. For filling in the document&quot;| __truncated__
+  ..$ Answers           : chr &quot;Answers&quot;
+  ..$ FillAnswers       : chr &quot;In the following please fill in your answers.&quot;
+  ..$ Point             : chr &quot;point&quot;
+  ..$ Points            : chr &quot;Points&quot;
+  ..$ ExamResults       : chr &quot;Exam Results&quot;
+  ..$ Evaluation        : chr &quot;Evaluation&quot;
+  ..$ Mark              : chr &quot;Mark&quot;
+  ..$ Question          : chr &quot;Question&quot;
+  ..$ GivenAnswer       : chr &quot;Given Answer&quot;
+  ..$ CorrectAnswer     : chr &quot;Correct Answer&quot;
+  ..$ ExamSheet         : chr &quot;Exam Sheet&quot;
+ $ name        : chr &quot;Jane Doe&quot;
+ $ registration: chr &quot;1501090&quot;
+ $ exam        : chr &quot;15072900001&quot;
+ $ mark        : chr &quot;5&quot;
+ $ points      : chr &quot;1.66666666666667&quot;
+ $ results     :List of 6
+  ..$ :&#39;data.frame&#39;:    1 obs. of  5 variables:
+  .. ..$ question: int 1
+  .. ..$ check   : chr &quot;neutral&quot;
+  .. ..$ answer  : chr &quot;__c__&quot;
+  .. ..$ solution: chr &quot;____e&quot;
+  .. ..$ points  : chr &quot;0.0000000&quot;
+  ..$ :&#39;data.frame&#39;:    1 obs. of  5 variables:
+  .. ..$ question: int 2
+  .. ..$ check   : chr &quot;positive&quot;
+  .. ..$ answer  : chr &quot;abc_e&quot;
+  .. ..$ solution: chr &quot;ab__e&quot;
+  .. ..$ points  : chr &quot;0.5000000&quot;
+  ..$ :&#39;data.frame&#39;:    1 obs. of  5 variables:
+  .. ..$ question: int 3
+  .. ..$ check   : chr &quot;neutral&quot;
+  .. ..$ answer  : chr &quot;_____&quot;
+  .. ..$ solution: chr &quot;___d_&quot;
+  .. ..$ points  : chr &quot;0.0000000&quot;
+  ..$ :&#39;data.frame&#39;:    1 obs. of  5 variables:
+  .. ..$ question: int 4
+  .. ..$ check   : chr &quot;neutral&quot;
+  .. ..$ answer  : chr &quot;__c__&quot;
+  .. ..$ solution: chr &quot;___d_&quot;
+  .. ..$ points  : chr &quot;0.0000000&quot;
+  ..$ :&#39;data.frame&#39;:    1 obs. of  5 variables:
+  .. ..$ question: int 5
+  .. ..$ check   : chr &quot;positive&quot;
+  .. ..$ answer  : chr &quot;___d_&quot;
+  .. ..$ solution: chr &quot;__cde&quot;
+  .. ..$ points  : chr &quot;0.6666667&quot;
+  ..$ :&#39;data.frame&#39;:    1 obs. of  5 variables:
+  .. ..$ question: int 6
+  .. ..$ check   : chr &quot;positive&quot;
+  .. ..$ answer  : chr &quot;_bc_e&quot;
+  .. ..$ solution: chr &quot;a_c_e&quot;
+  .. ..$ points  : chr &quot;0.5000000&quot;
+ $ image1      : chr &quot;&lt;img src=\&quot;data:image/png;base64,iVBORw0K&quot;| __truncated__</code></pre>
+<p>To access <code>dat$points</code>, you use <code>{{points}}</code>, for <code>data$DCF$RegistrationNumber</code>, <code>dat$DCF$GivenName</code>,</p>
+<pre><code>{{#DCF}}
+   {{RegistrationNumber}} : {{GivenName}} 
+{{/DCF}}</code></pre>
+<p>Notice that <code>dat$results</code> is a list of dataframes. To access each element of the list, use the same notation as above,</p>
+<pre><code>{{#results}}
+  {{points}}
+{{/results}}</code></pre>
+<p><strong>NB</strong>: You use <code>{{#outer}}{{inner}}{{/outer}}</code> for three purposes: (1) element access, (2) for-each pattern and (3) if clause. Roughly equivalent expressions in R:</p>
+<pre><code># (1)
+cat(dat$outer$innner)
+
+# (2)
+for (element in dat$outer$inner) cat(element$something)
+
+# (3)
+if (dat$outer) cat(dat$inner)</code></pre>
+<p><strong>NB</strong>: The internationalization files, i.e., .dcf files, define the above <code>DCF</code>.</p>
+</div>
+<div id="tweaking-the-template" class="section level3">
+<h3>Tweaking the template</h3>
+<p>If you are not satisfied with the default template, you can easily customize it. Create a whisker-based template file (or modify the default one), save it with a nice name (say, <code>custom.html</code>), and then call <code>nops_eval()</code> with:</p>
+<pre><code>template &lt;- &quot;/absolute/path/to/custom.html&quot;
+nops_eval(flavor = &quot;template&quot;, template = template)</code></pre>
+</div>
+<div id="file-type-other-than-html" class="section level3">
+<h3>File type other than HTML</h3>
+<p>Since <code>nops_eval_write_template()</code> does not assume that the template file is in HTML, you can use whatever plain text format you like. For instance, you can write reports with a LaTeX template, say, “custom.tex” with</p>
+<pre><code>template &lt;- &quot;/absolute/path/to/custom.tex&quot;
+nops_eval(flavor = &quot;template&quot;, template = template)</code></pre>
+<p>If the language file (dcf file) of your choice has LaTeX commands and if you want to keep them in the resulting exam reports (in tex format), then you can set converter = “none”. (Otherwise, pandoc converts them into Unicode characters.)</p>
+<pre><code>template &lt;- &quot;/absolute/path/to/custom.tex&quot;
+nops_eval(flavor = &quot;template&quot;, template = template, converter = &quot;none&quot;)</code></pre>
+<p>This should be necessary if your language has characters outside of OT1 and the dcf file of your choice does not properly set LaTeX preamble to handle those unicode characters. (Though <code>nops_eval()</code> passes, LaTeX compilation may fail.)</p>
+</div>
+<div id="installed-templates-in-txt-and-tex-formats" class="section level3">
+<h3>Installed templates in txt and tex formats</h3>
+<p>You can use “file” parameter if you are happy with the installed templates.</p>
+<pre><code>nops_eval(flavor = &quot;template&quot;, file = &quot;eval.tex&quot;)
+nops_eval(flavor = &quot;template&quot;, file = &quot;eval.txt&quot;)</code></pre>
+<p><code>nops_eval_write_template()</code> searches for installed templates based on the extension of <code>file</code> argument, which is used for the file name of the resulting exam reports. Currently, “tex”, “txt”, and “html” (default) are available.</p>
+</div>
+<div id="post-processing" class="section level3">
+<h3>Post-processing</h3>
+<p>Now that you know how to create LaTeX source files. You’d like to compile them into PDF files, right?
+You can do so by passing a proper function to the “post_process” argument.</p>
+<p>For example, you can use <code>tinytex::pdflatex()</code>:</p>
+<pre><code>template &lt;- &quot;/absolute/path/to/custom.tex&quot;
+nops_eval(flavor = &quot;template&quot;, template = template, converter = &quot;none&quot;,
+          post_process = tinytex::pdflatex)</code></pre>
+<p>If you want to delete the source file after compilation, you can use a post-processor as below:</p>
+<pre><code>compile1 &lt;- function(x) {
+  tinytex::pdflatex(x)
+  unlink(x)
+}
+nops_eval(flavor = &quot;template&quot;, template = template, converter = &quot;none&quot;,
+          post_process = compile1)</code></pre>
+</div>
+<div id="returning-images" class="section level3">
+<h3>Returning images</h3>
+<p>Other than HTML files, returning scanned answer sheets requires a little more efforts since the placeholders <code>{{{image1}}}</code> and <code>{{{image2}}}</code> are replaced with HTML tags for Base64 embedded images.</p>
+<p>If you are fine with returning two (or three) files: (1) result report in any format and (2) scanned image(s) in PNG format, then you can simply use “return_scan = TRUE”, i.e.,</p>
+<pre><code>nops_eval(flavor = &quot;template&quot;, file = &quot;eval.txt&quot;, return_scan = TRUE)</code></pre>
+<p>In each folder, which corresponds to each student, you will have “eval.txt” and “scan1.png” (and “scan2.png” if it exits).</p>
+</div>
+<div id="returning-images-in-pdf" class="section level3">
+<h3>Returning images in PDF</h3>
+<p>Maybe you want to use a LaTeX template and compile the results into PDF, each of which includes scanned PNG files. You can use a template like below (save it as “template.tex”):</p>
+<pre><code>\documentclass[a4paper]{article}{{#DCF}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{a4wide,color,url,amsmath,booktabs,longtable,eurosym}
+{{#Babel}}\usepackage[{{Babel}}]{babel}{{/Babel}}
+{{#Header}}{{Header}}{{/Header}}
+
+\begin{document}
+\subsection*{ {{ExamResults}} }
+
+\begin{tabular}{ll}
+\hline
+{{DocumentID}} &amp; {{exam}}\\
+{{Name}} &amp; {{name}} \\
+{{RegistrationNumber}} &amp; {{registration}}\\
+{{#has_mark}}
+{{Mark}} &amp; {{mark}}\\{{/has_mark}}
+{{Points}} &amp; {{points}}\\
+\hline
+\end{tabular}
+
+\subsection*{ {{Evaluation}} }
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+{{Question}} &amp; {{Point}} &amp; {{GivenAnswer}} &amp; {{CorrectAnswer}} \\{{#results}}
+\hline
+{{question}} &amp; {{points}} &amp;  \verb|{{answer}}| &amp; \verb|{{solution}}|\\{{/results}}
+\hline
+\end{tabular}
+
+\clearpage
+\includegraphics[width=\textwidth]{scan1.png}
+
+{{#image2}}\clearpage
+\includegraphics[width=\textwidth]{scan2.png}\\{{/image2}}
+
+
+{{/DCF}}
+\end{document}</code></pre>
+<p>Please pay attention to this part:</p>
+<pre><code>\clearpage
+\includegraphics[width=\textwidth]{scan1.png}
+
+{{#image2}}\clearpage
+\includegraphics[width=\textwidth]{scan2.png}\\{{/image2}}</code></pre>
+<p>In the template, you need to hard-code “scan1.png” and “scan2.png”, which are the names of the files that “return_scan = TRUE” returns.</p>
+<p>Then use post-processor as follows. Moving working directory is necessary for the latex compiler to be able to find the images.</p>
+<pre class="r"><code>compile &lt;- function(x) {
+  WD &lt;- getwd()
+  setwd(dirname(x)); on.exit(setwd(WD))
+  tinytex::pdflatex(basename(x))
+  delete_files &lt;- setdiff(list.files(dirname(x)),
+                          list.files(dirname(x), pattern = &quot;\\.pdf$&quot;))
+  unlink(delete_files)
+}</code></pre>
+<p>Call <code>nops_eval()</code> with <code>return_scan = TRUE</code> since LaTeX needs the PNG files.</p>
+<pre class="r"><code>nops_eval(flavor = &quot;template&quot;, file = &quot;/path/to/template.tex&quot;, 
+          return_scan = TRUE, post_process = compile)</code></pre>
+</div>
+</div>
+<div id="advanced-usage-inspecting-internal-data" class="section level2">
+<h2>Advanced usage: Inspecting internal data</h2>
+<p><code>post_process</code> argument of <code>nops_eval_write_tempalte()</code> is useful when
+you want to inspect the internal data used in <code>nops_eval()</code>. With the following call</p>
+<pre class="r"><code>nops_eval(post_process = function(x) browser())</code></pre>
+<p>you can intercept the execution of <code>nops_eval()</code> and inspect some of the internal objects.</p>
+<pre class="r"><code>Browse[1]&gt; ls(envir = parent.frame())
+ [1] &quot;ac&quot;               &quot;checkClasses&quot;     &quot;commonData&quot;       &quot;convert_dcf_to&quot;   &quot;converter&quot;       
+ [6] &quot;dat&quot;              &quot;DCF&quot;              &quot;dir&quot;              &quot;encoding&quot;         &quot;file&quot;            
+[11] &quot;has_mark&quot;         &quot;i&quot;                &quot;id&quot;               &quot;language&quot;         &quot;m&quot;               
+[16] &quot;n&quot;                &quot;nscans&quot;           &quot;out_name&quot;         &quot;post_process&quot;     &quot;report_file_path&quot;
+[21] &quot;report_name&quot;      &quot;res&quot;              &quot;results&quot;          &quot;return_scan&quot;      &quot;temp_dir&quot;        
+[26] &quot;template&quot;         &quot;template_i&quot;       &quot;tmpl&quot;             &quot;work_dir&quot;         &quot;zip&quot;   
+Browse[1]&gt; get(&quot;flavor&quot;, envir = parent.frame(2))
+[1] &quot;nops_eval_write_template&quot;</code></pre>
+<p>When you are writing your own template, the following command may be useful.</p>
+<pre class="r"><code>Browse[1]&gt; str(get(&quot;dat&quot;, envir = parent.frame(1)))</code></pre>
+</div>
+<div id="whats-next" class="section level2">
+<h2>What’s next?</h2>
+<p>Writing a different <code>nops_eval_write_flavor</code> is a natural next step, I guess.</p>
+<p>Here’s a crude idea. If your 45 problems consist of three sections, 15 problems each, you may want to report the percentage of correct answers in each section only:</p>
+<pre><code>Section 1: 50%
+Section 2: 80%
+Section 3: 90%</code></pre>
+<p>(Students may curse me for not telling them the correct answers, though…)</p>
+<p>I believe that this is possible unless the problem order is fully randomized.</p>
+</div>
