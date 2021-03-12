@@ -12,7 +12,7 @@ googleAnalytics = "UA-8443903-1"
 
 # Disable comments by leaving disqusShortname empty
 disqusShortname = "kenjisatojp"
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "_cache$", "\\.Rmarkdown$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
 [permalinks]
 post = "/post/:year/:month/:slug/"
