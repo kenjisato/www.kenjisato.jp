@@ -1,6 +1,6 @@
 ---
 title: nbconvert のテンプレートの書き方が変わったらしい
-author: ''
+author: 'kenjisato'
 date: '2021-03-13'
 slug: nbconvert-template
 categories: []
