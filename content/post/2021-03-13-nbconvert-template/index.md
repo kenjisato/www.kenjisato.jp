@@ -1,7 +1,7 @@
 ---
 title: nbconvert のテンプレートの書き方が変わったらしい
 author: 'kenjisato'
-date: '2021-03-13'
+date: '2021-03-13 8:00:00 +0900'
 slug: nbconvert-template
 categories: []
 tags: ["Jupyter"]
