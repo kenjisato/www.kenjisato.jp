@@ -28,6 +28,7 @@ title= "Teaching"
 
 ### マクロ経済学入門
 
+- [2021年度]({{< relref "mai21.ja.md" >}})
 - [2020年度]({{< relref "mai20.ja.md" >}})
 - [2019年度]({{< relref "mai19.ja.md" >}})
 

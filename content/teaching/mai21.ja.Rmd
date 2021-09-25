@@ -16,118 +16,110 @@ slug: "mai/2021"
 ### 予定表
 
 ```{r, echo = FALSE}
+baseurl <- "https://lss.osakafu-u.ac.jp/course/view.php?id=56246"
+
+pageurl <- function(suf, title = "資料") {
+  glue::glue("[", title, "](", baseurl, suf, ")")
+}
+
 
 week <- list()
 
 week[[1]] <- list(
   date = '9/28',
   range = '1章',
-  movie = '[Week 01](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-2"),
   quiz = '[9/28 〜 10/1](#)',
   hw = '[〜 10/4](#)')
 
 week[[2]] <- list(
   date = '10/5',
   range = '2章',
-  movie = '[Week 02](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-3"),
   quiz = '[10/5 〜 10/8](#)',
   hw = '[〜 10/11](#)') 
 
 week[[3]] <- list(
   date = '10/12',
   range = '3章',
-  movie = '[Week 03](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-4"),
   quiz = '[10/12 〜 10/15](#)',
   hw = '[〜 10/18](#)') 
 
 week[[4]] <- list(
   date = '10/19',
   range = '4章',
-  movie = '[Week 04](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-5"),
   quiz = '[10/19 〜 10/22](#)',
   hw = '[〜 10/25](#)') 
 
 week[[5]] <- list(
   date = '10/26',
   range = '5章',
-  movie = '[Week 05](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-6"),
   quiz = '[10/26 〜 10/29](#)',
   hw = '[〜 11/1](#)') 
 
 week[[6]] <- list(
   date = '11/2',
   range = '6章',
-  movie = '[Week 06](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-7"),
   quiz = '[11/2 〜 11/5](#)',
   hw = '[〜 11/8](#)') 
 
 week[[7]] <- list(
   date = '11/9',
   range = '7章',
-  movie = '[Week 07](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-8"),
   quiz = '[11/9 〜 11/12](#)',
   hw = '[〜 11/15](#)') 
 
 week[[8]] <- list(
   date = '11/16',
   range = '8章',
-  movie = '[Week 08](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-9"),
   quiz = '[11/16 〜 11/19](#)',
   hw = '[〜 11/22](#)') 
 
 week[[9]] <- list(
   date = '11/23',
   range = '9章',
-  movie = '[Week 09](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-10"),
   quiz = '[11/23 〜 11/26](#)',
   hw = '[〜 11/29](#)') 
 
 week[[10]] <- list(
   date = '11/30',
   range = '10章',
-  movie = '[Week 10](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-11"),
   quiz = '[11/30 〜 12/3](#)',
   hw = '[〜 12/6](#)') 
 
 week[[11]] <- list(
   date = '12/7',
   range = '11章',
-  movie = '[Week 11](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-12"),
   quiz = '[12/7 〜 12/10](#)',
   hw = '[〜 12/13](#)') 
 
 week[[12]] <- list(
   date = '12/14',
   range = '12章',
-  movie = '[Week 12](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-13"),
   quiz = '[12/14 〜 12/17](#))',
   hw = '[〜 12/20](#)') 
 
 week[[13]] <- list(
   date = '12/21',
   range = '12章 (つづき）',
-  movie = '[Week 13](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-14"),
   quiz = '[12/21 〜 12/24](#)',
   hw = '[〜 12/27](#)') 
 
 week[[14]] <- list(
   date = '12/28, 1/4',
   range = '休',
-  movie = '',
-  file = '',
+  material = '',
   quiz = '',
   hw = '') 
 
@@ -135,29 +127,26 @@ week[[14]] <- list(
 week[[15]] <- list(
   date = '1/11',
   range = '13章',
-  movie = '[Week 14](#)',
-  file = '[ファイル](#)',
+  material = pageurl("#section-15"),
   quiz = '[1/11 〜 1/14](#)',
   hw = '[〜 1/17](#)') 
 
 week[[16]] <- list(
   date = '1/18',
   range = '総まとめ',
-  movie = 'なし',
-  file = '[ファイル](#)',
+  material = "",
   quiz = '[1/18 〜 1/23](#)',
   hw = 'なし') 
 
-week[[16]] <- list(
+week[[17]] <- list(
   date = '1/25',
   range = '**期末テスト**',
-  movie = '',
-  file = '',
+  material = "",
   quiz = '[1/25, 26](#)',
   hw = '') 
 
 plan_df <-do.call(rbind, week)
-colnames(plan_df) <- c("基準日付", "教科書", "動画", "資料", 
+colnames(plan_df) <- c("基準日付", "教科書", "資料", 
                      "確認テスト", "追加課題（任意）") 
 
 knitr::kable(plan_df)
