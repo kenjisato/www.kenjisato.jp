@@ -26,29 +26,10 @@
 		{{ end }}
 
 		{{ template "_internal/opengraph.html" . }}
-	    {{ template "_internal/google_news.html" . }}
-	    {{ template "_internal/schema.html" . }}
-	    {{ template "_internal/twitter_cards.html" . }}
-	    
-	    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-      <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-      <script>
-      window.addEventListener("load", function(){
-      window.cookieconsent.initialise({
-        "palette": {
-          "popup": {
-            "background": "#edeff5",
-            "text": "#838391"
-          },
-          "button": {
-            "background": "transparent",
-            "text": "#4b81e8",
-            "border": "#4b81e8"
-          }
-        },
-        "content": {
-          "href": "www.kenjisato.jp/privacy"
-        }
-      })});
-      </script>
+    {{ template "_internal/google_news.html" . }}
+    {{ template "_internal/schema.html" . }}
+	  {{ template "_internal/twitter_cards.html" . }}
+	  
+	  {{ template "partials/head_custom.html" . }}  
+	  
 	</head>
