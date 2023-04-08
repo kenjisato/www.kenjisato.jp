@@ -3,10 +3,6 @@ title: "和歌山大学 経済学部"
 slug: "wadai/2023"
 ---
 
-```{r, include=FALSE}
-source("../../.Rprofile")
-```
-
 ## 和歌山大学の担当講義（2023年度）
 
 <i class="fa-solid fa-person-digging"></i> 準備中　
