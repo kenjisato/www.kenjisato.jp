@@ -25,6 +25,7 @@ title = "Research"
 
 ### 学術論文誌
 
+- Y. Furukawa, T. Lai, K. Sato "[Love of novelty: a source of innovation-based growth… or underdevelopment traps?](https://doi.org/10.1017/S1365100523000196)," <em>Macroeconomic Dynamics</em>, May 2023.
 - Y. Furukawa, T. Lai, K. Sato "Novelty-Seeking Traits and Applied Research Activities," accepted at <em>Applied Economics Letters</em>, July 2019. 
 - M. Yano, K. Sato (2019) "Ergodic Chaos for Non-expansive Economic Models," accepted at <em>International Journal of Economic Theory</em> 15, pp. 311-320.
 - K. Sato, M. Yano (2013) "Optimal Ergodic Chaos under Slow Capital Depreciation," <em>International Journal of Economic Theory</em> 9, pp. 57-67.
