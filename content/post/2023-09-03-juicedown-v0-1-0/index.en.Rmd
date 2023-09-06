@@ -1,0 +1,76 @@
+---
+title: juicedown v0.1.1
+author: Kenji SATO
+date: '2023-09-06'
+slug: juicedown-v0-1-1
+categories:
+  - 'R'
+tags:
+  - 'R'
+  - 'CRAN'
+---
+
+## juicedown
+
+**juicedown** v0.1.1 is now available on CRAN 🎉
+
+```{r, eval=FALSE}
+install.packages("juicedown")
+```
+
+## What Does It Do?
+
+It is a small package that combines two basic tasks into one:
+
+1. Write documents in R Markdown and convert them to HTML (R Markdown v1).
+2. Convert HTML with inlined CSS (juice).
+
+## Motivation
+
+There has been a cost-saving trend in my university and they recommend 
+instructors against printing teaching material. Also, students also bring their own PCs to the university. Distributing course content in digital format is becoming common. While distributing in PDF format is a preferred approach, nowadays many students do not print on paper, so I think it's convenient to distribute important materials in HTML format that can be easily viewed on smartphones[^1].
+
+At my university, we use Moodle as the learning management system (LMS), in which we can create web pages with "Page" module. You can directly edit HTML code and do various things, but if you write it like this:[^2]
+
+```html
+<style>
+.red { color: red; }
+</style>
+
+<span class = "red">This is red</span>
+```
+
+the `<style></style>` is automatically removed, and the style information is not reflected. Therefore, you need to write style attributes directly inside each element as follows:
+
+```html
+<span style = "color: red;">This is red</span>
+```
+
+Outside of user content, the site-wide CSS is applied so this design is necessary 
+for safety reasons. There's no way around it, but it can be cumbersome. Of course, 
+for simple cases like the example above, it's fine, but when HTML/CSS becomes complex, it would be impossible to do it manually.
+
+That's where using a node.js library called [juice](https://www.npmjs.com/package/juice) to inline style definitions comes in handy. As an R wrapper, there's a package called [juicyjuice](https://cran.r-project.org/package=juicyjuice).
+
+You can perform the entire process of writing R Markdown and converting it to HTML, including inlining CSS, in R. This is what the juicedown package does.
+
+## Usage
+
+At the drafting stage, specify `full_html = TRUE` and it will generate a complete HTML file. You can check the result by opening the "file.html" in your browser.
+
+```{r, eval=FALSE}
+juicedown::convert("file.Rmd", full_html = TRUE)
+```
+
+Once you've finished writing, running the following code will render the style-inlined HTML and copy it to your clipboard[^3]. After that, paste it into Moodle's source editor (or any other CMS), and you're done.
+
+```{r, eval=FALSE}
+juicedown::convert("file.Rmd")
+```
+
+To change the design, you can pass the path to a CSS/SCSS file to the `stylesheet` option.
+
+[^1]: HTML format may not be ideal for students who prefer to write notes on PDFs, so it has its pros and cons.
+[^2]: There's also the question of whether it's okay to write `<style>` inside `<body>`.
+[^3]: You don't need to put code in the CMS code editor, such as `<head>` tags or `<html>` tags. Therefore, the generated HTML only needs to be pasted by reading it as `<article>` elements or `<div>` elements under the `<body>` element.
+```

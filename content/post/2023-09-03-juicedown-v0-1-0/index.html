@@ -1,0 +1,61 @@
+---
+title: juicedown v0.1.1
+author: Kenji SATO
+date: '2023-09-06'
+slug: juicedown-v0-1-1
+categories:
+  - 'R'
+tags:
+  - 'R'
+  - 'CRAN'
+---
+
+
+
+<div id="juicedown" class="section level2">
+<h2>juicedown</h2>
+<p><strong>juicedown</strong> v0.1.1 が CRAN からインストールできるようになりました 🎉</p>
+<pre class="r"><code>install.packages(&quot;juicedown&quot;)</code></pre>
+</div>
+<div id="何をするもの" class="section level2">
+<h2>何をするもの？</h2>
+<p>基本的には次の2ステップの仕事を1つにまとめるだけの小さなパッケージです。</p>
+<ol style="list-style-type: decimal">
+<li>R Markdown で文書を書いてHTMLに変換する（R Markdown v1）</li>
+<li>CSS をインライン化した HTML に変換する（juice）</li>
+</ol>
+</div>
+<div id="モチベーション" class="section level2">
+<h2>モチベーション</h2>
+<p>最近は大学の印刷事情も節約志向になり、学生もPC持参で大学に来ることもあって、授業のコンテンツをデータ配布というのが一般的になりました。
+PDF で配布というのがよくあるやり方だと思いますが、最近は紙に印刷しない学生さんも多いので、ざっと目を通してほしい資料はスマホで見やすいようにHTML形式で配布するのが便利かなと思ってます<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>。</p>
+<p>私が所属する大学では授業支援システム（LMS）に Moodle を使っていて、「ページ」という機能でウェブページを作れます。HTMLのコードを直接編集して色々できるんですが、</p>
+<pre><code>&lt;style&gt;
+.red { color: red; }
+&lt;/style&gt;
+
+&lt;span class = &quot;red&quot;&gt;ここが赤色&lt;/span&gt;</code></pre>
+<p>のように書いてしまうと <code>&lt;style&gt;&lt;/style&gt;</code> が勝手に消されてスタイル情報が反映されません。
+そこで、次のように、各要素の <code>style</code> 属性の中にスタイル属性を直書きする必要があります<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>。</p>
+<pre><code>&lt;span style = &quot;color: red;&quot;&gt;ここが赤色&lt;/span&gt;</code></pre>
+<p>ユーザーコンテンツの外側にはサイト全体のCSSが効いているので、安全のためには致し方ないのですが、面倒ですね。当然、上の例くらいなら大丈夫なんですが、CSS が複雑になるとお手上げです。</p>
+<p>そこで、 <a href="https://www.npmjs.com/package/juice">juice</a> という node.js のライブラリを使用して、スタイル定義をインライン化するのが便利です。R のラッパーとして <a href="https://cran.r-project.org/package=juicyjuice">juicyjuice</a> というパッケージがあります。</p>
+<p>R Markdown を書いて HTML に変換して、CSSをインライン化する、という一連の作業を R で実行できるということです。これをパッケージ化したものが juicedown です。</p>
+</div>
+<div id="使用方法" class="section level2">
+<h2>使用方法</h2>
+<p>執筆中の段階では <code>full_html = TRUE</code> を指定すると、完全なHTMLを生成します。<code>file.html</code> が出来ているので、これをブラウザでチェックします。</p>
+<pre class="r"><code>juicedown::convert(&quot;file.Rmd&quot;, full_html = TRUE)</code></pre>
+<p>書き終わったところで、次のコードを実行すると CMS に貼り付けられるコードをクリップボードにコピーします<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>。
+あとは Moodle のソースエディタに貼り付ければ完成です。</p>
+<pre class="r"><code>juicedown::convert(&quot;file.Rmd&quot;)</code></pre>
+<p>デザインを変更するには、<code>stylesheet</code> オプションに CSS/SCSS ファイルへのパスを渡すことができます。</p>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>PDF に書き込みをしている学生さんもいるので、HTML形式も良し悪しですね。<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p><code>&lt;body&gt;</code> の中に <code>&lt;style&gt;</code> を書いてもいいのか、という問題はありますが。<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p><code>&lt;head&gt;</code> タグとか <code>&lt;html&gt;</code> タグとか、CMS のコードエディタに入れる必要はありません。そこで、生成された HTML の <code>&lt;body&gt;</code> 要素以下を、<code>&lt;article&gt;</code> 要素や <code>&lt;div&gt;</code> 要素に読みかえて貼り付けるようにしています。<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>

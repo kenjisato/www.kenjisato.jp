@@ -1,0 +1,77 @@
+---
+title: juicedown v0.1.1
+author: Kenji SATO
+date: '2023-09-06'
+slug: juicedown-v0-1-1
+categories:
+  - 'R'
+tags:
+  - 'R'
+  - 'CRAN'
+---
+
+## juicedown
+
+**juicedown** v0.1.1 が CRAN からインストールできるようになりました 🎉
+
+```{r, eval=FALSE}
+install.packages("juicedown")
+```
+
+## 何をするもの？
+
+基本的には次の2ステップの仕事を1つにまとめるだけの小さなパッケージです。
+
+1. R Markdown で文書を書いてHTMLに変換する（R Markdown v1）
+2. CSS をインライン化した HTML に変換する（juice）
+
+
+## モチベーション
+
+最近は大学の印刷事情も節約志向になり、学生もPC持参で大学に来ることもあって、授業のコンテンツをデータ配布というのが一般的になりました。
+PDF で配布というのがよくあるやり方だと思いますが、最近は紙に印刷しない学生さんも多いので、ざっと目を通してほしい資料はスマホで見やすいようにHTML形式で配布するのが便利かなと思ってます[^1]。
+
+私が所属する大学では授業支援システム（LMS）に Moodle を使っていて、「ページ」という機能でウェブページを作れます。HTMLのコードを直接編集して色々できるんですが、
+
+```
+<style>
+.red { color: red; }
+</style>
+
+<span class = "red">ここが赤色</span>
+```
+
+のように書いてしまうと `<style></style>` が勝手に消されてスタイル情報が反映されません。
+そこで、次のように、各要素の `style` 属性の中にスタイル属性を直書きする必要があります[^2]。
+
+```
+<span style = "color: red;">ここが赤色</span>
+```
+
+ユーザーコンテンツの外側にはサイト全体のCSSが効いているので、安全のためには致し方ないのですが、面倒ですね。当然、上の例くらいなら大丈夫なんですが、CSS が複雑になるとお手上げです。
+
+そこで、 [juice](https://www.npmjs.com/package/juice) という node.js のライブラリを使用して、スタイル定義をインライン化するのが便利です。R のラッパーとして [juicyjuice](https://cran.r-project.org/package=juicyjuice) というパッケージがあります。
+
+R Markdown を書いて HTML に変換して、CSSをインライン化する、という一連の作業を R で実行できるということです。これをパッケージ化したものが juicedown です。
+
+
+## 使用方法
+
+執筆中の段階では `full_html = TRUE` を指定すると、完全なHTMLを生成します。`file.html` が出来ているので、これをブラウザでチェックします。
+
+```{r, eval=FALSE}
+juicedown::convert("file.Rmd", full_html = TRUE)
+```
+
+書き終わったところで、次のコードを実行すると CMS に貼り付けられるコードをクリップボードにコピーします[^3]。
+あとは Moodle のソースエディタに貼り付ければ完成です。
+
+```{r, eval=FALSE}
+juicedown::convert("file.Rmd")
+```
+
+デザインを変更するには、`stylesheet` オプションに CSS/SCSS ファイルへのパスを渡すことができます。
+
+[^1]: PDF に書き込みをしている学生さんもいるので、HTML形式も良し悪しですね。
+[^2]: `<body>` の中に `<style>` を書いてもいいのか、という問題はありますが。
+[^3]: `<head>` タグとか `<html>` タグとか、CMS のコードエディタに入れる必要はありません。そこで、生成された HTML の `<body>` 要素以下を、`<article>` 要素や `<div>` 要素に読みかえて貼り付けるようにしています。

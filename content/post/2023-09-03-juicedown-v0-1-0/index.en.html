@@ -1,0 +1,62 @@
+---
+title: juicedown v0.1.1
+author: Kenji SATO
+date: '2023-09-06'
+slug: juicedown-v0-1-1
+categories:
+  - 'R'
+tags:
+  - 'R'
+  - 'CRAN'
+---
+
+
+
+<div id="juicedown" class="section level2">
+<h2>juicedown</h2>
+<p><strong>juicedown</strong> v0.1.1 is now available on CRAN 🎉</p>
+<pre class="r"><code>install.packages(&quot;juicedown&quot;)</code></pre>
+</div>
+<div id="what-does-it-do" class="section level2">
+<h2>What Does It Do?</h2>
+<p>It is a small package that combines two basic tasks into one:</p>
+<ol style="list-style-type: decimal">
+<li>Write documents in R Markdown and convert them to HTML (R Markdown v1).</li>
+<li>Convert HTML with inlined CSS (juice).</li>
+</ol>
+</div>
+<div id="motivation" class="section level2">
+<h2>Motivation</h2>
+<p>There has been a cost-saving trend in my university and they recommend
+instructors against printing teaching material. Also, students also bring their own PCs to the university. Distributing course content in digital format is becoming common. While distributing in PDF format is a preferred approach, nowadays many students do not print on paper, so I think it’s convenient to distribute important materials in HTML format that can be easily viewed on smartphones<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
+<p>At my university, we use Moodle as the learning management system (LMS), in which we can create web pages with “Page” module. You can directly edit HTML code and do various things, but if you write it like this:<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<pre class="html"><code>&lt;style&gt;
+.red { color: red; }
+&lt;/style&gt;
+
+&lt;span class = &quot;red&quot;&gt;This is red&lt;/span&gt;</code></pre>
+<p>the <code>&lt;style&gt;&lt;/style&gt;</code> is automatically removed, and the style information is not reflected. Therefore, you need to write style attributes directly inside each element as follows:</p>
+<pre class="html"><code>&lt;span style = &quot;color: red;&quot;&gt;This is red&lt;/span&gt;</code></pre>
+<p>Outside of user content, the site-wide CSS is applied so this design is necessary
+for safety reasons. There’s no way around it, but it can be cumbersome. Of course,
+for simple cases like the example above, it’s fine, but when HTML/CSS becomes complex, it would be impossible to do it manually.</p>
+<p>That’s where using a node.js library called <a href="https://www.npmjs.com/package/juice">juice</a> to inline style definitions comes in handy. As an R wrapper, there’s a package called <a href="https://cran.r-project.org/package=juicyjuice">juicyjuice</a>.</p>
+<p>You can perform the entire process of writing R Markdown and converting it to HTML, including inlining CSS, in R. This is what the juicedown package does.</p>
+</div>
+<div id="usage" class="section level2">
+<h2>Usage</h2>
+<p>At the drafting stage, specify <code>full_html = TRUE</code> and it will generate a complete HTML file. You can check the result by opening the “file.html” in your browser.</p>
+<pre class="r"><code>juicedown::convert(&quot;file.Rmd&quot;, full_html = TRUE)</code></pre>
+<p>Once you’ve finished writing, running the following code will render the style-inlined HTML and copy it to your clipboard<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. After that, paste it into Moodle’s source editor (or any other CMS), and you’re done.</p>
+<pre class="r"><code>juicedown::convert(&quot;file.Rmd&quot;)</code></pre>
+<p>To change the design, you can pass the path to a CSS/SCSS file to the <code>stylesheet</code> option.</p>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>HTML format may not be ideal for students who prefer to write notes on PDFs, so it has its pros and cons.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>There’s also the question of whether it’s okay to write <code>&lt;style&gt;</code> inside <code>&lt;body&gt;</code>.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>You don’t need to put code in the CMS code editor, such as <code>&lt;head&gt;</code> tags or <code>&lt;html&gt;</code> tags. Therefore, the generated HTML only needs to be pasted by reading it as <code>&lt;article&gt;</code> elements or <code>&lt;div&gt;</code> elements under the <code>&lt;body&gt;</code> element.
+```<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
