@@ -6,7 +6,9 @@
         © Copyright {{ now.Format "2006"}} {{ .Site.Params.name }}
     {{ end }}
     {{ if .Site.Params.enableRSS }}
-	    <a class="symbol" href="{{ .Site.RSSLink }}">rss</a>
+      {{- with .OutputFormats.Get "RSS" -}}
+	      <a class="symbol" href="{{ .Permalink }}">rss</a>
+	    {{- end -}}
 	  {{ end }}
 	  <a calss="privacy" href="/{{ .Site.Params.PrivacyLink }}">Privacy Policy</a>
     </p>

@@ -1,6 +1,5 @@
 # Site settings
 baseurl = "https://www.kenjisato.jp/"
-themesDir = "themes"
 publishDir = "public"
 title = "kenjisato.jp"
 theme = "hugo-theme-cactus-plus"
@@ -8,7 +7,7 @@ defaultContentLanguage = "ja"
 hasCJKLanguage = true
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-8443903-1"
+googleAnalytics = "8443903"
 
 # Disable comments by leaving disqusShortname empty
 disqusShortname = "kenjisatojp"
