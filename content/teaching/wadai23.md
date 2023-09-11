@@ -10,8 +10,8 @@ slug: "wadai/2023"
 ### 経済学学部
 
 - [マクロ経済学 1（前期）]({{< relref "wadai23-macro1.md" >}})
-- マクロ経済学 2（後期）
-- 現代日本経済論（後期）
+- [マクロ経済学 2（後期）]({{< relref "wadai23-macro2.html" >}})
+- [現代日本経済論（後期）]({{< relref "wadai23-japan.html" >}})
 
 
 ### 経済学研究科

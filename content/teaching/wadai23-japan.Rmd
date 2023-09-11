@@ -1,0 +1,52 @@
+---
+title: "和歌山大学 経済学部"
+slug: "wadai/2023/japanese-economy"
+---
+
+# 現代日本経済論（和歌山大・2023年度後期）
+
+## 概要
+
+下の図は、日本の経済成長率をプロットしたものです。**戦後の高度経済成長**、石油危機を経て経験した**安定成長の時代**、バブル崩壊とともに始まった**失われた30年**の3段階の変化が観察できます。
+
+```{r, echo=FALSE}
+suppressPackageStartupMessages(library(tidyverse))
+library(fredr)
+
+fredr_set_key(keyring::key_get("fred_api"))
+
+japan_gdp <- fredr(
+  series_id = "RGDPNAJPA666NRUG",
+  observation_start = as.Date("1950-01-01"),
+  observation_end = as.Date("2019-01-01")
+)
+
+japan_gdp |> 
+  mutate(pct_change = (lead(value) / value - 1) * 100) |> 
+  ggplot(data = _, mapping = aes(x = date, y = pct_change, color = series_id)) +
+  geom_line(na.rm = TRUE) +
+  labs(x = "Year", y = "Annual Growth Rate (%)", color = "Growth Rate")
+```
+
+
+戦後から現代にいたる歴史、経済政策の変遷をたどることで、現代の日本経済が経験している停滞感の原因を読み解きます。
+
+### 教科書
+
+[八代尚宏](https://www.yuhikaku.co.jp/books/detail/9784641166103) (2022)『日本経済論・入門〔第3版〕: 戦後復興から「新しい資本主義」まで』有斐閣
+
+基本的には、毎週1章ずつ読んでいくペースで進めます。
+
+<div style = "width: 200px;">
+<img alt="textbook" src="https://www.yuhikaku.co.jp/uploads/images/L16610.jpg" />
+</div>
+
+
+### 評価
+
+- Moodle 上の小テスト 20%
+- Moodle 上で実施する期末テスト 80%
+
+で評価します。小テストは授業時間中に実施する場合があります。
+
+
