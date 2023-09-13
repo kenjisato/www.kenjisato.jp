@@ -1,46 +1,60 @@
-    {{ partial "head.html" . }}
-    <body>
-       {{ partial "nav.html" . }}
+{{ partial "head.html" . }}
 
-        <section id="wrapper">
-            <article class="post">
-                <header>
-                    <h1>{{ .Title }}</h1>
-                    <h2 class="headline">
+<body>
+    {{ partial "nav.html" . }}
+
+    <section id="wrapper">
+        <article class="post">
+            <header>
+                <h1>{{ .Title }}</h1>
+                <h2 class="headline">
                     {{ .Date.Format "January 2, 2006" }}
                     <br>
                     {{ with .Params.tags }}
                     {{ if ge (len .) 1 }}
-                        {{ range . }}
-                            <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
-                        {{ end }}
+                    {{ range . }}
+                    <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
                     {{ end }}
                     {{ end}}
-                    </h2>
-                </header>
-                <section id="post-body">
-                    {{ .Content }}
-                </section>
-            </article>
-            <footer id="post-meta" class="clearfix">
-                {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
-                        <img class="avatar" src="{{ .Site.BaseURL }}images/me.jpg">
-                        <div>
-                            <span class="dark">{{ .Site.Params.name }}</span>
-                            <span>{{ .Site.Params.aboutAuthor }}</span>
-                        </div>
-                    {{ with .Site.Params.twitter }}</a>{{ end }}
-                <section id="sharing">
-                    {{ partial "share.html" . }}
-                </section>
-            </footer>
+                </h2>
+            </header>
+            <section id="post-body">
+                {{ .Content }}
+            </section>
+        </article>
 
-            {{ partial "disqus.html" . }}
 
-            {{ partial "latest-posts.html" . }}
-            {{ partial "footer.html" . }}
-        </section>
+        {{ if eq .Params.personal true }}
 
-        {{ partial "js.html" . }}
-    </body>
+        <footer class="clearfix">
+            <p>This page is personal use only. Do not share.</p>
+        </footer>
+
+        {{ else }}
+
+        <footer id="post-meta" class="clearfix">
+            {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
+                <img class="avatar" src="{{ .Site.BaseURL }}images/me.jpg">
+                <div>
+                    <span class="dark">{{ .Site.Params.name }}</span>
+                    <span>{{ .Site.Params.aboutAuthor }}</span>
+                </div>
+                {{ with .Site.Params.twitter }}
+            </a>{{ end }}
+            <section id="sharing">
+                {{ partial "share.html" . }}
+            </section>
+        </footer>
+
+        {{ partial "disqus.html" . }}
+        {{ partial "latest-posts.html" . }}
+        {{ end }}
+
+        {{ partial "footer.html" . }}
+    </section>
+
+    {{ partial "js.html" . }}
+</body>
+
 </html>
