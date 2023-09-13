@@ -5,7 +5,7 @@ _build:
   list: never
   render: true
 title: Private Page
-slug: "private/koaFAe1020ak"
+slug: "koaFAe1020ak"
 ---
 
 ## 授業 Moodle
