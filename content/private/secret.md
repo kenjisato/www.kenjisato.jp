@@ -25,8 +25,8 @@ personal: true
 - [基礎研究A：マクロ経済分析2](https://lms.omu.ac.jp/course/view.php?id=93518)
 - [マクロ経済学入門](https://lms.omu.ac.jp/course/view.php?id=94158)
 - [マクロ経済学3](https://lms.omu.ac.jp/course/view.php?id=96246)
-- [和・マクロ経済学2](#)
-- [和・現代日本経済論](#)
+- [和・マクロ経済学2](https://moodle2023.wakayama-u.ac.jp/2023/course/view.php?id=1152)
+- [和・現代日本経済論](https://moodle2023.wakayama-u.ac.jp/2023/course/view.php?id=1153)
 
 ## Links 
 
